@@ -8,6 +8,7 @@ import { MapaComponent } from './Components/mapa/mapa.component';
 import { EjemploComponent } from './Components/ejemplo/ejemplo.component';
 import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqueda-por-pais.component';
 import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-filtros/llamada-pantalla-filtros.component';
+import { DetallesVideoComponent } from './Components/detalles-video/detalles-video.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-f
     MapaComponent,
     EjemploComponent,
     BusquedaPorPaisComponent,
-    LlamadaPantallaFiltrosComponent
+    LlamadaPantallaFiltrosComponent,
+    DetallesVideoComponent
   ],
   imports: [
     BrowserModule,

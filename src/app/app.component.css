@@ -9,6 +9,8 @@
     box-sizing: border-box;
     font-family: 'Tilt Neon', sans-serif;
     /*font-family: 'Poppins', sans-serif;*/
+
+   
     
   }
   
@@ -46,4 +48,12 @@
     background-color: black;
     color: white;
 
+    height:100vh;/*agregado el 3-11*/
+
+  
+
+  }
+
+  .sub-contenedor{
+   /* background-color: brown;*/
   }

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router'; //nos permite recuperar parametros que llegan por url
+import { Router } from '@angular/router';
+import { ActivatedRoute, Route } from '@angular/router'; //nos permite recuperar parametros que llegan por url
+import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 
 @Component({
   selector: 'app-busqueda-por-pais',
@@ -8,13 +10,33 @@ import { ActivatedRoute } from '@angular/router'; //nos permite recuperar parame
 })
 export class BusquedaPorPaisComponent {
   idPais:string = '';
-  constructor(private route: ActivatedRoute){
+  resultados:any[] = []; //provisorio
+  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService,){
 
   }
 
   ngOnInit(){
     this.route.params.subscribe(params => this.idPais = params['idPais']);
     //con esto especifico que hago con el parametro
+    this.getVideos();
+
+
+  }
+
+  async getVideos(){
+    try {
+      const data = await this.popularVideosService.getPopularVideos(this.idPais);
+      this.resultados = data.items; // Asigna los resultados al arreglo
+      //eq ACA se enviarian los datos al historial
+    } catch (error) {
+      console.error(`Error: ${error}`);
+    }
+  }
+
+
+  verDetallesVideo(idVideo:string){
+    //alert(`Prueba del id video ${idVideo}`);
+    this.ruti.navigate(['videos', idVideo]);
   }
 
 }

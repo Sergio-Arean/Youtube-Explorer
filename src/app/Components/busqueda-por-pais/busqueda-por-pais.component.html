@@ -1,1 +1,20 @@
-<p>busqueda-por-pais works! le enviaste el id {{idPais}}</p>
+<p>Componente llamado "busqueda-por-pais" funciona! Aca 
+    se supone que va a ir las distintas opciones de filtrado
+    que elija el usuario, pero dado que esto es una prueba,
+    procemos a harcodear algunas cosas (cantidad de videos, categoria,etc)
+    y simplemente mostramos los resultados mas populares con el id {{idPais}}</p>
+    <section class="seccion-resultados" *ngFor="let resultado of resultados">
+          <div class="resultado">
+            <div class="contenedor-imagen">
+            <img src="{{resultado.snippet.thumbnails.maxres.url}}" alt="" class="img-resultado">
+            </div>
+            <div class="datos-video"> <!--este div incluiria titulovideo + nombreCanal + cantLikes - cantComentarios-->
+              <p class="titulo-video" (click)="verDetallesVideo(resultado.id)">{{resultado.snippet.title}}</p>
+              <p class="nombre-canal">{{resultado.snippet.channelTitle}}</p>
+              <p class="stats">V: {{resultado.statistics.viewCount}} - L: {{resultado.statistics.likeCount}} - C: {{resultado.statistics.commentCount}}</p>
+            </div>
+          </div>
+
+          
+
+    </section>
