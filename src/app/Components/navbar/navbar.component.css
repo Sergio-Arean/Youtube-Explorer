@@ -1,0 +1,20 @@
+  /*Barra navegacion*/
+  .barra-navegacion{
+    margin-top: 1rem;
+  }
+
+  .texto-opcion-menu{
+    text-align: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin-left: .9rem;
+    margin-top: 0.2rem;
+    cursor: pointer;
+  }
+
+  .opcion-menu:hover{
+    .texto-opcion-menu, .bi{
+      color: #FF5858;
+      transition: 0.1s;
+      font-weight: 800;
+    }
+  }

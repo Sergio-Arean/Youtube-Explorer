@@ -1,0 +1,23 @@
+/***************************************** MAPA *****************************************/
+svg{
+  
+    color: white;
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+  
+  path{
+    fill: grey;
+    color: white;
+  }
+  
+  #MX:hover{
+    fill:#FF5858;
+    transition: 0.2s;
+  }
+  
+  path:hover{
+    fill:#FF5858;
+    transition: 0.4s;
+    
+  }
