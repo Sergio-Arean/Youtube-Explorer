@@ -1,8 +1,6 @@
-# Nuestro Readme 
-"readme push 03-11 tarde"
-
-Sergio. 03-11 {
-                  Push 💻 “ actualizacion 03-11 tarde “
+# Nuestro Readme  💻🕺💃🕺💻
+Sergio. 03-11 - "actualizacion 03-11 tarde" {
+                
                 Que hice: 
                 Implemente la busqueda de videos (hardocodeada) con Argentina y Brasil. 
                 Implemente la posibilidad de que al hacer click en un video se reproduzca el video.
