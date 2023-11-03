@@ -1,0 +1,64 @@
+
+.filtro-container {
+    position: absolute;
+    top: 50%; /* Centra verticalmente en la mitad de la pantalla */
+    left: 50%; /* Centra horizontalmente en la mitad de la pantalla */
+    transform: translate(-50%, -50%); /* Centra el contenido del componente */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 450px; /* Ancho personalizable */
+  }
+  
+  .filtros-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .filtro-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 180px; /* Ancho personalizable */
+  }
+  
+  .filtro-box h4 {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+  
+  .filtro-box input,
+  .filtro-box select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .buscar-button {
+    margin-top: 10px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red; /* Fondo rojo para el botón */
+    color: black; /* Texto blanco */
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px; /* Centrar el texto verticalmente */
+    cursor: pointer;
+    font-size: 18px; /* Tamaño del texto "X" */
+  }
+  
+*{
+    color: black;
+}

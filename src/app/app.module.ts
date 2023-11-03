@@ -7,6 +7,7 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { MapaComponent } from './Components/mapa/mapa.component';
 import { EjemploComponent } from './Components/ejemplo/ejemplo.component';
 import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqueda-por-pais.component';
+import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-filtros/llamada-pantalla-filtros.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqued
     NavbarComponent,
     MapaComponent,
     EjemploComponent,
-    BusquedaPorPaisComponent
+    BusquedaPorPaisComponent,
+    LlamadaPantallaFiltrosComponent
   ],
   imports: [
     BrowserModule,
