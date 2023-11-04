@@ -10,13 +10,21 @@ import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 })
 export class BusquedaPorPaisComponent {
   idPais:string = '';
+  
+  cantidad!:string;
+  categoria!:string;
   resultados:any[] = []; //provisorio
   constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService,){
 
   }
 
   ngOnInit(){
-    this.route.params.subscribe(params => this.idPais = params['idPais']);
+    this.route.params.subscribe(params => {
+      this.idPais = params['idPais'];
+      this.cantidad = params['cantidad'];
+      this.categoria = params['categoria'];
+
+    });
     //con esto especifico que hago con el parametro
     this.getVideos();
 
@@ -25,7 +33,7 @@ export class BusquedaPorPaisComponent {
 
   async getVideos(){
     try {
-      const data = await this.popularVideosService.getPopularVideos(this.idPais);
+      const data = await this.popularVideosService.getPopularVideos(this.idPais,this.cantidad,this.categoria);
       this.resultados = data.items; // Asigna los resultados al arreglo
       //eq ACA se enviarian los datos al historial
     } catch (error) {

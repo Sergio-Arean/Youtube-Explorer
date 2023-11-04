@@ -15,6 +15,8 @@ export class LlamadaPantallaFiltrosComponent {
   nombrePais!:string;
   idPais!:string;
 
+  cantidad:number = 5;/*agregado 04-11*/
+  categoria:string = '25';/*agregado 04-11*/
 
   
   
@@ -34,7 +36,8 @@ export class LlamadaPantallaFiltrosComponent {
 
 
   hacerClick() { //reformulacion del metodo: aca no necesita recibir algo por parametro
-    this.router.navigate(['paises',this.idPais]);
+    //this.router.navigate(['paises',this.idPais,this.cantidad,this.categoria]);
+    this.router.navigate(['paises',this.idPais,this.cantidad,this.categoria]);
   }
 
 

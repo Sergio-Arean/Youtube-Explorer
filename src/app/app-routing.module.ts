@@ -9,7 +9,8 @@ import { DetallesVideoComponent } from './Components/detalles-video/detalles-vid
 const routes: Routes = [
   {path: 'home', component: MapaComponent},
   {path: 'ejemplo', component: EjemploComponent},
-  {path: 'paises/:idPais', component: BusquedaPorPaisComponent},
+  //{path: 'paises/:idPais', component: BusquedaPorPaisComponent},
+  {path: 'paises/:idPais/:cantidad/:categoria', component: BusquedaPorPaisComponent},
   {path: 'videos/:idVideo', component: DetallesVideoComponent}, //path reproduccion video
 
   //tomy routes:

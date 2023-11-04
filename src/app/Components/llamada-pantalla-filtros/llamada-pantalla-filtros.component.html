@@ -4,7 +4,7 @@
 
       <div class="filtro-box">
           <label for="filtro-cantidad">Cantidad</label>
-          <input class="form-control" type="number" id="filtro-cantidad" placeholder="1 - 20 videos" min="1" max="20" step="1">
+          <input class="form-control" type="number" id="filtro-cantidad" placeholder="1 - 20 videos" min="1" max="20" step="1" [(ngModel)]="cantidad">
       </div>
 
       <div class="filtro-box">
@@ -20,30 +20,30 @@
       
       <div class="filtro-box">
         <label class="" for="filtro-categoria">Categoría</label>
-        <select class="form-select" id="filtro-categoria">
+        <select class="form-select" id="filtro-categoria" [(ngModel)]="categoria">
             <option value="0">-</option>
             <option value="1">Cine y animacion</option> <!--el value es lo que se va a mandar al enviar los datos-->
             <option value="2">Autos y vehiculos</option>
             <option value="10">Musica</option>
             <option value="15">Mascotas y animales</option>
             <option value="17">Deportes</option>
-            <option value="18">Cortometrajes</option>
-            <option value="19">Viajes y eventos</option>
+            <!--<option value="18">Cortometrajes</option>-->
+            <!--<option value="19">Viajes y eventos</option>-->
             <option value="20">Gaming</option>
-            <option value="21">Videoblog</option>
+            <!--<option value="21">Videoblog</option>-->
             <option value="22">Personas y blogs</option>
             <option value="23">Comedia</option>
             <option value="24">Entretenimiento</option>
             <option value="25">Noticias y política</option>
             <option value="26">Howto & Style</option>
-            <option value="27">Educacion</option>
+            <!--<option value="27">Educacion</option>-->
             <option value="28">Ciencia y tecnologia</option>
             <option value="29">Activismo</option>
-            <option value="30">Cine y peliculas</option>
+            <!--<option value="30">Cine y peliculas</option>
             <option value="31">Anime</option>
             <option value="32">Accion/Aventura</option>
-            <option value="33">Clasicos</option>
-            <option value="34">Comedia</option>
+            <option value="33">Clasicos</option>-->
+            <!--<option value="34">Comedia</option> repetido 
             <option value="35">Documentales</option>
             <option value="36">Drama</option>
             <option value="37">Familiar</option>
@@ -53,7 +53,7 @@
             <option value="41">Suspenso</option>
             <option value="42">Cortometrajes</option>
             <option value="43">Espectaculos</option>
-            <option value="44">Trailers</option>
+            <option value="44">Trailers</option>!-->
         </select>
       </div>
 

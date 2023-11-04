@@ -9,6 +9,7 @@ import { EjemploComponent } from './Components/ejemplo/ejemplo.component';
 import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqueda-por-pais.component';
 import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-filtros/llamada-pantalla-filtros.component';
 import { DetallesVideoComponent } from './Components/detalles-video/detalles-video.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DetallesVideoComponent } from './Components/detalles-video/detalles-vid
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
