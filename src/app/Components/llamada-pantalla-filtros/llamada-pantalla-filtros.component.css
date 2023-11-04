@@ -1,64 +1,92 @@
 
 .filtro-container {
-    position: absolute;
-    top: 50%; /* Centra verticalmente en la mitad de la pantalla */
-    left: 50%; /* Centra horizontalmente en la mitad de la pantalla */
-    transform: translate(-50%, -50%); /* Centra el contenido del componente */
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    width: 450px; /* Ancho personalizable */
-  }
-  
-  .filtros-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .filtro-box {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    width: 180px; /* Ancho personalizable */
-  }
-  
-  .filtro-box h4 {
-    font-size: 14px; /* Tamaño de fuente más pequeño */
-  }
-  
-  .filtro-box input,
-  .filtro-box select {
-    width: 100%;
-    padding: 5px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  .buscar-button {
-    margin-top: 10px;
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: red; /* Fondo rojo para el botón */
-    color: black; /* Texto blanco */
-    border: none;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    line-height: 24px; /* Centrar el texto verticalmente */
-    cursor: pointer;
-    font-size: 18px; /* Tamaño del texto "X" */
-  }
-  
-*{
-    color: black;
+  position: fixed;
+  top: 2%;
+  left: 20%;
+  right: 0;
+  background-color:  rgba(255, 255, 255, 0.1); /* Cambia el fondo a gris transparente, ajusta el color y la opacidad según tus preferencias /
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: auto;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+
+.filtro-box {
+  background-color: #333; / Cambia el fondo a un tono de gris oscuro o negro /
+  border: 1px solid #222; / Cambia el color del borde según tus preferencias /
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); / Añade sombreado al fondo del filtro-box /
+  width: calc(50% - 10px);
+  height: auto;
+  flex: 1;
+}
+
+.filtros-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filtro-box label {
+  font-size: 14px;
+  display: block;
+}
+
+.filtro-box input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.filtro-box select,
+.filtro-box input[type="text"] {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 25px;
+}
+
+.buscar-button {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 0 10px white; / Agrega el efecto de sombra en el botón /
+}
+
+
+.buscar-button:hover {
+  color: black;
+  background-color: #ffffff; / Cambia el fondo al pasar el mouse, ajusta el color según tu diseño */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+  font-size: 18px;
 }

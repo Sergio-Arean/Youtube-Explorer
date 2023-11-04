@@ -1,78 +1,76 @@
 <div class="filtro-container">
-    <h3>{{nombrePais}}</h3>
-    <div class="filtros-row">
+  <h3>{{nombrePais}}</h3>
+
+  <!--boton para cerrar ventana, (no muy necesario)
+  <button class="close-button" (click)="redirectToHome()">
+    X
+  </button> -->
+
+  <div class="filtros-row">
+
+    <!-- <div class="grupo-1"> -->
       <div class="filtro-box">
-        <h4>Tendencias</h4>
-        <div class="input-group">
+          <label for="">Tendencias</label>
             <select class="form-select">
-                <option value="opcion1">-</option>
+                <option value="opcion1" disabled selected>-</option>
                 <option value="opcion2">Si</option>
                 <option value="opcion3">No</option>
               </select>
-        </div>
-      </div>
-  
+       </div> 
+    
+
       <div class="filtro-box">
-        <h4>Cantidad de videos</h4>
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Entre 1 - 20">
-        </div>
+          <label for="">Cantidad de videos</label>
+          <input type="text" class="form-control" placeholder="Entre 1 - 20">
       </div>
-  
+   <!-- </div> -->
+
+   <!-- <div class="grupo-2"> -->
       <div class="filtro-box">
-        <h4>Filtro 3</h4>
-        <div class="form-check">
+          <label class="form-check-label" for="filtro3">Más comentados</label>
           <input class="form-check-input" type="checkbox" id="filtro3">
-          <label class="form-check-label" for="filtro3">Activar filtro 3</label>
-        </div>
       </div>
   
       <div class="filtro-box">
-        <h4>Filtro 4</h4>
-        <div class="form-check">
+          <label class="form-check-label" for="filtro4">Más likeados</label>
           <input class="form-check-input" type="checkbox" id="filtro4">
-          <label class="form-check-label" for="filtro4">Activar filtro 4</label>
-        </div>
       </div>
   
       <div class="filtro-box">
-        <h4>Filtro 5</h4>
-        <div class="form-check">
+          <label class="form-check-label" for="filtro5">Más vistos</label>
           <input class="form-check-input" type="checkbox" id="filtro5">
-          <label class="form-check-label" for="filtro5">Activar filtro 5</label>
-        </div>
       </div>
-      
-      <div class="filtro-box">
-        <h4>Filtro 6</h4>
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Filtro 6">
-        </div>
-      </div>
-  
-      <div class="filtro-box">
-        <h4>Filtro 7</h4>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="filtro7">
-          <label class="form-check-label" for="filtro7">Activar filtro 7</label>
-        </div>
-      </div>
-  
-      <div class="filtro-box">
-        <h4>Filtro 8</h4>
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Filtro 8">
-        </div>
-      </div>
-  
-      <button class="btn btn-primary buscar-button" (click)="hacerClick($event)">Buscar</button>
-    </div>
+    <!-- </div> -->
 
-    <button class="close-button" (click)="redirectToHome()">
-        X
-      </button>
-      
-      
+    <!-- <div class="grupo-3"> -->
+      <div class="filtro-box">
+          <label class="" for="filtro6">Categoría</label>
+          <input type="text" class="form-control" id="filtro6" placeholder="Ingrese categoría..."> 
+      </div>
 
+       <!--
+      <div class="filtro-box">
+        <label for="categorias">Categoría</label>
+          <input list="categorias">
+          <datalist id="categorias">
+                <option value="Cocina"></option>
+                <option value="Deporte">
+                <option value="Musica">
+          </datalist>
+    </div>-->
+
+    
+  
+      <div class="filtro-box">
+          <label class="" for="filtro7">Idioma</label>
+          <input type="text" class="form-control" id="filtro7" placeholder="Ingrese idioma..."> <!--ACA PUEDE IR AUTOCOMPLETAR-->
+      </div>
+    <!-- </div> -->
+
+    <button class="btn btn-primary buscar-button" 
+    (click)="hacerClick($event)">Buscar</button>
   </div>
-  
+    
+</div>
+
+
