@@ -6,7 +6,7 @@
     <section class="seccion-resultados" *ngFor="let resultado of resultados">
           <div class="resultado">
             <div class="contenedor-imagen">
-            <img src="{{resultado.snippet.thumbnails.maxres.url}}" alt="" class="img-resultado">
+            <img src="{{resultado.snippet.thumbnails.default.url}}" alt="" class="img-resultado">
             </div>
             <div class="datos-video"> <!--este div incluiria titulovideo + nombreCanal + cantLikes - cantComentarios-->
               <p class="titulo-video" (click)="verDetallesVideo(resultado.id)">{{resultado.snippet.title}}</p>

@@ -71,4 +71,43 @@ export class MapaComponent {
     this.router.navigate(['paises', idPais]);
   }
 
+
+  /*SABADO 04-11: Adaptando metodo OnmAPcCLIK para pasar a la pantalla de busqueda por pais
+  clickeado usando pantalla tomy filtros*/
+  onMapClickII(event: MouseEvent) {
+    // Obtén las coordenadas del clic
+    const x = event.clientX;
+    const y = event.clientY;
+  
+    // Obtén el elemento SVG en las coordenadas del clic
+    const clickedElement = document.elementFromPoint(x, y);
+  
+    // Comprueba si el elemento es un <path> (área del país)
+    if (clickedElement instanceof SVGPathElement) {
+      // Obtén el ID del país desde el atributo "id"
+      const country = clickedElement.getAttribute('title');
+
+      console.log("PAIS CLICKEADO = " + country);
+
+      const countryId = clickedElement.getAttribute('id');
+
+
+      if (countryId !== null && country != null) { // se verifica que el id del pais no es null
+        //this.redireccionUrlPantallaFiltrosService.navegarAlUrlFiltros(countryId)
+
+        this.sharedDataService.setNombrePais(country) //le pasamos la variable country a un servicio que tambie usa la pantalla de filtros
+        this.sharedDataService.setNIdPais(countryId)
+
+
+        /*adaptacion para redireccion a busqueda-por-pais:*/
+       const idPais = (event.target as HTMLDivElement).id;
+        this.router.navigate(['paises', idPais]);
+        /* fin adaptacion para redireccion a busqueda-por-pais:*/
+        this.isComponentOpen = false; //con true se pone borroso el mapa
+
+      }
+
+    }
+  }
+
 }

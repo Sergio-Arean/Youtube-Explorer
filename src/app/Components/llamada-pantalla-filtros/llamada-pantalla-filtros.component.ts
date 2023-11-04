@@ -33,12 +33,8 @@ export class LlamadaPantallaFiltrosComponent {
   }
 
 
-  hacerClick(event: MouseEvent) {
-    const idPais = (event.target as HTMLDivElement).id;
-    //alert(`Se hizo clic en el div con ID: ${idPais}`);
-    //this.router.navigate(['busqueda', id]); 
-    //this.router.navigate(['courses', id]);  //lo comento pero es una prueba que funca perfecto
-    this.router.navigate(['paises', idPais]);
+  hacerClick() { //reformulacion del metodo: aca no necesita recibir algo por parametro
+    this.router.navigate(['paises',this.idPais]);
   }
 
 
