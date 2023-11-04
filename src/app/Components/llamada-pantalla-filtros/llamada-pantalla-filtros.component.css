@@ -1,10 +1,9 @@
-
 .filtro-container {
   position: fixed;
   top: 2%;
   left: 20%;
   right: 0;
-  background-color:  rgba(255, 255, 255, 0.1); /* Cambia el fondo a gris transparente, ajusta el color y la opacidad según tus preferencias /
+  background-color:  rgba(255, 255, 255, 0.1);
   color: white;
   padding: 20px;
   border-radius: 20px;
@@ -14,39 +13,47 @@
   font-family: "Tilt Neon", sans-serif;
 }
 
-
-.filtro-box {
-  background-color: #333; / Cambia el fondo a un tono de gris oscuro o negro /
-  border: 1px solid #222; / Cambia el color del borde según tus preferencias /
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); / Añade sombreado al fondo del filtro-box /
-  width: calc(50% - 10px);
-  height: auto;
-  flex: 1;
-}
-
 .filtros-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
   justify-content: space-between;
+  
 }
 
+.filtro-box {
+  background-color: #333;
+  border: 1px solid #222; 
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  width: calc(50% - 10px);
+  height: auto;
+  flex: 1;
+}
+
+
 .filtro-box label {
-  font-size: 14px;
+  font-size: 95%;
   display: block;
 }
 
+
 .filtro-box input[type="checkbox"] {
-  width: 18px;
-  height: 18px;
+  width: 100%;
+  height: 22px;
   margin: 0;
   padding: 0;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
+
+.filtro-box input[type="checkbox"]:checked {
+  background-color: #000000; 
+  border: 1px solid #fffcfc; 
+}
+
 
 .filtro-box select,
 .filtro-box input[type="text"] {
@@ -56,6 +63,13 @@
   border-radius: 3px;
   height: 25px;
 }
+
+.filtro-box select option {
+  background-color: #2a2a2a; /* Fondo de las opciones */
+  color: rgba(255, 255, 255, 0.692); /* Color del texto de las opciones */
+  font-size: 90%;
+}
+
 
 .buscar-button {
   margin-top: 10px;
@@ -67,26 +81,25 @@
   cursor: pointer;
   font-weight: 600;
   font-size: 16px;
-  box-shadow: 0 0 10px white; / Agrega el efecto de sombra en el botón /
+  box-shadow: 0 0 10px white;
 }
-
 
 .buscar-button:hover {
+  background-color: #ffffff; 
   color: black;
-  background-color: #ffffff; / Cambia el fondo al pasar el mouse, ajusta el color según tu diseño */
 }
 
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: red;
-  color: black;
-  border: none;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
-  cursor: pointer;
-  font-size: 18px;
+.filtro-box input[type="number"] {
+  width: 100%;
+  height: 25px; 
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
+
+
+.filtro-box input:out-of-range {
+  border: 1px solid red; /* Cambia el color del borde cuando el valor está fuera del rango */
+}
+
+

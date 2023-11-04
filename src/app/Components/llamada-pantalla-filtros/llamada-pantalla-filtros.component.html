@@ -1,71 +1,105 @@
 <div class="filtro-container">
   <h3>{{nombrePais}}</h3>
-
-  <!--boton para cerrar ventana, (no muy necesario)
-  <button class="close-button" (click)="redirectToHome()">
-    X
-  </button> -->
-
-  <div class="filtros-row">
-
-    <!-- <div class="grupo-1"> -->
-      <div class="filtro-box">
-          <label for="">Tendencias</label>
-            <select class="form-select">
-                <option value="opcion1" disabled selected>-</option>
-                <option value="opcion2">Si</option>
-                <option value="opcion3">No</option>
-              </select>
-       </div> 
-    
+  <div class="filtros-row">    
 
       <div class="filtro-box">
-          <label for="">Cantidad de videos</label>
-          <input type="text" class="form-control" placeholder="Entre 1 - 20">
-      </div>
-   <!-- </div> -->
-
-   <!-- <div class="grupo-2"> -->
-      <div class="filtro-box">
-          <label class="form-check-label" for="filtro3">Más comentados</label>
-          <input class="form-check-input" type="checkbox" id="filtro3">
-      </div>
-  
-      <div class="filtro-box">
-          <label class="form-check-label" for="filtro4">Más likeados</label>
-          <input class="form-check-input" type="checkbox" id="filtro4">
-      </div>
-  
-      <div class="filtro-box">
-          <label class="form-check-label" for="filtro5">Más vistos</label>
-          <input class="form-check-input" type="checkbox" id="filtro5">
-      </div>
-    <!-- </div> -->
-
-    <!-- <div class="grupo-3"> -->
-      <div class="filtro-box">
-          <label class="" for="filtro6">Categoría</label>
-          <input type="text" class="form-control" id="filtro6" placeholder="Ingrese categoría..."> 
+          <label for="filtro-cantidad">Cantidad</label>
+          <input class="form-control" type="number" id="filtro-cantidad" placeholder="1 - 20 videos" min="1" max="20" step="1">
       </div>
 
-       <!--
       <div class="filtro-box">
-        <label for="categorias">Categoría</label>
-          <input list="categorias">
-          <datalist id="categorias">
-                <option value="Cocina"></option>
-                <option value="Deporte">
-                <option value="Musica">
-          </datalist>
-    </div>-->
+        <label for="filtro-tendencias">Tendencias</label>
+          <select class="form-select" id="filtro-tendencias">
+              <option value="opcion1" disabled selected>-</option>
+              <option value="opcion2">Si</option>
+              <option value="opcion3">No</option>
+            </select>
+     </div> 
+
+
+      
+      <div class="filtro-box">
+        <label class="" for="filtro-categoria">Categoría</label>
+        <select class="form-select" id="filtro-categoria">
+            <option value="0">-</option>
+            <option value="1">Cine y animacion</option> <!--el value es lo que se va a mandar al enviar los datos-->
+            <option value="2">Autos y vehiculos</option>
+            <option value="10">Musica</option>
+            <option value="15">Mascotas y animales</option>
+            <option value="17">Deportes</option>
+            <option value="18">Cortometrajes</option>
+            <option value="19">Viajes y eventos</option>
+            <option value="20">Gaming</option>
+            <option value="21">Videoblog</option>
+            <option value="22">Personas y blogs</option>
+            <option value="23">Comedia</option>
+            <option value="24">Entretenimiento</option>
+            <option value="25">Noticias y política</option>
+            <option value="26">Howto & Style</option>
+            <option value="27">Educacion</option>
+            <option value="28">Ciencia y tecnologia</option>
+            <option value="29">Activismo</option>
+            <option value="30">Cine y peliculas</option>
+            <option value="31">Anime</option>
+            <option value="32">Accion/Aventura</option>
+            <option value="33">Clasicos</option>
+            <option value="34">Comedia</option>
+            <option value="35">Documentales</option>
+            <option value="36">Drama</option>
+            <option value="37">Familiar</option>
+            <option value="38">Extranjero</option>
+            <option value="39">Terror</option>
+            <option value="40">Ciencia ficción/Fantasia</option>
+            <option value="41">Suspenso</option>
+            <option value="42">Cortometrajes</option>
+            <option value="43">Espectaculos</option>
+            <option value="44">Trailers</option>
+        </select>
+      </div>
 
     
-  
       <div class="filtro-box">
-          <label class="" for="filtro7">Idioma</label>
-          <input type="text" class="form-control" id="filtro7" placeholder="Ingrese idioma..."> <!--ACA PUEDE IR AUTOCOMPLETAR-->
+          <label class="" for="filtro-idioma">Idioma</label>
+          <select class="form-select" id="filtro-idioma">
+            <option value="0">-</option>
+            <option value="es">Español</option> <!--el value es lo que se va a mandar al enviar los datos-->
+            <option value="en">Inglés</option>
+            <option value="fr">Frances</option>
+            <option value="de">Alemán</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Portugués</option>
+            <option value="ja">Japonés</option>
+            <option value="zh">Chino</option>
+            <option value="ru">Ruso</option>
+            <option value="ar">Arabe</option>
+            <option value="ko">Coreano</option>
+            <option value="nl">Holandés</option>
+            <option value="sv">Sueco</option>
+            <option value="da">Danés</option>
+            <option value="no">Noruego</option>
+            <option value="fi">Finlandés</option>
+            <option value="po">Polaco</option>
+            <option value="tr">Turco</option>
+            <option value="el">Griego</option>
+            <option value="he">Hebreo</option>
+          </select>
       </div>
-    <!-- </div> -->
+
+
+      <div class="filtro-box">
+        <label class="form-check-label" for="filtro-comentarios">Más comentados</label>
+        <input class="form-check-input" type="checkbox" id="filtro-comentarios">
+    </div>
+
+    <div class="filtro-box">
+        <label class="form-check-label" for="filtro-likes">Más likeados</label>
+        <input class="form-check-input" type="checkbox" id="filtro-likes">
+    </div>
+
+    <div class="filtro-box">
+        <label class="form-check-label" for="filtro-vistas">Más vistos</label>
+        <input class="form-check-input" type="checkbox" id="filtro-vistas">
+    </div>
 
     <button class="btn btn-primary buscar-button" 
     (click)="hacerClick()">Buscar</button>
