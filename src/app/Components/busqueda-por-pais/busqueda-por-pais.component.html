@@ -11,7 +11,7 @@
             <div class="datos-video"> <!--este div incluiria titulovideo + nombreCanal + cantLikes - cantComentarios-->
               <p class="titulo-video" (click)="verDetallesVideo(resultado.id)">{{resultado.snippet.title}}</p>
               <p class="nombre-canal">{{resultado.snippet.channelTitle}}</p>
-              <p class="stats">V: {{resultado.statistics.viewCount}} - L: {{resultado.statistics.likeCount}} - C: {{resultado.statistics.commentCount}}</p>
+              <p class="stats">Vistas: {{resultado.statistics.viewCount}} - Likes: {{resultado.statistics.likeCount}} - Comentarios: {{resultado.statistics.commentCount}}</p>
             </div>
           </div>
 

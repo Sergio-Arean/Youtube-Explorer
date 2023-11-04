@@ -24,6 +24,5 @@ export class PopularVideosService {
       }catch(e){
         return `Error: ${e}`; //esta bien esto?
       }
-      
   }
 }
