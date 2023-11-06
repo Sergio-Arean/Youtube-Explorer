@@ -37,4 +37,62 @@ export class PopularVideosService {
         return `Error: ${e}`; //esta bien esto?
       }
   }
+
+  devuelveCategoriaSegunID(id_categoria:string):string{
+    let categoria:string='';
+    switch (id_categoria) {
+      case "1":
+        categoria = "Cine y Animación";
+        break;
+    
+      case "2":
+        categoria = "Autos y Vehículos";
+        break;
+    
+      case "10":
+        categoria = "Música";
+        break;
+    
+      case "15":
+        categoria = "Mascotas y Animales";
+        break;
+    
+      case "17":
+        categoria = "Deportes";
+        break;
+    
+      case "22":
+        categoria = "Personas y Blogs";
+        break;
+    
+      case "23":
+        categoria = "Comedia";
+        break;
+    
+      case "24":
+        categoria = "Entretenimiento";
+        break;
+    
+      case "25":
+        categoria = "Noticias y Política";
+        break;
+    
+      case "26":
+        categoria = "Howto & Style";
+        break;
+    
+      case "28":
+        categoria = "Ciencia y Tecnología";
+        break;
+    
+      case "29":
+        categoria = "Activismo";
+        break;
+    
+      default:
+        categoria = "No identificada"; //
+    }
+    
+    return categoria;
+  }
 }

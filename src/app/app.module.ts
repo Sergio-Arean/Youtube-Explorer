@@ -10,6 +10,7 @@ import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqued
 import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-filtros/llamada-pantalla-filtros.component';
 import { DetallesVideoComponent } from './Components/detalles-video/detalles-video.component';
 import { FormsModule } from '@angular/forms';
+import { HistorialPageComponent } from './Pages/historial-page/historial-page.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     EjemploComponent,
     BusquedaPorPaisComponent,
     LlamadaPantallaFiltrosComponent,
-    DetallesVideoComponent
+    DetallesVideoComponent,
+    HistorialPageComponent
   ],
   imports: [
     BrowserModule,

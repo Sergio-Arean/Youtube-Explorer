@@ -5,6 +5,7 @@ import { EjemploComponent } from './Components/ejemplo/ejemplo.component';
 import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqueda-por-pais.component';
 import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-filtros/llamada-pantalla-filtros.component';
 import { DetallesVideoComponent } from './Components/detalles-video/detalles-video.component';
+import { HistorialPageComponent } from './Pages/historial-page/historial-page.component';
 
 const routes: Routes = [
   {path: 'home', component: MapaComponent},
@@ -14,11 +15,14 @@ const routes: Routes = [
   {path: 'videos/:idVideo', component: DetallesVideoComponent}, //path reproduccion video
 
   //tomy routes:
-  { path: 'home/pais/:nombrePais', component: LlamadaPantallaFiltrosComponent }
+  { path: 'home/pais/:nombrePais', component: LlamadaPantallaFiltrosComponent },
   /*  { path: 'home', component: MapaComponent },
  { path: 'home/pais/:nombrePais', component: LlamadaPantallaFiltrosComponent },
   { path: 'busqueda/:id', component: BusquedaPorPaisComponent }  ,
   { path: 'courses', component: CoursesComponent } */
+
+  //historial de busqueda
+  { path: 'historial', component: HistorialPageComponent }
 
 
 ];

@@ -3,18 +3,32 @@
     que elija el usuario, pero dado que esto es una prueba,
     procemos a harcodear algunas cosas (cantidad de videos, categoria,etc)
     y simplemente mostramos los resultados mas populares con el id {{idPais}}</p>
+
+    <!--
     <section class="seccion-resultados" *ngFor="let resultado of resultados">
           <div class="resultado">
             <div class="contenedor-imagen">
             <img src="{{resultado.snippet.thumbnails.default.url}}" alt="" class="img-resultado">
             </div>
-            <div class="datos-video"> <!--este div incluiria titulovideo + nombreCanal + cantLikes - cantComentarios-->
+            <div class="datos-video"> 
               <p class="titulo-video" (click)="verDetallesVideo(resultado.id)">{{resultado.snippet.title}}</p>
               <p class="nombre-canal">{{resultado.snippet.channelTitle}}</p>
               <p class="stats">Vistas: {{resultado.statistics.viewCount}} - Likes: {{resultado.statistics.likeCount}} - Comentarios: {{resultado.statistics.commentCount}}</p>
             </div>
-          </div>
+          </div>   
+    </section> -->
 
-          
+    <section class="seccion-resultados" *ngFor="let video of lista_videos">
+      <div class="resultado">
+        <div class="contenedor-imagen">
+        <img src="{{video.imagen}}" alt="" class="img-resultado">
+        </div>
+        <div class="datos-video"> 
+          <p class="titulo-video" (click)="verDetallesVideo(video.id)">{{video.titulo}}</p>
+          <p class="nombre-canal">{{video.canal}}</p>
+          <p class="stats">Vistas: {{video.visualizaciones}} - Likes: {{video.likes}} - Comentarios: {{video.cant_comentarios}}</p>
+        </div>
+      </div>   
+</section>
 
-    </section>
+    
