@@ -780,6 +780,113 @@
           "cant_comentarios": "3559"
         }
       ]
+    },
+    {
+      "id": "xOWKiKv",
+      "fecha": "6-11-2023",
+      "hora": "15:53",
+      "pais": "PY",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "nF159D1-8fI",
+          "imagen": "https://i.ytimg.com/vi/nF159D1-8fI/default.jpg",
+          "titulo": "Terminó la autopsia al cuerpo de Domingo Ríos",
+          "canal": "C9N Paraguay",
+          "visualizaciones": "32428",
+          "likes": "318",
+          "cant_comentarios": "63"
+        },
+        {
+          "id": "Btt27nhcPkQ",
+          "imagen": "https://i.ytimg.com/vi/Btt27nhcPkQ/default.jpg",
+          "titulo": "Retiran el cuerpo de Domigo Ríos",
+          "canal": "SNT Paraguay",
+          "visualizaciones": "16645",
+          "likes": "166",
+          "cant_comentarios": "29"
+        },
+        {
+          "id": "BWPzPs189JU",
+          "imagen": "https://i.ytimg.com/vi/BWPzPs189JU/default.jpg",
+          "titulo": "Santaní: tornado deja una niña fallecida",
+          "canal": "ABC TV Paraguay",
+          "visualizaciones": "19342",
+          "likes": "178",
+          "cant_comentarios": "34"
+        },
+        {
+          "id": "lNzaXOJIuNI",
+          "imagen": "https://i.ytimg.com/vi/lNzaXOJIuNI/default.jpg",
+          "titulo": "EEUU lanzó un misil intercontinental con capacidad nuclear | #26Global",
+          "canal": "Canal 26",
+          "visualizaciones": "503351",
+          "likes": "7050",
+          "cant_comentarios": "2665"
+        },
+        {
+          "id": "VjG3rYL6yzM",
+          "imagen": "https://i.ytimg.com/vi/VjG3rYL6yzM/default.jpg",
+          "titulo": "Resumen en video de la guerra Israel - Hamas: noticias del 5 de noviembre de 2023",
+          "canal": "CNN en Español",
+          "visualizaciones": "433527",
+          "likes": "5239",
+          "cant_comentarios": "753"
+        }
+      ]
+    },
+    {
+      "id": "30r5hIc",
+      "fecha": "6-11-2023",
+      "hora": "16:2",
+      "pais": "BR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "ISuA64KImmo",
+          "imagen": "https://i.ytimg.com/vi/ISuA64KImmo/default.jpg",
+          "titulo": "Fotógrafa da filha de Neymar morre aos 28 anos #shorts",
+          "canal": "Fala Brasil",
+          "visualizaciones": "1965701",
+          "likes": "58739"
+        },
+        {
+          "id": "ODAaTORGzwg",
+          "imagen": "https://i.ytimg.com/vi/ODAaTORGzwg/default.jpg",
+          "titulo": "Morre a atriz Elizângela aos 68 anos | Brasil Urgente",
+          "canal": "Brasil Urgente",
+          "visualizaciones": "547334",
+          "likes": "11758",
+          "cant_comentarios": "1348"
+        },
+        {
+          "id": "OmrZxAt2T6E",
+          "imagen": "https://i.ytimg.com/vi/OmrZxAt2T6E/default.jpg",
+          "titulo": "Homem é atingido por pá de retroescavadeira em Trindade (GO) #Shorts #JornalDaRecord #JR24H",
+          "canal": "Jornal da Record",
+          "visualizaciones": "2119859",
+          "likes": "51484"
+        },
+        {
+          "id": "CRPVJkmIgx8",
+          "imagen": "https://i.ytimg.com/vi/CRPVJkmIgx8/default.jpg",
+          "titulo": "JORNAL DA MANHÃ - 06/11/2023",
+          "canal": "Jovem Pan News",
+          "visualizaciones": "306221",
+          "likes": "6836",
+          "cant_comentarios": "12"
+        },
+        {
+          "id": "ruHuf5Ra_4s",
+          "imagen": "https://i.ytimg.com/vi/ruHuf5Ra_4s/default.jpg",
+          "titulo": "Guerra em Israel: túnel do Hamas é destruído por tropa israelense",
+          "canal": "CidadeAlertaRecord",
+          "visualizaciones": "458749",
+          "likes": "11264"
+        }
+      ]
     }
   ]
 }
