@@ -11,6 +11,8 @@ import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-f
 import { DetallesVideoComponent } from './Components/detalles-video/detalles-video.component';
 import { FormsModule } from '@angular/forms';
 import { HistorialPageComponent } from './Pages/historial-page/historial-page.component';
+import { BarraBusquedaComponent } from './Components/barra-busqueda/barra-busqueda.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { HistorialPageComponent } from './Pages/historial-page/historial-page.co
     BusquedaPorPaisComponent,
     LlamadaPantallaFiltrosComponent,
     DetallesVideoComponent,
-    HistorialPageComponent
+    HistorialPageComponent,
+    BarraBusquedaComponent,
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqued
 import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-filtros/llamada-pantalla-filtros.component';
 import { DetallesVideoComponent } from './Components/detalles-video/detalles-video.component';
 import { HistorialPageComponent } from './Pages/historial-page/historial-page.component';
+import { BarraBusquedaComponent } from './Components/barra-busqueda/barra-busqueda.component';
 
 const routes: Routes = [
   {path: 'home', component: MapaComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   //{path: 'paises/:idPais', component: BusquedaPorPaisComponent},
   {path: 'paises/:idPais/:cantidad/:categoria', component: BusquedaPorPaisComponent},
   {path: 'videos/:idVideo', component: DetallesVideoComponent}, //path reproduccion video
+  {path: 'home/busqueda', component: BarraBusquedaComponent },
 
   //tomy routes:
   { path: 'home/pais/:nombrePais', component: LlamadaPantallaFiltrosComponent },
