@@ -3,13 +3,11 @@ aside{
   position:sticky; 
   top:0;
   height:100vh;
-
-  background-color: blanchedalmond; 
-
-
   background-color: black;
   color: white;
+  width: 250px; /* Ajusta el ancho según tus necesidades */
 }  
+
   
   
   /*Barra navegacion*/

@@ -1,23 +1,42 @@
-  /*Seccion Resultados en General*/
-  .seccion-resultados{
-    background-color: black; /*para pruebas*/
-   /* justify-content: center; /* Centra horizontalmente */
-  /*  align-items: center; /* Centra verticalmente */
-  background-color: grey; /*transitorio*/
+ /* Estilo para el div de mensaje de error */
+.mensaje-error {
+  background-color: #ff0000b9; 
+  color: #ffffffce; 
+  padding: 10px; /* Espacio interno */
+  margin-top: 10px; /* Margen superior */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+
+ 
+ /*Seccion Resultados en General*/
+.seccion-resultados{
+  background-color: black; 
   color: white;
-  /*height: 100%;*/
-    
-  }
+}
+
 
   /*Codificando c/ resultado*/
-  .resultado{
-    display:flex;
-    /*flex-direction: column;*/ /*si esto esta activo el texto pasa abajo de la imagen.. cosa que no quiero*/
-    padding: 0.8rem;
-    width:100%;
-
-    margin-block: 3rem;/*agregado el 3-11*/
+.resultado{
+      display: flex;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      background-color: black;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra exterior con color blanco "neón" */
+      transition: box-shadow 0.3s;
+      /*width: calc(100% - 250px);*/
+      width: 100%;
+      margin-block: 3rem;/*agregado el 3-11*/
   }
+
+
+  .resultado:hover {
+    box-shadow: 0 0 20px rgb(247, 58, 58); /* Aumenta el brillo de la sombra al pasar el cursor */
+    transition: box-shadorgb(246, 10, 10)
+  }
+  
 
   .numero-resultado{
     display:none;
@@ -52,21 +71,4 @@
 }
 
 
-
-
-
-
-  .resultado{
-    background-color: black;
-    
-
-  }
-
-  
-.resultado:hover{
-    background-color: rgba(255,88,88,0.3);
-    transition: background-color 0.3s;
-    
-
-}
 

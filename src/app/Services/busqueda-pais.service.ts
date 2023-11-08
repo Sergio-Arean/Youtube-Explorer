@@ -266,8 +266,4 @@ export class PaisService {
     return of(suggestions);
   }
 
-
-
-
-  
 }

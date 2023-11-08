@@ -12,7 +12,10 @@ import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.se
 })
 export class BusquedaPorPaisComponent {
   idPais:string = '';
-  
+
+  paisDisponible: boolean = true; //para ver si existe
+  errorMensaje: string = ''; // Variable para almacenar el mensaje de error
+
   cantidad!:string;
   categoria!:string;
   //resultados:any[] = []; //provisorio
@@ -34,28 +37,33 @@ export class BusquedaPorPaisComponent {
 
   }
 
-  async getVideos(){
-    try {
-      const data = await this.popularVideosService.getPopularVideos(this.idPais,this.cantidad,this.categoria);
-      //this.resultados = data.items; // Asigna los resultados al arreglo (comentado para probar)
-      //eq ACA se enviarian los datos al historial
 
-      /*06-11*/ //prueba:
+async getVideos(){
+  try {
+    const data = await this.popularVideosService.getPopularVideos(this.idPais, this.cantidad, this.categoria);
+    //this.resultados = data.items; // Asigna los resultados al arreglo (comentado para probar)
+    //eq ACA se enviarian los datos al historial
+
+    if (data && data.items) //si se guardaron datos existe el pais
+    {
+      //06-11 //prueba:
       this.cargarListaVideos(data.items);
 
       //enviar datos a historial, a este punto nuestra lista ya esta cargada:
       //llamado a service.CargarHistorial(lista_videos)
-      /*desde aca enviamos la lista de videos, y el service se encarga
-      de gestionar el historial*/ 
+      //desde aca enviamos la lista de videos, y el service se encarga
+      //de gestionar el historial
       //this.historialBusquedaService.guardarEnHistorial(this.lista_videos,);
       this.guardarEnHistorial();
-
-    } catch (error) {
-      console.error(`Error: ${error}`);
+    } 
+    else {
+      this.errorMensaje = 'PAIS NO DISPONIBLE';
     }
+  } catch (error) {
+    console.error(`Error: ${error}`);
   }
-
-
+}
+  
 
 
   verDetallesVideo(idVideo:string){

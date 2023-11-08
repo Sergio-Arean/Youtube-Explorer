@@ -1,8 +1,8 @@
-<p>Componente llamado "busqueda-por-pais" funciona! Aca 
+<!-- <p>Componente llamado "busqueda-por-pais" funciona! Aca 
     se supone que va a ir las distintas opciones de filtrado
     que elija el usuario, pero dado que esto es una prueba,
     procemos a harcodear algunas cosas (cantidad de videos, categoria,etc)
-    y simplemente mostramos los resultados mas populares con el id {{idPais}}</p>
+    y simplemente mostramos los resultados mas populares con el id {{idPais}}</p> -->
 
     <!--
     <section class="seccion-resultados" *ngFor="let resultado of resultados">
@@ -18,7 +18,7 @@
           </div>   
     </section> -->
 
-    <section class="seccion-resultados" *ngFor="let video of lista_videos">
+<section class="seccion-resultados" *ngFor="let video of lista_videos">
       <div class="resultado">
         <div class="contenedor-imagen">
         <img src="{{video.imagen}}" alt="" class="img-resultado">
@@ -31,4 +31,7 @@
       </div>   
 </section>
 
-    
+
+<div class="mensaje-error" *ngIf="errorMensaje">
+  {{ errorMensaje }}
+</div>
