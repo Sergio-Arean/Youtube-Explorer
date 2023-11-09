@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Resultado } from 'src/app/Interfaces/Resultado';
 import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.service';
+import { AutentificacionService } from 'src/app/Services/autentificacion.service';
 
 @Component({
   selector: 'app-historial-page',
@@ -8,13 +9,28 @@ import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.se
   styleUrls: ['./historial-page.component.css']
 })
 export class HistorialPageComponent {
+  mail_usuario_logueado: string|null = null;
+
+
   lista_resultados:Resultado[] = [];
   //json:any[] = [];
 
-  constructor(private historialBusquedaService: HistorialBusquedaService){}
+  constructor(private autentificacionService: AutentificacionService,private historialBusquedaService: HistorialBusquedaService){}
 
   ngOnInit(){
+    this.autentificacionService.user.subscribe(user => {
+      if (user) {
+        this.mail_usuario_logueado = user.email;
+      } else {
+        this.mail_usuario_logueado = null;
+      }
+    });
    this.cargarListaResultados();
+  }
+
+
+  logout() {
+    this.autentificacionService.logout();
   }
 
   async cargarListaResultados(){

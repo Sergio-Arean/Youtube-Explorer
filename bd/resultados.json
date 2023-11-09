@@ -1215,6 +1215,163 @@
           "cant_comentarios": "78"
         }
       ]
+    },
+    {
+      "id": "tQb9Bpf",
+      "fecha": "9-11-2023",
+      "hora": "15:23",
+      "pais": "CA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16109446",
+          "likes": "465822",
+          "cant_comentarios": "37008"
+        },
+        {
+          "id": "IyeVxGYibJY",
+          "imagen": "https://i.ytimg.com/vi/IyeVxGYibJY/default.jpg",
+          "titulo": "Trump Scolded by Judge, Grilled by Prosecutors in NY Fraud Trial Testimony: A Closer Look",
+          "canal": "Late Night with Seth Meyers",
+          "visualizaciones": "2070587",
+          "likes": "53359",
+          "cant_comentarios": "5509"
+        },
+        {
+          "id": "45n_B6QAjv4",
+          "imagen": "https://i.ytimg.com/vi/45n_B6QAjv4/default.jpg",
+          "titulo": "Ivanka Trump 'comes out of hibernation' taking the stand in a Manhattan courtroom",
+          "canal": "MSNBC",
+          "visualizaciones": "611111",
+          "likes": "11154",
+          "cant_comentarios": "2842"
+        },
+        {
+          "id": "7dKEHchmEYI",
+          "imagen": "https://i.ytimg.com/vi/7dKEHchmEYI/default.jpg",
+          "titulo": "'Crash and burn': Elie Honig reacts to Trump's courtroom strategy",
+          "canal": "CNN",
+          "visualizaciones": "947962",
+          "likes": "12893",
+          "cant_comentarios": "4079"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1185937",
+          "likes": "18398",
+          "cant_comentarios": "4386"
+        }
+      ]
+    },
+    {
+      "id": "7LVN_bm",
+      "fecha": "9-11-2023",
+      "hora": "16:40",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "626317",
+          "likes": "12843",
+          "cant_comentarios": "8998"
+        },
+        {
+          "id": "vcyZ6yq8R0o",
+          "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+          "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+          "canal": "BREAK POINT",
+          "visualizaciones": "280057",
+          "likes": "15312",
+          "cant_comentarios": "1063"
+        }
+      ]
+    }
+  ],
+  "historiales": [
+    {
+      "id": "sergio.arean@gmail.com",
+      "resultados":[
+          {
+            "id": "7LVN_bm",
+            "fecha": "9-11-2023",
+            "hora": "16:40",
+            "pais": "AR",
+            "cantidad": "2",
+            "categoria": "Noticias y Política",
+            "videos": [
+              {
+                "id": "n3hiGKs0CGw",
+                "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+                "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+                "canal": "Todo Noticias",
+                "visualizaciones": "626317",
+                "likes": "12843",
+                "cant_comentarios": "8998"
+              },
+              {
+                "id": "vcyZ6yq8R0o",
+                "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+                "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+                "canal": "BREAK POINT",
+                "visualizaciones": "280057",
+                "likes": "15312",
+                "cant_comentarios": "1063"
+              }
+            ]
+          }
+
+        
+      ]
+
+    },
+    {
+      "id": "jorge.arean@gmail.com",
+      "resultados":[
+          {
+            "id": "7LVN_bm",
+            "fecha": "9-11-2023",
+            "hora": "16:40",
+            "pais": "AR",
+            "cantidad": "2",
+            "categoria": "Noticias y Política",
+            "videos": [
+              {
+                "id": "n3hiGKs0CGw",
+                "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+                "titulo": "EL DEBATE DE JAVIER MILEI ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+                "canal": "Todo Noticias",
+                "visualizaciones": "626317",
+                "likes": "12843",
+                "cant_comentarios": "8998"
+              },
+              {
+                "id": "vcyZ6yq8R0o",
+                "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+                "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+                "canal": "BREAK POINT",
+                "visualizaciones": "280057",
+                "likes": "15312",
+                "cant_comentarios": "1063"
+              }
+            ]
+          }
+
+        
+      ]
+
     }
   ]
 }

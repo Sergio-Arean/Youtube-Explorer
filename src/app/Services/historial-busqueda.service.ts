@@ -8,6 +8,7 @@ import { PopularVideosService } from './popular-videos.service';
 })
 export class HistorialBusquedaService {
   url:string = 'http://localhost:1234/resultados'; //url al json server
+  url_historiales:string = 'http://localhost:1234/historiales/'; //url a los historiales de c/usuario
   lista_resultados:Resultado[] = []; //historial, es necesario?? con el json supongo alcanza
   constructor(private popularVideosService:PopularVideosService) { }
 
@@ -95,6 +96,26 @@ export class HistorialBusquedaService {
     }   
 
  }
+
+ /**Reformulacion de metodos.. teniendo en cuenta los emails
+  * Vamos a hacer el paso a paso de aca en mas para facilitar..
+  * La particularidad de la pelicula actual es que todo POST
+  * requiere un previo GET.
+  */
+ /*
+ async postHistorial(resultado:Resultado) { 
+	try{
+    await fetch(this.url_historiales,{
+      method: 'POST',
+      body: JSON.stringify(resultado),
+      headers: {'Content-type': 'application/json'}
+    });
+    }catch(error){
+      console.log(error);
+    }   
+
+ }*/
+
  
 
 }

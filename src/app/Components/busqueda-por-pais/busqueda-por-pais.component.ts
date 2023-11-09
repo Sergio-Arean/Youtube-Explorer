@@ -4,6 +4,7 @@ import { ActivatedRoute, Route } from '@angular/router'; //nos permite recuperar
 import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 import { Video } from 'src/app/Interfaces/Video';
 import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.service';
+import { AutentificacionService } from 'src/app/Services/autentificacion.service';
 
 @Component({
   selector: 'app-busqueda-por-pais',
@@ -20,7 +21,10 @@ export class BusquedaPorPaisComponent {
   categoria!:string;
   //resultados:any[] = []; //provisorio
   lista_videos:Video[] = []; //6-11
-  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService){
+
+  mail_usuario_logueado: string|null = null; //variable que almacena mail del usuario logueado en el sistema, o bien null si no hay nadie logueado
+
+  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService){
 
   }
 
@@ -31,6 +35,17 @@ export class BusquedaPorPaisComponent {
       this.categoria = params['categoria'];
 
     });
+
+    //en el siguiente bloque de codigo consultamos si tenemos un usuario logueado
+    this.autentificacionService.user.subscribe(user => {
+      if (user) {
+        this.mail_usuario_logueado = user.email;
+      } else {
+        this.mail_usuario_logueado = null;
+      }
+    });
+
+
     //con esto especifico que hago con el parametro
     this.getVideos();
 
@@ -54,6 +69,8 @@ async getVideos(){
       //desde aca enviamos la lista de videos, y el service se encarga
       //de gestionar el historial
       //this.historialBusquedaService.guardarEnHistorial(this.lista_videos,);
+      
+      //aca iria un if(mailusuariologueado is null no guardo nada, else si guardo!)
       this.guardarEnHistorial();
     } 
     else {
