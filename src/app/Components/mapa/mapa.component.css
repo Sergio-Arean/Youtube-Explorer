@@ -2,22 +2,74 @@
 svg{
   
     color: white;
+    /*
     margin-top: 4rem;
-    margin-left: 4rem;
+    margin-left: 4rem;*/
+   /*modificado el 8-11:*/
+   margin-top: 5rem;
+   /*margin-left: 1rem;*/
+   
+
+   
   }
   
   path{
     fill: grey;
     color: white;
+    
   }
   
   #MX:hover{
     fill:#FF5858;
     transition: 0.2s;
   }
+  /*
   
   path:hover{
     fill:#FF5858;
     transition: 0.4s;
     
+  }*/ 
+
+
+  /*Seccion Mostrar Pais Hover*/
+  #nombre-pais-hover{
+   /* padding-top: 3rem;*/
+    
+    position: absolute;
+   /*text-align: right;*/
+   top: 60px; 
+   left: 59rem;
+   
+   /*agregado el 09-11 para dar formato a bandera:*/
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   gap: 6px;
   }
+
+  .contenedor{
+    position:relative;
+  }
+
+  /*9-11 aplicando criterio de distinto hover color s/disponibilidad de pais*/
+  .pais-hover-rojo path:hover{
+      fill:#FF5858;
+}
+
+
+
+.pais-hover-verde path:hover{
+      fill:#8AB114;
+}
+
+/*bandera*/
+#bandera{
+  width: 2rem;
+  /*margin-top: 0.2px;*/
+  /*border-radius: 50%;*/
+
+}
+

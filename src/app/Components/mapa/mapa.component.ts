@@ -1,5 +1,9 @@
+//mapa. ts antes de manipularlo como loco:
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { Pais } from 'src/app/Interfaces/Pais';
+import { DatosEspecificosPaisesService } from 'src/app/Services/datos-especificos-paises.service';
+import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 import { RedireccionUrlPantallaFiltrosService } from 'src/app/Services/redireccion-url-pantalla-filtros.service';
 import { SharedDataMapaFiltrosService } from 'src/app/Services/shared-data-mapa-filtros.service';
 
@@ -10,10 +14,26 @@ import { SharedDataMapaFiltrosService } from 'src/app/Services/shared-data-mapa-
 })
 export class MapaComponent {
 
+  /*seccion hover pais*/
+  nombre_pais_hover:string='';
+  pais_disponible:boolean = true;
+  url_bandera_pais_hover:string='';
+   
+    pais_hovereado:Pais = {
+      nombre_castellano : 'NOMBRE DEFINIDO EN OBJETO LITERAL',
+      url_bandera: ''
+    };
+  
+
+
+
+
+
+
   isComponentOpen: boolean = false;
 
   constructor(private router: Router,    private redireccionUrlPantallaFiltrosService: RedireccionUrlPantallaFiltrosService,
-    private sharedDataService: SharedDataMapaFiltrosService){
+    private sharedDataService: SharedDataMapaFiltrosService, private datosEspecificos: DatosEspecificosPaisesService, private popularVideos:PopularVideosService){
 
           // Verifica si la ruta actual es la raíz '/'
     if (this.router.url === '/') {
@@ -23,6 +43,36 @@ export class MapaComponent {
 
     // Resto de la lógica en el constructor, incluyendo otros servicios inyectados
     }
+
+
+    /*METODOS HOVER PAIS*/
+    async hoverEnPais(event: any){ //metodo que gestiona la relacion entre el evento hover y el pais seleccionado
+      let id_pais:string = '';
+      id_pais = event.target.id; 
+      //this.nombre_pais_hover= this.paisService.getPaisPorAbreviatura(id_pais); //trae nombre de pais
+      /*la linea de arriba comentada transitoriamente para probar lo siguiente:*/ 
+      this.pais_hovereado = await this.datosEspecificos.getPaisByCode(id_pais); //llamada api
+      console.log(`El objeto pais que recibe el componente es este:`,this.pais_hovereado);
+
+      this.nombre_pais_hover = this.pais_hovereado.nombre_castellano; 
+      this.url_bandera_pais_hover = this.pais_hovereado.url_bandera;
+  
+      this.pais_disponible = this.popularVideos.isDisponible(id_pais); //cambia color de mapa
+      
+    }
+  
+
+    /*FIN SECCION METODOS HOVER PAIS*/
+
+
+
+
+
+
+
+
+
+
 
     onMapClick(event: MouseEvent) {
       // Obtén las coordenadas del clic
@@ -48,9 +98,20 @@ export class MapaComponent {
           this.sharedDataService.setNombrePais(country) //le pasamos la variable country a un servicio que tambie usa la pantalla de filtros
           this.sharedDataService.setNIdPais(countryId)
   
-  
+          
+          /*inicio adaptacion para validar pais disponible*/ 
+          if(!this.popularVideos.isDisponible(countryId)){
+            //console.log(`id enviado a is disponible: ${idPais}`);
+            alert(`La informacion sobre el pais seleccionado no esta disponible`);
+          }else{
+            this.router.navigate(['/home/pais', country]);
+            this.isComponentOpen = false; //con true se pone borroso el mapa
+          }
+          /*fin adaptacion para validar pais disponible*/ 
+
+          /*
           this.router.navigate(['/home/pais', country]);
-          this.isComponentOpen = false; //con true se pone borroso el mapa
+          this.isComponentOpen = false; //con true se pone borroso el mapa*/
   
         }
   
@@ -68,7 +129,13 @@ export class MapaComponent {
     //alert(`Se hizo clic en el div con ID: ${idPais}`);
     //this.router.navigate(['busqueda', id]); 
     //this.router.navigate(['courses', id]);  //lo comento pero es una prueba que funca perfecto
-    this.router.navigate(['paises', idPais]);
+    if(!this.popularVideos.isDisponible(idPais)){
+      console.log(`id enviado a is disponible: ${idPais}`);
+      alert(`La informacion sobre ${this.pais_hovereado} no esta disponible`);
+    }else{
+      this.router.navigate(['paises', idPais]);
+    }
+    
   }
 
 
@@ -115,3 +182,4 @@ export class MapaComponent {
 
 
 }
+

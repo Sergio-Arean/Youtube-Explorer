@@ -19,7 +19,7 @@ export class PopularVideosService {
  // el link seria asi: url_1 + cantidad + url_2 + region + url_3  + video_category + API_KEY;
 
   constructor() { }
-
+  //Llamado a API:
   async getPopularVideos(idPais:string,cantidad:string,video_category:string){
       this.region = idPais;
       this.cantidad = cantidad;
@@ -37,6 +37,7 @@ export class PopularVideosService {
         return `Error: ${e}`; //esta bien esto?
       }
   }
+
 
   devuelveCategoriaSegunID(id_categoria:string):string{
     let categoria:string='';
@@ -94,5 +95,18 @@ export class PopularVideosService {
     }
     
     return categoria;
+  }
+
+  //Pais seleccionado/hovereado esta disponible en la API de Youtube?:
+  isDisponible(idPais:string){
+   //por el momento, me centro en los que NO estan disponibles en el siguiente switch:
+    switch(idPais){
+      case 'CN':
+      return false;
+      
+      default:
+      return true;
+    }
+
   }
 }

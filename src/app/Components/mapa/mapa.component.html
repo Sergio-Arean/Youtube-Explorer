@@ -7,8 +7,18 @@
 
 
 (click)="hacerClick($event)" //seria el click donde se consume la api
--->
 
+
+/* 9-11 :
+
+(mouseover)="hoverEnPais($event)"
+
+[ngClass]="{'pais-hover-rojo': !pais_disponible, 'pais-hover-verde': pais_disponible}" 
+-->
+<section class="contenedor"><div id="nombre-pais-hover">
+  {{nombre_pais_hover}}
+  <img [src]="url_bandera_pais_hover" id="bandera">
+</div>
 <svg
 
 #mapa 
@@ -18,7 +28,9 @@
 (click)="onMapClick($event)" 
 
 
+(mouseover)="hoverEnPais($event)"
 
+[ngClass]="{'pais-hover-rojo': !pais_disponible, 'pais-hover-verde': pais_disponible}" 
 
 
 
@@ -1057,3 +1069,4 @@ height="665.96301">
   title="Zimbabwe"
   id="ZW" />
 </svg>
+</section>

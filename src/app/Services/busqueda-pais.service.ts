@@ -266,4 +266,22 @@ export class PaisService {
     return of(suggestions);
   }
 
+  /*metodos agregado para ser utilizado por el mapa - 09-11*/
+  getPaisPorAbreviatura(abreviatura: string):string{
+    console.log(`Abreviatura que llega al metodo: ${abreviatura}`);
+    switch(abreviatura){
+      
+      case 'AR':
+        return "Argentina";
+      case 'BR':
+        return "Brasil";
+      case 'BO':
+        return "Bolivia";
+        default:
+          //return "NO ENCONTRADO";
+          return '';
+    }
+  }
+  
+
 }
