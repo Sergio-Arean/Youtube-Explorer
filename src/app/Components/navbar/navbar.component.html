@@ -4,9 +4,30 @@
     </header>
     <nav class="barra-navegacion">
         <ul>
-            <li class="opcion-menu"><button class="btn-opcion-menu" routerLink="home"><i class="bi bi-globe-americas"></i><label class="texto-opcion-menu">Mapa</label></button></li>
-            <li class="opcion-menu"><button class="btn-opcion-menu"><i class="bi bi-search"></i><label class="texto-opcion-menu" routerLink="home/busqueda">Busqueda</label></button></li>
-            <li class="opcion-menu"><button class="btn-opcion-menu" routerLink="historial"><i class="bi bi-clock-history"></i><label class="texto-opcion-menu">Historial</label></button></li>
+            <li class="opcion-menu">
+                <button class="btn-opcion-menu" routerLink="home">
+                    <i class="bi bi-globe-americas"></i>
+                    <label class="texto-opcion-menu">Mapa</label>
+                </button>
+            </li>
+              
+
+            <li class="opcion-menu">
+                <button class="btn-opcion-menu" routerLink="historial">
+                    <i class="bi bi-clock-history"></i>
+                    <label class="texto-opcion-menu">Historial</label>
+                </button>
+            </li>
+
+            <li class="opcion-menu">
+                <button class="btn-opcion-menu" (click)="showSearch = !showSearch">
+                  <i class="bi bi-search"></i>
+                  <label class="texto-opcion-menu">Buscar</label>
+                </button>
+                <div class="search-container" *ngIf="showSearch">
+                    <app-barra-busqueda (hideSearch)="hideSearchBar()"></app-barra-busqueda> <!--necesario para la barra-->
+                  </div>
+              </li>
         </ul>
     </nav>
 </aside>
