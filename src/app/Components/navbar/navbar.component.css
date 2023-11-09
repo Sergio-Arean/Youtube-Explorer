@@ -25,7 +25,7 @@ aside{
 
   .opcion-menu:hover{
     .texto-opcion-menu, .bi{
-      color: #FF5858;
+      color:rgba(247, 58, 58, 0.95);
       transition: 0.1s;
       font-weight: 800;
     }

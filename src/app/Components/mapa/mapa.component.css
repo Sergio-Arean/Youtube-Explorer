@@ -12,12 +12,12 @@ svg{
   }
   
   #MX:hover{
-    fill:#FF5858;
+    fill:rgba(247, 58, 58, 0.685);
     transition: 0.2s;
   }
   
   path:hover{
-    fill:#FF5858;
+    fill:rgba(247, 58, 58, 0.685);
     transition: 0.4s;
-    
+
   }

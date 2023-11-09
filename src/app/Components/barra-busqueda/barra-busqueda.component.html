@@ -1,12 +1,20 @@
-<div class="search-container">
-    <div class="search-bar">
-      <input type="text" placeholder="Buscar..." [(ngModel)]="searchQuery" (input)="search()">
-    </div>
-  </div>
+
+  <!-- barra-busqueda.component.html
   
+  <app-mapa></app-mapa>  ?? por qué está este acá? lo saqué pero pregunto en serio capaz q sirve-->
+
+<div class="search-container">
+
+  <div class="search-bar">
+    <input type="text" placeholder="Ingrese pais..." [(ngModel)]="searchQuery" (input)="search()">
+  </div>
+
   <ul class="suggestion-list" *ngIf="suggestions.length > 0">
     <li *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)">{{ suggestion }}</li>
   </ul>
+
+</div>
+
+
   
-  <app-mapa></app-mapa>
   
