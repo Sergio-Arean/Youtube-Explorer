@@ -249,4 +249,8 @@ isDisponible(idPais: string):boolean{
   }
   
 
+  /**Claro d última si llamas a la función isDisponible , dentro de popularVideosService 
+   * (que es la que implemente en el mapa con China para q salga el alert 
+   * y evita que el usuario busque al dope) calculo q sería la solución..onda reutilizar esa función */
+
 }

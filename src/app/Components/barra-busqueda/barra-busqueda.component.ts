@@ -6,6 +6,7 @@ import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { Router } from '@angular/router';
 import { RedireccionUrlPantallaFiltrosService } from 'src/app/Services/redireccion-url-pantalla-filtros.service';
 import { SharedDataMapaFiltrosService } from 'src/app/Services/shared-data-mapa-filtros.service';
+import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 
 @Component({
   selector: 'app-barra-busqueda',
@@ -15,6 +16,7 @@ import { SharedDataMapaFiltrosService } from 'src/app/Services/shared-data-mapa-
 export class BarraBusquedaComponent {
   searchQuery: string = '';
   suggestions: string[] = [];
+  pais_disponible:boolean = true;
 
   private searchTerms = new Subject<string>();
 
@@ -24,7 +26,8 @@ export class BarraBusquedaComponent {
     private paisService: PaisService,
     private router: Router,
     private redireccionUrlPantallaFiltrosService: RedireccionUrlPantallaFiltrosService,
-    private sharedDataService: SharedDataMapaFiltrosService
+    private sharedDataService: SharedDataMapaFiltrosService,
+    private popularVideos: PopularVideosService
   ) {
     this.searchTerms
       .pipe(
@@ -39,22 +42,28 @@ export class BarraBusquedaComponent {
 
   search() {
     this.searchTerms.next(this.searchQuery);
-  }
+}
 
-  selectSuggestion(suggestion: string): void {
+
+
+selectSuggestion(suggestion: string): void {
     const selectedPais = this.paisService.paises.find(pais => pais.nombre === suggestion);
     if (selectedPais) {
       const abreviatura = selectedPais.abreviatura;
-
+  
       this.searchQuery = suggestion;
-
+  
       this.sharedDataService.setNombrePais(suggestion);
       this.sharedDataService.setNIdPais(abreviatura);
-
-      this.router.navigate(['/home/pais', suggestion]);
-
+  
+      // Verificar si el país está disponible antes de navegar
+      if (!this.popularVideos.isDisponible(abreviatura)) {
+        alert(`La información sobre ${suggestion} no está disponible`);
+      } else {
+        this.router.navigate(['/home/pais', suggestion]);
+      }
+  
       this.suggestions = [];
-
       // Emitir evento para ocultar la barra de búsqueda
       this.hideSearch.emit();
       console.log('Evento hideSearch emitido');

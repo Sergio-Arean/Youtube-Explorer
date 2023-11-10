@@ -68,12 +68,6 @@ export class MapaComponent {
 
 
 
-
-
-
-
-
-
     onMapClick(event: MouseEvent) {
       // Obtén las coordenadas del clic
       const x = event.clientX;
