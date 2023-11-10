@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+
 export class PopularVideosService {
   // url_1:string = 'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode='
   url_1:string = 'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults='
@@ -98,15 +99,154 @@ export class PopularVideosService {
   }
 
   //Pais seleccionado/hovereado esta disponible en la API de Youtube?:
-  isDisponible(idPais:string){
+isDisponible(idPais: string):boolean{
    //por el momento, me centro en los que NO estan disponibles en el siguiente switch:
-    switch(idPais){
+    switch (idPais) {
+      case 'AF':
+      case 'AS':
+      case 'AD':
+      case 'AO':
+      case 'AI':
+      case 'AQ':
+      case 'AG':
+      case 'AW':
+      case 'BS':
+      case 'BB':
+      case 'BZ':
+      case 'BJ':
+      case 'BM':
+      case 'AX':
+      case 'BT':
+      case 'BQ':
+      case 'BW':
+      case 'BV':
+      case 'IO':
+      case 'BN':
+      case 'BF':
+      case 'BI':
+      case 'CV':
+      case 'CM':
+      case 'KY':
+      case 'CF':
+      case 'TD':
       case 'CN':
-      return false;
-      
+      case 'CX':
+      case 'CC':
+      case 'KM':
+      case 'CD':
+      case 'CG':
+      case 'CK':
+      case 'CU':
+      case 'CW':
+      case 'CI':
+      case 'DJ':
+      case 'DM':
+      case 'GQ':
+      case 'ER':
+      case 'SZ':
+      case 'ET':
+      case 'FK':
+      case 'FO':
+      case 'FJ':
+      case 'FR':
+      case 'GF':
+      case 'PF':
+      case 'TF':
+      case 'GA':
+      case 'GM':
+      case 'GI':
+      case 'GL':
+      case 'GD':
+      case 'GP':
+      case 'GU':
+      case 'GG':
+      case 'GN':
+      case 'GW':
+      case 'GY':
+      case 'HT':
+      case 'HM':
+      case 'VA':
+      case 'IR':
+      case 'IM':
+      case 'JE':
+      case 'KI':
+      case 'KP':
+      case 'KG':
+      case 'LS':
+      case 'LR':
+      case 'MO':
+      case 'MG':
+      case 'MW':
+      case 'MV':
+      case 'ML':
+      case 'MH':
+      case 'MQ':
+      case 'MR':
+      case 'MU':
+      case 'YT':
+      case 'FM':
+      case 'MC':
+      case 'MN':
+      case 'MS':
+      case 'MZ':
+      case 'MM':
+      case 'NA':
+      case 'NR':
+      case 'NC':
+      case 'NI':
+      case 'NE':
+      case 'NU':
+      case 'NF':
+      case 'MP':
+      case 'PW':
+      case 'PS':
+      case 'PN':
+      case 'RW':
+      case 'RE':
+      case 'BL':
+      case 'SH':
+      case 'KN':
+      case 'LC':
+      case 'MF':
+      case 'PM':
+      case 'VC':
+      case 'WS':
+      case 'SM':
+      case 'ST':
+      case 'SC':
+      case 'SL':
+      case 'SX':
+      case 'SB':
+      case 'SO':
+      case 'GS':
+      case 'SS':
+      case 'SD':
+      case 'SR':
+      case 'SJ':
+      case 'SY':
+      case 'TJ':
+      case 'TL':
+      case 'TG':
+      case 'TK':
+      case 'TO':
+      case 'TT':
+      case 'TM':
+      case 'TC':
+      case 'TV':
+      case 'UM':
+      case 'UZ':
+      case 'VU':
+      case 'VG':
+      case 'VI':
+      case 'WF':
+      case 'EH':
+      case 'ZM':
+        return false;
+  
       default:
-      return true;
+        return true;
     }
-
   }
+  
+
 }
