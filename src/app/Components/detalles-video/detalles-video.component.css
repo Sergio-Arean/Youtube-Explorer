@@ -1,5 +1,5 @@
 .video-container {
-    position: fixed;
+   /* position: fixed;*/
     top: 2%;
     left: 20%;
     right: 0;
@@ -8,7 +8,7 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    /*width: 80%;*/ width: 100%;
     height: auto;
     font-family: "Tilt Neon", sans-serif;
   }

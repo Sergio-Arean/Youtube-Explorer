@@ -1298,80 +1298,1767 @@
           "cant_comentarios": "1063"
         }
       ]
+    },
+    {
+      "id": "eqUuGh9",
+      "fecha": "11-11-2023",
+      "hora": "8:54",
+      "pais": "AR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1071634",
+          "likes": "17888",
+          "cant_comentarios": "12915"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230857",
+          "likes": "4783",
+          "cant_comentarios": "747"
+        },
+        {
+          "id": "vcyZ6yq8R0o",
+          "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+          "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+          "canal": "BREAK POINT",
+          "visualizaciones": "301855",
+          "likes": "15951",
+          "cant_comentarios": "1301"
+        },
+        {
+          "id": "eTnvjod7Tvo",
+          "imagen": "https://i.ytimg.com/vi/eTnvjod7Tvo/default.jpg",
+          "titulo": "Yuyito vs. Fátima Florez + Cinthia Fernández sin filtro - #LAM | Programa completo (9/11/23)",
+          "canal": "América TV",
+          "visualizaciones": "120704",
+          "likes": "781",
+          "cant_comentarios": "293"
+        },
+        {
+          "id": "MiNYF15JLAI",
+          "imagen": "https://i.ytimg.com/vi/MiNYF15JLAI/default.jpg",
+          "titulo": "¡REBELIÓN EN LA GRANJA! Novaresio ESTALLÓ contra Milei por agitar un supuesto fraude",
+          "canal": "Revolución Popular Noticias",
+          "visualizaciones": "119386",
+          "likes": "3736",
+          "cant_comentarios": "1403"
+        }
+      ]
+    },
+    {
+      "id": "7oxRS2V",
+      "fecha": "11-11-2023",
+      "hora": "9:10",
+      "pais": "BO",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "wGK9yfXKIEk",
+          "imagen": "https://i.ytimg.com/vi/wGK9yfXKIEk/default.jpg",
+          "titulo": "Resumen en video de la guerra Israel - Hamas: noticias del 9 de noviembre de 2023",
+          "canal": "CNN en Español",
+          "visualizaciones": "482766",
+          "likes": "5185",
+          "cant_comentarios": "600"
+        },
+        {
+          "id": "1Dwd-WW2RxY",
+          "imagen": "https://i.ytimg.com/vi/1Dwd-WW2RxY/default.jpg",
+          "titulo": "Al Fondo hay Sitio 10: Una terrible noticia para los Gonzáles (AVANCE Capítulo 340)",
+          "canal": "Al Fondo hay Sitio - AFHS",
+          "visualizaciones": "139130",
+          "likes": "1148",
+          "cant_comentarios": "155"
+        },
+        {
+          "id": "kgzXm-eF24c",
+          "imagen": "https://i.ytimg.com/vi/kgzXm-eF24c/default.jpg",
+          "titulo": "¿Adiós TEN HAG? GARNACHO 'SUFRE' | MADRID SÍ quiere a MBAPPE; “Es un BOBO” | ANCELOTTI vs PIQUE",
+          "canal": "Cracks",
+          "visualizaciones": "297875",
+          "likes": "15114",
+          "cant_comentarios": "659"
+        },
+        {
+          "id": "cQUlSm18EbI",
+          "imagen": "https://i.ytimg.com/vi/cQUlSm18EbI/default.jpg",
+          "titulo": "DW Noticias del 6 de noviembre: Israel intensifica sus ataques contra Gaza [Noticiero completo]",
+          "canal": "DW Español",
+          "visualizaciones": "949275",
+          "likes": "8807",
+          "cant_comentarios": "1696"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230933",
+          "likes": "4776",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "5nzXMXz",
+      "fecha": "11-11-2023",
+      "hora": "9:10",
+      "pais": "BO",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "wGK9yfXKIEk",
+          "imagen": "https://i.ytimg.com/vi/wGK9yfXKIEk/default.jpg",
+          "titulo": "Resumen en video de la guerra Israel - Hamas: noticias del 9 de noviembre de 2023",
+          "canal": "CNN en Español",
+          "visualizaciones": "482833",
+          "likes": "5185",
+          "cant_comentarios": "600"
+        },
+        {
+          "id": "1Dwd-WW2RxY",
+          "imagen": "https://i.ytimg.com/vi/1Dwd-WW2RxY/default.jpg",
+          "titulo": "Al Fondo hay Sitio 10: Una terrible noticia para los Gonzáles (AVANCE Capítulo 340)",
+          "canal": "Al Fondo hay Sitio - AFHS",
+          "visualizaciones": "139130",
+          "likes": "1148",
+          "cant_comentarios": "155"
+        },
+        {
+          "id": "kgzXm-eF24c",
+          "imagen": "https://i.ytimg.com/vi/kgzXm-eF24c/default.jpg",
+          "titulo": "¿Adiós TEN HAG? GARNACHO 'SUFRE' | MADRID SÍ quiere a MBAPPE; “Es un BOBO” | ANCELOTTI vs PIQUE",
+          "canal": "Cracks",
+          "visualizaciones": "297875",
+          "likes": "15114",
+          "cant_comentarios": "659"
+        },
+        {
+          "id": "cQUlSm18EbI",
+          "imagen": "https://i.ytimg.com/vi/cQUlSm18EbI/default.jpg",
+          "titulo": "DW Noticias del 6 de noviembre: Israel intensifica sus ataques contra Gaza [Noticiero completo]",
+          "canal": "DW Español",
+          "visualizaciones": "949275",
+          "likes": "8807",
+          "cant_comentarios": "1696"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230933",
+          "likes": "4776",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "5Gt8ZaQ",
+      "fecha": "11-11-2023",
+      "hora": "9:11",
+      "pais": "US",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "-dmXJ99oC4k",
+          "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+          "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+          "canal": "NBC News",
+          "visualizaciones": "1322968",
+          "likes": "10310",
+          "cant_comentarios": "9476"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16520038",
+          "likes": "475767",
+          "cant_comentarios": "37758"
+        },
+        {
+          "id": "5BEqYONDkFc",
+          "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
+          "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
+          "canal": "Late Night with Seth Meyers",
+          "visualizaciones": "1702890",
+          "likes": "43287",
+          "cant_comentarios": "2387"
+        },
+        {
+          "id": "tDq6P0yp7T0",
+          "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+          "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+          "canal": "Jimmy Kimmel Live",
+          "visualizaciones": "1892053",
+          "likes": "29576",
+          "cant_comentarios": "1694"
+        },
+        {
+          "id": "cGziIjdTf3k",
+          "imagen": "https://i.ytimg.com/vi/cGziIjdTf3k/default.jpg",
+          "titulo": "Trump testimony goes 'off the rail'",
+          "canal": "MSNBC",
+          "visualizaciones": "1363027",
+          "likes": "36218",
+          "cant_comentarios": "7089"
+        }
+      ]
+    },
+    {
+      "id": "kdNu85G",
+      "fecha": "11-11-2023",
+      "hora": "9:11",
+      "pais": "BR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "QYNAMARqgk4",
+          "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+          "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+          "canal": "SBT News",
+          "visualizaciones": "794293",
+          "likes": "19700",
+          "cant_comentarios": "6892"
+        },
+        {
+          "id": "1OQxQG2EvP0",
+          "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+          "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+          "canal": "CidadeAlertaRecord",
+          "visualizaciones": "414997",
+          "likes": "19399"
+        },
+        {
+          "id": "hyVa9EHhlPk",
+          "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+          "titulo": "Exército confirma morte de jovem soldado #shorts",
+          "canal": "Fala Brasil",
+          "visualizaciones": "172737",
+          "likes": "8445"
+        },
+        {
+          "id": "YtkhlmNCCSY",
+          "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+          "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+          "canal": "Band Jornalismo",
+          "visualizaciones": "467293",
+          "likes": "10730",
+          "cant_comentarios": "1186"
+        },
+        {
+          "id": "wCkirw_nTJQ",
+          "imagen": "https://i.ytimg.com/vi/wCkirw_nTJQ/default.jpg",
+          "titulo": "OESTE SEM FILTRO - COM AUGUSTO NUNES E ALEXANDRE GARCIA - 10/11/2023",
+          "canal": "Revista Oeste",
+          "visualizaciones": "282370",
+          "likes": "44257",
+          "cant_comentarios": "247"
+        }
+      ]
+    },
+    {
+      "id": "Z6WItc0",
+      "fecha": "11-11-2023",
+      "hora": "9:12",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126583",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16521251",
+          "likes": "475772",
+          "cant_comentarios": "37759"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1100269",
+          "likes": "19262",
+          "cant_comentarios": "20126"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524131",
+          "likes": "22686",
+          "cant_comentarios": "5464"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62187",
+          "likes": "682",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "PdO8-t-",
+      "fecha": "11-11-2023",
+      "hora": "9:12",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072349",
+          "likes": "17896",
+          "cant_comentarios": "12926"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230933",
+          "likes": "4776",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "SohnwQE",
+      "fecha": "11-11-2023",
+      "hora": "9:13",
+      "pais": "CA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16521251",
+          "likes": "475773",
+          "cant_comentarios": "37759"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1101469",
+          "likes": "19265",
+          "cant_comentarios": "20126"
+        },
+        {
+          "id": "tDq6P0yp7T0",
+          "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+          "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+          "canal": "Jimmy Kimmel Live",
+          "visualizaciones": "1892053",
+          "likes": "29577",
+          "cant_comentarios": "1694"
+        },
+        {
+          "id": "rhGqEKjt9hs",
+          "imagen": "https://i.ytimg.com/vi/rhGqEKjt9hs/default.jpg",
+          "titulo": "1 arrested, 3 injured in violent clashes between Concordia University students over Israel-Hamas war",
+          "canal": "CTV News",
+          "visualizaciones": "176550",
+          "likes": "982",
+          "cant_comentarios": "1349"
+        },
+        {
+          "id": "-dmXJ99oC4k",
+          "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+          "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+          "canal": "NBC News",
+          "visualizaciones": "1322968",
+          "likes": "10313",
+          "cant_comentarios": "9476"
+        }
+      ]
+    },
+    {
+      "id": "FczVv2w",
+      "fecha": "11-11-2023",
+      "hora": "9:13",
+      "pais": "AR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072349",
+          "likes": "17897",
+          "cant_comentarios": "12926"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230933",
+          "likes": "4776",
+          "cant_comentarios": "747"
+        },
+        {
+          "id": "vcyZ6yq8R0o",
+          "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+          "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+          "canal": "BREAK POINT",
+          "visualizaciones": "301870",
+          "likes": "15952",
+          "cant_comentarios": "1301"
+        },
+        {
+          "id": "eTnvjod7Tvo",
+          "imagen": "https://i.ytimg.com/vi/eTnvjod7Tvo/default.jpg",
+          "titulo": "Yuyito vs. Fátima Florez + Cinthia Fernández sin filtro - #LAM | Programa completo (9/11/23)",
+          "canal": "América TV",
+          "visualizaciones": "120834",
+          "likes": "782",
+          "cant_comentarios": "293"
+        },
+        {
+          "id": "MiNYF15JLAI",
+          "imagen": "https://i.ytimg.com/vi/MiNYF15JLAI/default.jpg",
+          "titulo": "¡REBELIÓN EN LA GRANJA! Novaresio ESTALLÓ contra Milei por agitar un supuesto fraude",
+          "canal": "Revolución Popular Noticias",
+          "visualizaciones": "119403",
+          "likes": "3737",
+          "cant_comentarios": "1403"
+        }
+      ]
+    },
+    {
+      "id": "LGzw_bB",
+      "fecha": "11-11-2023",
+      "hora": "9:15",
+      "pais": "US",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "-dmXJ99oC4k",
+          "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+          "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+          "canal": "NBC News",
+          "visualizaciones": "1323549",
+          "likes": "10313",
+          "cant_comentarios": "9481"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16521251",
+          "likes": "475781",
+          "cant_comentarios": "37759"
+        },
+        {
+          "id": "5BEqYONDkFc",
+          "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
+          "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
+          "canal": "Late Night with Seth Meyers",
+          "visualizaciones": "1703226",
+          "likes": "43291",
+          "cant_comentarios": "2387"
+        },
+        {
+          "id": "tDq6P0yp7T0",
+          "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+          "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+          "canal": "Jimmy Kimmel Live",
+          "visualizaciones": "1892329",
+          "likes": "29578",
+          "cant_comentarios": "1694"
+        },
+        {
+          "id": "cGziIjdTf3k",
+          "imagen": "https://i.ytimg.com/vi/cGziIjdTf3k/default.jpg",
+          "titulo": "Trump testimony goes 'off the rail'",
+          "canal": "MSNBC",
+          "visualizaciones": "1363786",
+          "likes": "36222",
+          "cant_comentarios": "7084"
+        }
+      ]
+    },
+    {
+      "id": "uD8Qtax",
+      "fecha": "11-11-2023",
+      "hora": "9:15",
+      "pais": "CA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16521251",
+          "likes": "475783",
+          "cant_comentarios": "37759"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1101469",
+          "likes": "19274",
+          "cant_comentarios": "20119"
+        },
+        {
+          "id": "tDq6P0yp7T0",
+          "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+          "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+          "canal": "Jimmy Kimmel Live",
+          "visualizaciones": "1892329",
+          "likes": "29578",
+          "cant_comentarios": "1694"
+        },
+        {
+          "id": "rhGqEKjt9hs",
+          "imagen": "https://i.ytimg.com/vi/rhGqEKjt9hs/default.jpg",
+          "titulo": "1 arrested, 3 injured in violent clashes between Concordia University students over Israel-Hamas war",
+          "canal": "CTV News",
+          "visualizaciones": "176627",
+          "likes": "982",
+          "cant_comentarios": "1349"
+        },
+        {
+          "id": "-dmXJ99oC4k",
+          "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+          "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+          "canal": "NBC News",
+          "visualizaciones": "1323549",
+          "likes": "10313",
+          "cant_comentarios": "9481"
+        }
+      ]
+    },
+    {
+      "id": "kXzvNtB",
+      "fecha": "11-11-2023",
+      "hora": "9:16",
+      "pais": "KE",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "LK4lwJ53XIM",
+          "imagen": "https://i.ytimg.com/vi/LK4lwJ53XIM/default_live.jpg",
+          "titulo": "Citizen TV Live | State of the Nation Address by President Ruto",
+          "canal": "Citizen TV Kenya",
+          "visualizaciones": "873724",
+          "likes": "3716",
+          "cant_comentarios": "0"
+        },
+        {
+          "id": "Jyt5fQUys7o",
+          "imagen": "https://i.ytimg.com/vi/Jyt5fQUys7o/default.jpg",
+          "titulo": "🔴 LIVE | Meru Governor Kawira Mwangaza impeachment hearing",
+          "canal": "NTV Kenya",
+          "visualizaciones": "220226",
+          "likes": "1112",
+          "cant_comentarios": "10"
+        },
+        {
+          "id": "QVQi3BM_ROI",
+          "imagen": "https://i.ytimg.com/vi/QVQi3BM_ROI/default.jpg",
+          "titulo": "LIVE!! Fireworks in senate as Meru Governor Kawira Mwangaza's impeachment motion is heard!! DAY 2!",
+          "canal": "Kenya Digital News",
+          "visualizaciones": "172034",
+          "likes": "760",
+          "cant_comentarios": "5"
+        },
+        {
+          "id": "UDs9n2tBXyY",
+          "imagen": "https://i.ytimg.com/vi/UDs9n2tBXyY/default.jpg",
+          "titulo": "WAAH😳 President Ruto Bodygaurd almost SLAPPED king charles Bodyguard at the airport|Plug Tv Kenya",
+          "canal": "PLUG TV",
+          "visualizaciones": "149635",
+          "likes": "623",
+          "cant_comentarios": "182"
+        },
+        {
+          "id": "vMTaAo6UEzY",
+          "imagen": "https://i.ytimg.com/vi/vMTaAo6UEzY/default.jpg",
+          "titulo": "NO NONSENSE BONY KHALWALE QUESTIONS MERU MCAS WHO PIONEERED KAWIRA MWANGAZA'S IMPEACHMENT!",
+          "canal": "Kenya News Alerts TV",
+          "visualizaciones": "90466",
+          "likes": "433",
+          "cant_comentarios": "106"
+        }
+      ]
+    },
+    {
+      "id": "0-qStco",
+      "fecha": "11-11-2023",
+      "hora": "9:19",
+      "pais": "US",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "-dmXJ99oC4k",
+          "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+          "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+          "canal": "NBC News",
+          "visualizaciones": "1323549",
+          "likes": "10320",
+          "cant_comentarios": "9479"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16521849",
+          "likes": "475800",
+          "cant_comentarios": "37760"
+        },
+        {
+          "id": "5BEqYONDkFc",
+          "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
+          "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
+          "canal": "Late Night with Seth Meyers",
+          "visualizaciones": "1703392",
+          "likes": "43293",
+          "cant_comentarios": "2387"
+        },
+        {
+          "id": "tDq6P0yp7T0",
+          "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+          "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+          "canal": "Jimmy Kimmel Live",
+          "visualizaciones": "1892329",
+          "likes": "29578",
+          "cant_comentarios": "1694"
+        },
+        {
+          "id": "cGziIjdTf3k",
+          "imagen": "https://i.ytimg.com/vi/cGziIjdTf3k/default.jpg",
+          "titulo": "Trump testimony goes 'off the rail'",
+          "canal": "MSNBC",
+          "visualizaciones": "1364188",
+          "likes": "36229",
+          "cant_comentarios": "7087"
+        }
+      ]
+    },
+    {
+      "id": "zKW3djB",
+      "fecha": "11-11-2023",
+      "hora": "9:21",
+      "pais": "AR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072533",
+          "likes": "17900",
+          "cant_comentarios": "12927"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230962",
+          "likes": "4777",
+          "cant_comentarios": "747"
+        },
+        {
+          "id": "vcyZ6yq8R0o",
+          "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+          "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+          "canal": "BREAK POINT",
+          "visualizaciones": "301874",
+          "likes": "15952",
+          "cant_comentarios": "1301"
+        },
+        {
+          "id": "eTnvjod7Tvo",
+          "imagen": "https://i.ytimg.com/vi/eTnvjod7Tvo/default.jpg",
+          "titulo": "Yuyito vs. Fátima Florez + Cinthia Fernández sin filtro - #LAM | Programa completo (9/11/23)",
+          "canal": "América TV",
+          "visualizaciones": "120903",
+          "likes": "782",
+          "cant_comentarios": "293"
+        },
+        {
+          "id": "MiNYF15JLAI",
+          "imagen": "https://i.ytimg.com/vi/MiNYF15JLAI/default.jpg",
+          "titulo": "¡REBELIÓN EN LA GRANJA! Novaresio ESTALLÓ contra Milei por agitar un supuesto fraude",
+          "canal": "Revolución Popular Noticias",
+          "visualizaciones": "119409",
+          "likes": "3737",
+          "cant_comentarios": "1403"
+        }
+      ]
+    },
+    {
+      "id": "xlqaCrW",
+      "fecha": "11-11-2023",
+      "hora": "9:22",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072650",
+          "likes": "17901",
+          "cant_comentarios": "12928"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230962",
+          "likes": "4777",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "cmtkW1p",
+      "fecha": "11-11-2023",
+      "hora": "9:22",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126613",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16521849",
+          "likes": "475809",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1102191",
+          "likes": "19289",
+          "cant_comentarios": "20125"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524591",
+          "likes": "22707",
+          "cant_comentarios": "5467"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62245",
+          "likes": "683",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "CzXtdcJ",
+      "fecha": "11-11-2023",
+      "hora": "9:23",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072650",
+          "likes": "17901",
+          "cant_comentarios": "12929"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230962",
+          "likes": "4777",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "ApuE7H0",
+      "fecha": "11-11-2023",
+      "hora": "9:23",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126613",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522000",
+          "likes": "475812",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1102520",
+          "likes": "19298",
+          "cant_comentarios": "20138"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524863",
+          "likes": "22710",
+          "cant_comentarios": "5468"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62245",
+          "likes": "683",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "ihm3jx7",
+      "fecha": "11-11-2023",
+      "hora": "9:24",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126613",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522000",
+          "likes": "475813",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1102520",
+          "likes": "19299",
+          "cant_comentarios": "20148"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524863",
+          "likes": "22712",
+          "cant_comentarios": "5472"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62245",
+          "likes": "683",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "eKEHo9w",
+      "fecha": "11-11-2023",
+      "hora": "9:24",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072650",
+          "likes": "17901",
+          "cant_comentarios": "12929"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230962",
+          "likes": "4778",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "iseApLp",
+      "fecha": "11-11-2023",
+      "hora": "9:24",
+      "pais": "AR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072650",
+          "likes": "17902",
+          "cant_comentarios": "12929"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230962",
+          "likes": "4778",
+          "cant_comentarios": "747"
+        },
+        {
+          "id": "vcyZ6yq8R0o",
+          "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+          "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+          "canal": "BREAK POINT",
+          "visualizaciones": "301874",
+          "likes": "15952",
+          "cant_comentarios": "1301"
+        },
+        {
+          "id": "eTnvjod7Tvo",
+          "imagen": "https://i.ytimg.com/vi/eTnvjod7Tvo/default.jpg",
+          "titulo": "Yuyito vs. Fátima Florez + Cinthia Fernández sin filtro - #LAM | Programa completo (9/11/23)",
+          "canal": "América TV",
+          "visualizaciones": "120903",
+          "likes": "782",
+          "cant_comentarios": "293"
+        },
+        {
+          "id": "MiNYF15JLAI",
+          "imagen": "https://i.ytimg.com/vi/MiNYF15JLAI/default.jpg",
+          "titulo": "¡REBELIÓN EN LA GRANJA! Novaresio ESTALLÓ contra Milei por agitar un supuesto fraude",
+          "canal": "Revolución Popular Noticias",
+          "visualizaciones": "119409",
+          "likes": "3737",
+          "cant_comentarios": "1403"
+        }
+      ]
+    },
+    {
+      "id": "FM8Quwd",
+      "fecha": "11-11-2023",
+      "hora": "9:24",
+      "pais": "BR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "QYNAMARqgk4",
+          "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+          "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+          "canal": "SBT News",
+          "visualizaciones": "794894",
+          "likes": "19729",
+          "cant_comentarios": "6899"
+        },
+        {
+          "id": "1OQxQG2EvP0",
+          "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+          "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+          "canal": "CidadeAlertaRecord",
+          "visualizaciones": "415393",
+          "likes": "19417"
+        },
+        {
+          "id": "hyVa9EHhlPk",
+          "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+          "titulo": "Exército confirma morte de jovem soldado #shorts",
+          "canal": "Fala Brasil",
+          "visualizaciones": "173601",
+          "likes": "8465"
+        },
+        {
+          "id": "YtkhlmNCCSY",
+          "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+          "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+          "canal": "Band Jornalismo",
+          "visualizaciones": "467380",
+          "likes": "10731",
+          "cant_comentarios": "1186"
+        },
+        {
+          "id": "wCkirw_nTJQ",
+          "imagen": "https://i.ytimg.com/vi/wCkirw_nTJQ/default.jpg",
+          "titulo": "OESTE SEM FILTRO - COM AUGUSTO NUNES E ALEXANDRE GARCIA - 10/11/2023",
+          "canal": "Revista Oeste",
+          "visualizaciones": "282703",
+          "likes": "44309",
+          "cant_comentarios": "249"
+        }
+      ]
+    },
+    {
+      "id": "JvBTaZ7",
+      "fecha": "11-11-2023",
+      "hora": "9:25",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126613",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522000",
+          "likes": "475818",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1102520",
+          "likes": "19300",
+          "cant_comentarios": "20129"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524863",
+          "likes": "22713",
+          "cant_comentarios": "5472"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62246",
+          "likes": "683",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "q2uV_Km",
+      "fecha": "11-11-2023",
+      "hora": "9:25",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072650",
+          "likes": "17902",
+          "cant_comentarios": "12929"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230967",
+          "likes": "4778",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "_W40dV7",
+      "fecha": "11-11-2023",
+      "hora": "9:26",
+      "pais": "SA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "1_ID4B8UNBg",
+          "imagen": "https://i.ytimg.com/vi/1_ID4B8UNBg/default.jpg",
+          "titulo": "جو شو | الموسم الثامن | الحلقة 28 | المقاطعة",
+          "canal": "Joe Show - جو شو",
+          "visualizaciones": "1628493",
+          "likes": "65533",
+          "cant_comentarios": "3733"
+        },
+        {
+          "id": "PBkIZcz_4fc",
+          "imagen": "https://i.ytimg.com/vi/PBkIZcz_4fc/default.jpg",
+          "titulo": "خطير .. روسيا تبدأ دخول الحرب من البوابة الجنوبية و أمريكا تبدأ التحرك",
+          "canal": "Summary",
+          "visualizaciones": "528853",
+          "likes": "25121",
+          "cant_comentarios": "1238"
+        },
+        {
+          "id": "YyUwNiY8OAg",
+          "imagen": "https://i.ytimg.com/vi/YyUwNiY8OAg/default.jpg",
+          "titulo": "فوق السلطة 362 - القسّـ.ام ديليفيري والنووي الإسـ.رائيلي",
+          "canal": "AlJazeera Arabic  قناة الجزيرة",
+          "visualizaciones": "899790",
+          "likes": "26825",
+          "cant_comentarios": "1728"
+        },
+        {
+          "id": "Ik0BtrDcQkQ",
+          "imagen": "https://i.ytimg.com/vi/Ik0BtrDcQkQ/default.jpg",
+          "titulo": "১০ হাজার টাকায় বিক্রি একটি পাঙ্গাস! #fish #business #shorts",
+          "canal": "SOMOY TV",
+          "visualizaciones": "4856717",
+          "likes": "113563",
+          "cant_comentarios": "186"
+        },
+        {
+          "id": "CPI3wdjIbwc",
+          "imagen": "https://i.ytimg.com/vi/CPI3wdjIbwc/default.jpg",
+          "titulo": "ইসরায়েলি সেনাদের নাকানিচুবানি খাওয়াচ্ছে হামাস | Hamas Attack | Ekattor TV",
+          "canal": "Ekattor TV",
+          "visualizaciones": "666323",
+          "likes": "12999",
+          "cant_comentarios": "492"
+        }
+      ]
+    },
+    {
+      "id": "rNw5M8r",
+      "fecha": "11-11-2023",
+      "hora": "9:26",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126623",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522000",
+          "likes": "475823",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1102520",
+          "likes": "19301",
+          "cant_comentarios": "20131"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524863",
+          "likes": "22714",
+          "cant_comentarios": "5472"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62246",
+          "likes": "683",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "YkMv1Q7",
+      "fecha": "11-11-2023",
+      "hora": "9:26",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072650",
+          "likes": "17904",
+          "cant_comentarios": "12929"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230967",
+          "likes": "4778",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "KvI3sj5",
+      "fecha": "11-11-2023",
+      "hora": "9:27",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072737",
+          "likes": "17903",
+          "cant_comentarios": "12929"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230967",
+          "likes": "4779",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "ACWF0HN",
+      "fecha": "11-11-2023",
+      "hora": "9:27",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126623",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522000",
+          "likes": "475824",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1102520",
+          "likes": "19302",
+          "cant_comentarios": "20136"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524863",
+          "likes": "22716",
+          "cant_comentarios": "5472"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62246",
+          "likes": "683",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "rgh7_Wr",
+      "fecha": "11-11-2023",
+      "hora": "9:27",
+      "pais": "AR",
+      "cantidad": "2",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "n3hiGKs0CGw",
+          "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+          "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+          "canal": "Todo Noticias",
+          "visualizaciones": "1072737",
+          "likes": "17903",
+          "cant_comentarios": "12929"
+        },
+        {
+          "id": "TxB8gJdsxvY",
+          "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+          "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+          "canal": "LA NACION",
+          "visualizaciones": "230967",
+          "likes": "4779",
+          "cant_comentarios": "747"
+        }
+      ]
+    },
+    {
+      "id": "Xq-LjP4",
+      "fecha": "11-11-2023",
+      "hora": "9:27",
+      "pais": "ZA",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "2Y9vSqhiLMk",
+          "imagen": "https://i.ytimg.com/vi/2Y9vSqhiLMk/default.jpg",
+          "titulo": "Senzo Meyiwa Murder Trial | 09 November 2023",
+          "canal": "SABC News",
+          "visualizaciones": "126623",
+          "cant_comentarios": "323"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522000",
+          "likes": "475825",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "wyINCPl58zQ",
+          "imagen": "https://i.ytimg.com/vi/wyINCPl58zQ/default.jpg",
+          "titulo": "Israel-Hamas War: Piers Morgan vs Rabbi Shmuley And Cenk Uygur Going Head-to-Head In Fiery CLASH",
+          "canal": "Piers Morgan Uncensored",
+          "visualizaciones": "1102520",
+          "likes": "19302",
+          "cant_comentarios": "20146"
+        },
+        {
+          "id": "e-1n5GyXhcc",
+          "imagen": "https://i.ytimg.com/vi/e-1n5GyXhcc/default.jpg",
+          "titulo": "Israel Destroying ‘Biggest Terror Base Ever Built’ | CBN NewsWatch November 8, 2023",
+          "canal": "CBN News",
+          "visualizaciones": "1524863",
+          "likes": "22717",
+          "cant_comentarios": "5472"
+        },
+        {
+          "id": "t5Vmfi8kk5Q",
+          "imagen": "https://i.ytimg.com/vi/t5Vmfi8kk5Q/default.jpg",
+          "titulo": "Discussion | Hijacking scam targeting motorists at filling stations",
+          "canal": "eNCA",
+          "visualizaciones": "62246",
+          "likes": "683",
+          "cant_comentarios": "125"
+        }
+      ]
+    },
+    {
+      "id": "bO_Gd09",
+      "fecha": "11-11-2023",
+      "hora": "9:27",
+      "pais": "BR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "QYNAMARqgk4",
+          "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+          "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+          "canal": "SBT News",
+          "visualizaciones": "794907",
+          "likes": "19732",
+          "cant_comentarios": "6904"
+        },
+        {
+          "id": "1OQxQG2EvP0",
+          "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+          "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+          "canal": "CidadeAlertaRecord",
+          "visualizaciones": "415449",
+          "likes": "19425"
+        },
+        {
+          "id": "hyVa9EHhlPk",
+          "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+          "titulo": "Exército confirma morte de jovem soldado #shorts",
+          "canal": "Fala Brasil",
+          "visualizaciones": "173601",
+          "likes": "8473"
+        },
+        {
+          "id": "YtkhlmNCCSY",
+          "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+          "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+          "canal": "Band Jornalismo",
+          "visualizaciones": "467383",
+          "likes": "10732",
+          "cant_comentarios": "1186"
+        },
+        {
+          "id": "wCkirw_nTJQ",
+          "imagen": "https://i.ytimg.com/vi/wCkirw_nTJQ/default.jpg",
+          "titulo": "OESTE SEM FILTRO - COM AUGUSTO NUNES E ALEXANDRE GARCIA - 10/11/2023",
+          "canal": "Revista Oeste",
+          "visualizaciones": "282786",
+          "likes": "44323",
+          "cant_comentarios": "249"
+        }
+      ]
+    },
+    {
+      "id": "In5OZ-K",
+      "fecha": "11-11-2023",
+      "hora": "9:27",
+      "pais": "BR",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "QYNAMARqgk4",
+          "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+          "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+          "canal": "SBT News",
+          "visualizaciones": "794907",
+          "likes": "19732",
+          "cant_comentarios": "6904"
+        },
+        {
+          "id": "1OQxQG2EvP0",
+          "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+          "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+          "canal": "CidadeAlertaRecord",
+          "visualizaciones": "415449",
+          "likes": "19425"
+        },
+        {
+          "id": "hyVa9EHhlPk",
+          "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+          "titulo": "Exército confirma morte de jovem soldado #shorts",
+          "canal": "Fala Brasil",
+          "visualizaciones": "173601",
+          "likes": "8473"
+        },
+        {
+          "id": "YtkhlmNCCSY",
+          "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+          "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+          "canal": "Band Jornalismo",
+          "visualizaciones": "467383",
+          "likes": "10732",
+          "cant_comentarios": "1186"
+        },
+        {
+          "id": "wCkirw_nTJQ",
+          "imagen": "https://i.ytimg.com/vi/wCkirw_nTJQ/default.jpg",
+          "titulo": "OESTE SEM FILTRO - COM AUGUSTO NUNES E ALEXANDRE GARCIA - 10/11/2023",
+          "canal": "Revista Oeste",
+          "visualizaciones": "282786",
+          "likes": "44323",
+          "cant_comentarios": "249"
+        }
+      ]
+    },
+    {
+      "id": "NitikZb",
+      "fecha": "11-11-2023",
+      "hora": "9:28",
+      "pais": "US",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "-dmXJ99oC4k",
+          "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+          "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+          "canal": "NBC News",
+          "visualizaciones": "1324069",
+          "likes": "10334",
+          "cant_comentarios": "9481"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522030",
+          "likes": "475829",
+          "cant_comentarios": "37761"
+        },
+        {
+          "id": "5BEqYONDkFc",
+          "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
+          "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
+          "canal": "Late Night with Seth Meyers",
+          "visualizaciones": "1703440",
+          "likes": "43299",
+          "cant_comentarios": "2387"
+        },
+        {
+          "id": "tDq6P0yp7T0",
+          "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+          "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+          "canal": "Jimmy Kimmel Live",
+          "visualizaciones": "1892533",
+          "likes": "29582",
+          "cant_comentarios": "1694"
+        },
+        {
+          "id": "cGziIjdTf3k",
+          "imagen": "https://i.ytimg.com/vi/cGziIjdTf3k/default.jpg",
+          "titulo": "Trump testimony goes 'off the rail'",
+          "canal": "MSNBC",
+          "visualizaciones": "1364365",
+          "likes": "36251",
+          "cant_comentarios": "7096"
+        }
+      ]
+    },
+    {
+      "id": "IcgdLCU",
+      "fecha": "11-11-2023",
+      "hora": "9:28",
+      "pais": "US",
+      "cantidad": "5",
+      "categoria": "Noticias y Política",
+      "videos": [
+        {
+          "id": "-dmXJ99oC4k",
+          "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+          "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+          "canal": "NBC News",
+          "visualizaciones": "1324069",
+          "likes": "10334",
+          "cant_comentarios": "9481"
+        },
+        {
+          "id": "O5WOyZadFm0",
+          "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+          "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+          "canal": "BBC News",
+          "visualizaciones": "16522030",
+          "likes": "475830",
+          "cant_comentarios": "37767"
+        },
+        {
+          "id": "5BEqYONDkFc",
+          "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
+          "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
+          "canal": "Late Night with Seth Meyers",
+          "visualizaciones": "1703440",
+          "likes": "43299",
+          "cant_comentarios": "2387"
+        },
+        {
+          "id": "tDq6P0yp7T0",
+          "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+          "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+          "canal": "Jimmy Kimmel Live",
+          "visualizaciones": "1892533",
+          "likes": "29583",
+          "cant_comentarios": "1694"
+        },
+        {
+          "id": "cGziIjdTf3k",
+          "imagen": "https://i.ytimg.com/vi/cGziIjdTf3k/default.jpg",
+          "titulo": "Trump testimony goes 'off the rail'",
+          "canal": "MSNBC",
+          "visualizaciones": "1364365",
+          "likes": "36251",
+          "cant_comentarios": "7096"
+        }
+      ]
     }
   ],
   "historiales": [
     {
       "id": "sergio.arean@gmail.com",
-      "resultados":[
-          {
-            "id": "7LVN_bm",
-            "fecha": "9-11-2023",
-            "hora": "16:40",
-            "pais": "AR",
-            "cantidad": "2",
-            "categoria": "Noticias y Política",
-            "videos": [
-              {
-                "id": "n3hiGKs0CGw",
-                "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
-                "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
-                "canal": "Todo Noticias",
-                "visualizaciones": "626317",
-                "likes": "12843",
-                "cant_comentarios": "8998"
-              },
-              {
-                "id": "vcyZ6yq8R0o",
-                "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
-                "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
-                "canal": "BREAK POINT",
-                "visualizaciones": "280057",
-                "likes": "15312",
-                "cant_comentarios": "1063"
-              }
-            ]
-          }
-
-        
+      "resultados": [
+        {
+          "id": "7LVN_bm",
+          "fecha": "9-11-2023",
+          "hora": "16:40",
+          "pais": "AR",
+          "cantidad": "2",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "n3hiGKs0CGw",
+              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+              "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+              "canal": "Todo Noticias",
+              "visualizaciones": "626317",
+              "likes": "12843",
+              "cant_comentarios": "8998"
+            },
+            {
+              "id": "vcyZ6yq8R0o",
+              "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+              "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+              "canal": "BREAK POINT",
+              "visualizaciones": "280057",
+              "likes": "15312",
+              "cant_comentarios": "1063"
+            }
+          ]
+        }
       ]
-
     },
     {
       "id": "jorge.arean@gmail.com",
-      "resultados":[
-          {
-            "id": "7LVN_bm",
-            "fecha": "9-11-2023",
-            "hora": "16:40",
-            "pais": "AR",
-            "cantidad": "2",
-            "categoria": "Noticias y Política",
-            "videos": [
-              {
-                "id": "n3hiGKs0CGw",
-                "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
-                "titulo": "EL DEBATE DE JAVIER MILEI ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
-                "canal": "Todo Noticias",
-                "visualizaciones": "626317",
-                "likes": "12843",
-                "cant_comentarios": "8998"
-              },
-              {
-                "id": "vcyZ6yq8R0o",
-                "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
-                "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
-                "canal": "BREAK POINT",
-                "visualizaciones": "280057",
-                "likes": "15312",
-                "cant_comentarios": "1063"
-              }
-            ]
-          }
-
-        
+      "resultados": [
+        {
+          "id": "7LVN_bm",
+          "fecha": "9-11-2023",
+          "hora": "16:40",
+          "pais": "AR",
+          "cantidad": "2",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "n3hiGKs0CGw",
+              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+              "titulo": "EL DEBATE DE JAVIER MILEI ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+              "canal": "Todo Noticias",
+              "visualizaciones": "626317",
+              "likes": "12843",
+              "cant_comentarios": "8998"
+            },
+            {
+              "id": "vcyZ6yq8R0o",
+              "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+              "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+              "canal": "BREAK POINT",
+              "visualizaciones": "280057",
+              "likes": "15312",
+              "cant_comentarios": "1063"
+            }
+          ]
+        }
       ]
-
     }
   ]
 }
