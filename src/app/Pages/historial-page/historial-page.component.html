@@ -1,2 +1,26 @@
-<p>historial-page works! {{mail_usuario_logueado}}</p>
-<button type="button" class="btn btn-danger" (click)="logout()">Cerrar Sesion</button>
+
+<section class="contenedor">
+<h2 class="titulo">Mis Ultimas Busquedas</h2>
+<div class="seccion-datos-usuario">
+<p class="email">{{mail_usuario_logueado}}</p>
+</div>
+<button type="button" class="btn btn-danger btn-cerrar-sesion" (click)="logout()">Cerrar Sesion  <i class="bi bi-box-arrow-left"></i></button>
+</section>
+
+<div class="seccion-listar-historial" *ngFor="let resultado of lista_resultados">
+    <div class="resultado">
+        <div class="contenedor-imagen">
+        <img [src]="resultado.url_bandera" class="bandera"alt="">
+        </div>
+
+            <p >Pais: {{resultado.pais}}</p>
+            <p>Categoria: {{resultado.categoria}}</p>
+            <p>Cantidad: {{resultado.cantidad}}</p>
+            <p>Fecha: {{resultado.fecha}}</p>
+            <p>Hora: {{resultado.hora}}</p>
+
+    </div>
+
+
+
+</div>

@@ -11,7 +11,8 @@
           <label for="exampleInputPassword1" class="form-label">Password</label>
           <input type="password" placeholder="Ingrese su password" class="form-control" id="exampleInputPassword1" [(ngModel)]="usuario.password" name="password">
         </div>
-        <button type="submit" class="btn btn-primary " (click)="Ingresar()">Iniciar sesion</button>
+        <button type="submit" class="btn btn-primary mb-4" (click)="Ingresar()">Iniciar sesion</button>
+        <div>Aun no tienes cuenta?  <strong><span routerLink='/registrarse' class="btn-registrarse">Registrarse</span></strong></div>
       </form>
     </div>
     

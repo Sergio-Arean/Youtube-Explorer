@@ -2,21 +2,32 @@ import { Injectable } from '@angular/core';
 import {AngularFireAuth} from '@angular/fire/compat/auth';
 import firebase from 'firebase/compat/app';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
-export class AutentificacionService {
-  user: Observable<firebase.User|null>;
+export class AutentificacionService{
+  usuario_logueado:boolean = false; //variable transitoria que usamos para simular login
+  mail_usuario:string = '';
+
+
+
   constructor(private afauth:AngularFireAuth) {
-    this.user = afauth.authState;
+    
+   }
+
+   setUsuario(logueo:boolean, email:string){
+    this.usuario_logueado = logueo;
+    this.mail_usuario = email;
+
    }
 
   async registrarse(email:string, password:string){
     try{
       return await this.afauth.createUserWithEmailAndPassword(email,password);
     }catch(err){
-      console.log(`Error al Registrarse:`,err);
+      console.log(`Error al Registrarse(desde autentificacionService):`,err);
       return null;
     }
   }
@@ -44,8 +55,46 @@ export class AutentificacionService {
     try {
       await this.afauth.signOut();
       console.log('Logout exitoso');
+      return true;
     } catch (error) {
       console.error('Error al hacer logout', error);
+      return false;
     }
   }
+
+
+  /*metodo para verificaciones*/
+  // Método para verificar si hay un usuario logueado
+    // Método para verificar si hay un usuario logueado
+  // Método para verificar si hay un usuario logueado
+  async usuarioLogueado(){
+    return await this.hayUsuarioLogueado();
+  }
+
+  async hayUsuarioLogueado(): Promise<boolean> {
+    try {
+      const user = await this.afauth.currentUser;
+      return user !== null;
+    } catch (error) {
+      console.error('Error al verificar si está logueado', error);
+      return false;
+    }
+  }
+
+  // Método para obtener el correo electrónico del usuario logueado
+  getEmailUsuarioLogueado(): Observable<string | null> {
+    return this.afauth.authState.pipe(
+      map((user) => (user ? user.email : null))
+    );
+  }
+
+  /** metodos de verificacion mas caseros */
+  emailUsuario(){
+    return this.mail_usuario;
+  }
+  estaLogueado(){
+    return this.usuario_logueado;
+  }
+
+
 }

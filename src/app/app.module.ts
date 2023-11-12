@@ -16,6 +16,9 @@ import { RegistrarsePageComponent } from './Pages/registrarse-page/registrarse-p
 import {AngularFireModule} from '@angular/fire/compat';
 import { LoginPageComponent } from './Pages/login-page/login-page.component';
 
+import { AuthGuard } from '@angular/fire/auth-guard';
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyD8_ZS7DKHeIXj8-5RYyk1VVDqg8P1X8fM",
   authDomain: "proyecto1-400800.firebaseapp.com",
@@ -46,7 +49,7 @@ const firebaseConfig = {
     FormsModule,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

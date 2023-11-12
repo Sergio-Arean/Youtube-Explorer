@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
+import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.service';
 
 @Component({
   selector: 'app-registrarse-page',
@@ -13,18 +14,21 @@ export class RegistrarsePageComponent {
     password: ''
   };
 
-  constructor(private autentificacion:AutentificacionService,private router: Router){}
+  constructor(private autentificacion:AutentificacionService,private router: Router, private historialBusqueda:HistorialBusquedaService){}
 
 
   async Registrarse(){
     //console.log(`Registrando al usuario:`,this.usuario);
     try{
       const {email,password} = this.usuario;
-      await this.autentificacion.registrarse(email,password);
-      console.log(`Registro exitoso. Email: ${email} - Pass: ${password} `);
+      const response = await this.autentificacion.registrarse(email,password);
+      if(response!=null){
+        await this.historialBusqueda.crearEspacioEnBdd(email);
+        alert(`Registro exitoso. Email: ${email} - Pass: ${password} `);
+        //Redireccion para que el usuario se pueda loguear
+        this.router.navigate(['/login']);
+      }
 
-      //Redireccion para que el usuario se pueda loguear
-      this.router.navigate(['/login']);
     }catch(error){
       console.log(`Error al registrarse: ${error}`);
     }

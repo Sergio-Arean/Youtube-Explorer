@@ -9,10 +9,13 @@ import { HistorialPageComponent } from './Pages/historial-page/historial-page.co
 import { BarraBusquedaComponent } from './Components/barra-busqueda/barra-busqueda.component';
 import { RegistrarsePageComponent } from './Pages/registrarse-page/registrarse-page.component';
 import { LoginPageComponent } from './Pages/login-page/login-page.component';
+import { loginGuard } from './guards/login.guard';
+
+
 
 const routes: Routes = [
   {path: 'home', component: MapaComponent},
-  {path: 'ejemplo', component: EjemploComponent},
+  /*{path: 'ejemplo', component: EjemploComponent},*/
   //{path: 'paises/:idPais', component: BusquedaPorPaisComponent},
   {path: 'paises/:idPais/:cantidad/:categoria', component: BusquedaPorPaisComponent},
   {path: 'videos/:idVideo', component: DetallesVideoComponent}, //path reproduccion video
@@ -26,14 +29,17 @@ const routes: Routes = [
   { path: 'courses', component: CoursesComponent } */
 
   //historial de busqueda
-  { path: 'historial', component: HistorialPageComponent },
+ /* { path: 'historial', component: HistorialPageComponent },*/
 
 
   //registrarse
   { path: 'registrarse', component: RegistrarsePageComponent },
 
   //loguearse
-  { path: 'login', component: LoginPageComponent}
+  { path: 'login', component: LoginPageComponent},
+
+  //probando historial protegido
+  {path: 'historial', component: HistorialPageComponent, canActivate:[loginGuard]},
   
   /*lo que sigue lo dejo comentado por el momento, va a servir para restringir
   acceso a aquellos que ingresen y no esten logueados
@@ -68,6 +74,10 @@ const routes: Routes = [
       ...canActivate(()=>redirectUnauthorizedTo(['/pathAlregistro']))}
    
    */
+     /* { path: 'historial', component: HistorialPageComponent,
+      ...canActivate(()=>redirectUnauthorizedTo(['/login']))}*/
+
+     {path:'**', redirectTo:'home'}
 
 ];
 

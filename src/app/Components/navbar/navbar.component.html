@@ -5,19 +5,26 @@
     <nav class="barra-navegacion">
         <ul>
             <li class="opcion-menu">
+                <button class="btn-opcion-menu" routerLink="historial">
+                    <i class="bi bi-person-circle"></i>
+                    <label class="texto-opcion-menu">Mi Cuenta</label>
+                </button>
+            </li>
+
+            <li class="opcion-menu">
                 <button class="btn-opcion-menu" routerLink="home">
                     <i class="bi bi-globe-americas"></i>
                     <label class="texto-opcion-menu">Mapa</label>
                 </button>
             </li>
               
-
+            <!--
             <li class="opcion-menu">
                 <button class="btn-opcion-menu" routerLink="historial">
                     <i class="bi bi-clock-history"></i>
                     <label class="texto-opcion-menu">Historial</label>
                 </button>
-            </li>
+            </li>-->
 
             <li class="opcion-menu">
                 <button class="btn-opcion-menu" (click)="showSearch = !showSearch">

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
 
 @Component({
@@ -12,7 +13,7 @@ export class LoginPageComponent {
     password: ''
   };
 
-  constructor(private autentificacion:AutentificacionService){}
+  constructor(private autentificacion:AutentificacionService, private router:Router){}
 
 
   async Ingresar(){
@@ -21,9 +22,14 @@ export class LoginPageComponent {
       const {email,password} = this.usuario;
       const response = await this.autentificacion.loguearse(email,password);
       if (response) {
+        alert(`Inicio de sesion ok!`);
         console.log('Inicio de sesión exitoso', response);
+        this.autentificacion.setUsuario(true,email);
+        this.router.navigate(['/historial']);
+
         
       } else {
+        alert(`ERROR AL INICIAR SESION`);
         console.log('Inicio de sesión fallido');
        
       }

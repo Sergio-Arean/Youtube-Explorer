@@ -22,7 +22,7 @@ export class BusquedaPorPaisComponent {
   //resultados:any[] = []; //provisorio
   lista_videos:Video[] = []; //6-11
 
-  mail_usuario_logueado: string|null = null; //variable que almacena mail del usuario logueado en el sistema, o bien null si no hay nadie logueado
+  mail_usuario_logueado: string = ''; //variable que almacena mail del usuario logueado en el sistema, o bien null si no hay nadie logueado
 
   constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService){
 
@@ -37,17 +37,18 @@ export class BusquedaPorPaisComponent {
     });
 
     //en el siguiente bloque de codigo consultamos si tenemos un usuario logueado
-    this.autentificacionService.user.subscribe(user => {
+    /*this.autentificacionService.user.subscribe(user => {
       if (user) {
         this.mail_usuario_logueado = user.email;
       } else {
         this.mail_usuario_logueado = null;
       }
-    });
+    });*/ //comentado transitoriamente ya que estamos hardcodeando el mail logueado
 
 
     //con esto especifico que hago con el parametro
     this.getVideos();
+    this.mail_usuario_logueado = this.autentificacionService.emailUsuario();
 
 
   }
@@ -71,7 +72,11 @@ async getVideos(){
       //this.historialBusquedaService.guardarEnHistorial(this.lista_videos,);
       
       //aca iria un if(mailusuariologueado is null no guardo nada, else si guardo!)
-      this.guardarEnHistorial();
+      if(this.mail_usuario_logueado!=''){
+        console.log(`Hay un usuario logueado cuyo mail es ${this.mail_usuario_logueado}`);
+        this.guardarEnHistorial(); //guardo en historial si tengo un usuario logueado
+      }
+      
     } 
     else {
       this.errorMensaje = 'PAIS NO DISPONIBLE';
@@ -106,7 +111,12 @@ async getVideos(){
 
   guardarEnHistorial(){
     const fecha_y_hora:Date = new Date(); 
-    this.historialBusquedaService.guardarEnHistorial(this.lista_videos,fecha_y_hora,this.idPais,this.cantidad,this.popularVideosService.devuelveCategoriaSegunID(this.categoria));
+    //this.historialBusquedaService.guardarEnHistorial(this.lista_videos,fecha_y_hora,this.idPais,this.cantidad,this.popularVideosService.devuelveCategoriaSegunID(this.categoria));
+    console.log(`CONSOLOGUEO PREVIO A LINEA DE CODIGO QUE POSTEA EN HISTORIAL, DESDE 
+    BUSQUEDA POR PAIS COMPONENT`);
+    this.historialBusquedaService.PostearBusquedaEnUsuario(this.mail_usuario_logueado,this.lista_videos,fecha_y_hora,this.idPais,this.cantidad,this.popularVideosService.devuelveCategoriaSegunID(this.categoria))
+    console.log(`CONSOLOGUEO POSTERIOR A LINEA DE CODIGO QUE POSTEA EN HISTORIAL, DESDE 
+    BUSQUEDA POR PAIS COMPONENT`);
   }
 
 }

@@ -31,4 +31,20 @@ export class DatosEspecificosPaisesService {
     }
 
   }
+
+  async getBanderaByCode(idPais:string){
+    let pais:Pais = await this.getPaisByCode(idPais);
+    if(pais.nombre_castellano!=''){ //si el pais fue fetcheado ok
+      return pais.url_bandera;
+    }
+      return "";
+  }
+
+  async getNombreCastellanoByCode(idPais:string){
+    let pais:Pais = await this.getPaisByCode(idPais);
+    if(pais.nombre_castellano!=''){ //si el pais fue fetcheado ok
+      return pais.nombre_castellano;
+    }
+      return "";
+  }
 }
