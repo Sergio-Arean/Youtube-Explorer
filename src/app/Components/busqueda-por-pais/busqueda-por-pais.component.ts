@@ -5,6 +5,7 @@ import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 import { Video } from 'src/app/Interfaces/Video';
 import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.service';
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
+import { FiltroComLikVisService } from 'src/app/Services/filtro-com-lik-vis.service';
 
 @Component({
   selector: 'app-busqueda-por-pais',
@@ -24,7 +25,7 @@ export class BusquedaPorPaisComponent {
 
   mail_usuario_logueado: string = ''; //variable que almacena mail del usuario logueado en el sistema, o bien null si no hay nadie logueado
 
-  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService){
+  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService, private filtroService: FiltroComLikVisService){
 
   }
 
@@ -107,6 +108,46 @@ async getVideos(){
         };
         this.lista_videos.push(video);
       });
+
+      if(this.filtroService.getLikes())
+      {
+        console.log("ORDENANDO POR LIKES");
+        this.lista_videos.sort((a: Video, b: Video) => {
+          const likesA = parseInt(a.likes, 10) || 0;
+          const likesB = parseInt(b.likes, 10) || 0;
+        
+          return likesB - likesA;
+        });
+      }
+      if (this.filtroService.getComentarios()) {
+        console.log("ORDENANDO POR COMENTARIOS");
+        this.lista_videos.sort((a: Video, b: Video) => {
+          const comentariosA = parseInt(a.cant_comentarios, 10) || 0;
+          const comentariosB = parseInt(b.cant_comentarios, 10) || 0;
+  
+          return comentariosB - comentariosA;
+        });
+      }
+  
+      if (this.filtroService.getVisualizaciones()) {
+        console.log("ORDENANDO POR VISUALIZACIONES");
+        this.lista_videos.sort((a: Video, b: Video) => {
+          const vistasA = parseInt(a.visualizaciones, 10) || 0;
+          const vistasB = parseInt(b.visualizaciones, 10) || 0;
+  
+          return vistasB - vistasA;
+        });
+      }
+
+      /*this.lista_videos.sort((a: Video, b: Video) => {
+        const likesA = parseInt(a.likes, 10) || 0;
+        const likesB = parseInt(b.likes, 10) || 0;
+      
+        return likesB - likesA;
+      });*/
+      
+
+
   }
 
   guardarEnHistorial(){

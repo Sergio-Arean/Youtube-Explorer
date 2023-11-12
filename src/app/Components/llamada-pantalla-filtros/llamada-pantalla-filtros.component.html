@@ -8,7 +8,7 @@
       </div>
 
       <div class="filtro-box">
-        <label for="filtro-tendencias">Tendencias</label>
+        <label for="filtro-tendencias">Tendencias (NO FUNCA)</label>
           <select class="form-select" id="filtro-tendencias">
               <option value="opcion1" disabled selected>-</option>
               <option value="opcion2">Si</option>
@@ -85,20 +85,21 @@
       </div> -->
 
 
-      <div class="filtro-box">
+      <div class="filtro-box" (click)="cambiarFiltroComentarios()">
         <label class="form-check-label" for="filtro-comentarios">Más comentados</label>
-        <input class="form-check-input" type="checkbox" id="filtro-comentarios">
-    </div>
-
-    <div class="filtro-box">
+        <input class="form-check-input" type="checkbox" id="filtro-comentarios" [checked]="esFiltroActivo('comentarios')">
+      </div>
+      
+      <div class="filtro-box" (click)="cambiarFiltroLikes()">
         <label class="form-check-label" for="filtro-likes">Más likeados</label>
-        <input class="form-check-input" type="checkbox" id="filtro-likes">
-    </div>
-
-    <div class="filtro-box">
+        <input class="form-check-input" type="checkbox" id="filtro-likes" [checked]="esFiltroActivo('likes')">
+      </div>
+      
+      <div class="filtro-box" (click)="cambiarFiltroVistas()">
         <label class="form-check-label" for="filtro-vistas">Más vistos</label>
-        <input class="form-check-input" type="checkbox" id="filtro-vistas">
-    </div>
+        <input class="form-check-input" type="checkbox" id="filtro-vistas" [checked]="esFiltroActivo('vistas')">
+      </div>
+      
 
     <button class="btn btn-primary buscar-button" 
     (click)="hacerClick()">Buscar</button>
