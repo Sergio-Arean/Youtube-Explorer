@@ -154,6 +154,10 @@ async getBusquedasSegunUsuario(mail_usuario_logueado:string|null): Promise<Histo
     }
 } //logrado, la page recibe un json decente por lo cual ya puedem ostrar los resultados
 
+ formatearNumeroDosDigitos(numero:number) {
+  return numero < 10 ? `0${numero}` : numero;
+}
+
 /*pasamos ahora al posteo de una nueva busqueda
 meotod sbado 11*/
 async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], date:Date, id_pais:string, cant:string, categoria_video:string){
@@ -171,14 +175,10 @@ async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], d
   //SECCION DANDO FORMATO AL RESULTADO A SER POSTEADO
   const formatter = { //seteamos la hora en el formato deseado
     fecha: `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`, 
-    hora: `${date.getHours()}:${date.getMinutes()}`
+    hora: `${this.formatearNumeroDosDigitos(date.getHours())}:${this.formatearNumeroDosDigitos(date.getMinutes())}`
     //llamado a formateador de categoria
   };
 
- /* let pais:Pais = {
-    nombre_castellano : '',
-    url_bandera: ''
-  };*/
   let getPais:Pais = await this.datosEspecificos.getPaisByCode(id_pais);
   
 
@@ -202,6 +202,9 @@ async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], d
       const data_g = await response_g.json();
       historial.id = data_g.id;
       historial.resultados = data_g.resultados;
+
+      /*agregado 15-11*/ 
+      resultado.id = historial.resultados.length.toString();
 
       /*En esta instancia, la variable local historial:Historial
       tiene al usuario. */

@@ -6,6 +6,7 @@ import { Video } from 'src/app/Interfaces/Video';
 import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.service';
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
 import { FiltroComLikVisService } from 'src/app/Services/filtro-com-lik-vis.service';
+import { DatosEspecificosPaisesService } from 'src/app/Services/datos-especificos-paises.service';
 
 @Component({
   selector: 'app-busqueda-por-pais',
@@ -25,7 +26,7 @@ export class BusquedaPorPaisComponent {
 
   mail_usuario_logueado: string = ''; //variable que almacena mail del usuario logueado en el sistema, o bien null si no hay nadie logueado
 
-  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService, private filtroService: FiltroComLikVisService){
+  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService,private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService, private filtroService: FiltroComLikVisService, private datosEspecificosPaises:DatosEspecificosPaisesService){
 
   }
 
