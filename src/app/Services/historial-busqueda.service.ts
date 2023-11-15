@@ -212,7 +212,7 @@ async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], d
       //borrar historial encontrado
       const response_d = await fetch(url,{method:'DELETE'});
     if(response_d.ok){
-      console.log(`Historial eliminado transitoriamente`);
+     // console.log(`Historial eliminado transitoriamente`);
             /**Ahora, lo que debo hacer es tomar el historial ya captado,
        * agregarle el resultado (ya definido), y luego,
        * hacer el respectivo POST DEL HISTORIAL! (posteamos el historial!)
@@ -227,7 +227,7 @@ async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], d
               headers: {'Content-type': 'application/json'}
             });
             if (response_post_historial.ok) {
-              console.log(`Se pudo hacer el post del historial tras eliminarlo transitoriamente`);
+             // console.log(`Se pudo hacer el post del historial tras eliminarlo transitoriamente`);
             } else {
               console.log(`Error al hacer el post del historial: ${response_post_historial.statusText}`);
             }

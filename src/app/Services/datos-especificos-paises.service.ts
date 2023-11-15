@@ -13,6 +13,8 @@ export class DatosEspecificosPaisesService {
 
   constructor() { }
 
+  
+
   async getPaisByCode(idPais:string){ //obtenerTodosLosPaises
     const pais:Pais = {
       nombre_castellano : '',
@@ -47,4 +49,53 @@ export class DatosEspecificosPaisesService {
     }
       return "";
   }
+
+  async getIdiomaDelPaisByCode(idPais:string){
+    
+    /*
+    Idiomas contemplados por el momento:
+    espanyol
+    ingles
+    portuges
+    frances
+    italiano
+    aleman
+    arabe
+    RECORDAR que apiNews usa una nomenclatura distinta a API Countries
+    */ 
+   
+    try{
+      const data = await fetch(`${this.url}${idPais}`);
+      const json = await data.json();
+      console.log(`El json del pais es este:`,json);
+         if(json[0].languages.spa!=null){
+          return "es";
+         }
+         if(json[0].languages.eng!=null){
+          return "en";
+         }
+         if(json[0].languages.por!=null){
+          return "pt";
+         }
+         if(json[0].languages.fra!=null){
+          return "fr";
+         }
+         if(json[0].languages.ita!=null){
+          return "it";
+         }
+         if(json[0].languages.deu!=null){
+          return "de";
+         }
+         if(json[0].languages.ara!=null){
+          return "ar";
+         }
+         else{
+          return "";
+         }
+
+    }catch(error){
+      return "";
+    }
+  }
 }
+

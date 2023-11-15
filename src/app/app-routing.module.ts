@@ -18,7 +18,8 @@ const routes: Routes = [
   /*{path: 'ejemplo', component: EjemploComponent},*/
   //{path: 'paises/:idPais', component: BusquedaPorPaisComponent},
   {path: 'paises/:idPais/:cantidad/:categoria', component: BusquedaPorPaisComponent},
-  {path: 'videos/:idVideo', component: DetallesVideoComponent}, //path reproduccion video
+   // NECESITAMOS : TAG - LENGUAJE - ID PAIS
+  {path: 'videos/:idVideo/:tag/:lenguaje/:idPais', component: DetallesVideoComponent}, //path reproduccion video
   {path: 'home/busqueda', component: BarraBusquedaComponent },
 
   //tomy routes:

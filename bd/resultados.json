@@ -1,6 +1,452 @@
 {
   "historiales": [
     {
+      "id": "jorge.arean@gmail.com",
+      "resultados": [
+        {
+          "id": "",
+          "fecha": "11-11-2023",
+          "hora": "21:28",
+          "pais": "Bolivia",
+          "url_bandera": "https://flagcdn.com/w320/bo.png",
+          "cantidad": "10",
+          "categoria": "Deportes",
+          "videos": [
+            {
+              "id": "aM2dS9_diFU",
+              "imagen": "https://i.ytimg.com/vi/aM2dS9_diFU/default.jpg",
+              "titulo": "¡GOLAZO DE CHILENA Y REMONTADA ROSSONERA ANTE LOS PARISINOS EN SAN SIRO! | Milan 2-1 PSG | RESUMEN",
+              "canal": "ESPN Fans",
+              "visualizaciones": "1926626",
+              "likes": "38187",
+              "cant_comentarios": "1309"
+            },
+            {
+              "id": "bHw7Gu3u79Y",
+              "imagen": "https://i.ytimg.com/vi/bHw7Gu3u79Y/default.jpg",
+              "titulo": "🏆¡Final del partido! Remontada épica de Vaca Díez sobre Bolívar en un encuentro lleno de golazos.",
+              "canal": "Tigo Sports Bolivia",
+              "visualizaciones": "75301",
+              "likes": "578",
+              "cant_comentarios": "242"
+            },
+            {
+              "id": "5bZaHkxQJ4A",
+              "imagen": "https://i.ytimg.com/vi/5bZaHkxQJ4A/default.jpg",
+              "titulo": "Messi el mejor del mundo 🌎 #messi #leomessi #barcelona #argentina #interdemiami #messifans #fupシ",
+              "canal": "Nene Blass",
+              "visualizaciones": "1587917",
+              "likes": "90859",
+              "cant_comentarios": "976"
+            },
+            {
+              "id": "zE78_ze-klc",
+              "imagen": "https://i.ytimg.com/vi/zE78_ze-klc/default.jpg",
+              "titulo": "Respect To The Kid Who Hugged Messi😈❤️ #shorts #football #soccer",
+              "canal": "Life Football",
+              "visualizaciones": "34916185",
+              "likes": "1507690",
+              "cant_comentarios": "11419"
+            },
+            {
+              "id": "X5DC5DWYOHY",
+              "imagen": "https://i.ytimg.com/vi/X5DC5DWYOHY/default.jpg",
+              "titulo": "El increíble regalo que recibió Angel Di Maria",
+              "canal": "Noticias del Futbol",
+              "visualizaciones": "2025574",
+              "likes": "68315",
+              "cant_comentarios": "301"
+            },
+            {
+              "id": "To2dVY18cwQ",
+              "imagen": "https://i.ytimg.com/vi/To2dVY18cwQ/default.jpg",
+              "titulo": "¿Que jugadores tienen 3 balones de oro o mas? #quiz #madrid #balondeoro #messi #cr7 #shorts",
+              "canal": "Iván Faor",
+              "visualizaciones": "3150683",
+              "likes": "248399",
+              "cant_comentarios": "980"
+            },
+            {
+              "id": "ozdikJW4kOE",
+              "imagen": "https://i.ytimg.com/vi/ozdikJW4kOE/default.jpg",
+              "titulo": "¡Cumplen su sueño de ver a BOCA JUNIORS! 🟦🟨",
+              "canal": "Valentin Vera",
+              "visualizaciones": "7249866",
+              "likes": "394522",
+              "cant_comentarios": "1651"
+            },
+            {
+              "id": "Sf5j2wZmxCo",
+              "imagen": "https://i.ytimg.com/vi/Sf5j2wZmxCo/default.jpg",
+              "titulo": "Por que Mbappe usa el #10 en Francia y el #7 en PSG",
+              "canal": "Adictos Futbol",
+              "visualizaciones": "1874532",
+              "likes": "126785",
+              "cant_comentarios": "193"
+            },
+            {
+              "id": "6k0Rx-LfzME",
+              "imagen": "https://i.ytimg.com/vi/6k0Rx-LfzME/default.jpg",
+              "titulo": "LA HISTORIA DE MESSI EN UN MINUTO: UN CORTOMETRAJE | #shorts",
+              "canal": "aquí lo VISTE",
+              "visualizaciones": "1510081",
+              "likes": "122174",
+              "cant_comentarios": "115"
+            },
+            {
+              "id": "Yc67OwRKyTU",
+              "imagen": "https://i.ytimg.com/vi/Yc67OwRKyTU/default.jpg",
+              "titulo": "¡Messi erró un tiro libre y lo festejaron como un gol propio!",
+              "canal": "Futbol Activo",
+              "visualizaciones": "428002",
+              "likes": "38209",
+              "cant_comentarios": "139"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "fecha": "11-11-2023",
+          "hora": "21:30",
+          "pais": "Estados Unidos",
+          "url_bandera": "https://flagcdn.com/w320/us.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "-dmXJ99oC4k",
+              "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+              "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+              "canal": "NBC News",
+              "visualizaciones": "1393878",
+              "likes": "10844",
+              "cant_comentarios": "9988"
+            },
+            {
+              "id": "O5WOyZadFm0",
+              "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+              "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+              "canal": "BBC News",
+              "visualizaciones": "16619511",
+              "likes": "478381",
+              "cant_comentarios": "37960"
+            },
+            {
+              "id": "5BEqYONDkFc",
+              "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
+              "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
+              "canal": "Late Night with Seth Meyers",
+              "visualizaciones": "1737524",
+              "likes": "43773",
+              "cant_comentarios": "2367"
+            },
+            {
+              "id": "tDq6P0yp7T0",
+              "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
+              "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
+              "canal": "Jimmy Kimmel Live",
+              "visualizaciones": "1937080",
+              "likes": "29935",
+              "cant_comentarios": "1709"
+            },
+            {
+              "id": "cGziIjdTf3k",
+              "imagen": "https://i.ytimg.com/vi/cGziIjdTf3k/default.jpg",
+              "titulo": "Trump testimony goes 'off the rail'",
+              "canal": "MSNBC",
+              "visualizaciones": "1434686",
+              "likes": "37892",
+              "cant_comentarios": "7550"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "fecha": "11-11-2023",
+          "hora": "21:34",
+          "pais": "Brasil",
+          "url_bandera": "https://flagcdn.com/w320/br.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "QYNAMARqgk4",
+              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+              "canal": "SBT News",
+              "visualizaciones": "875651",
+              "likes": "21286",
+              "cant_comentarios": "7153"
+            },
+            {
+              "id": "hyVa9EHhlPk",
+              "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+              "titulo": "Exército confirma morte de jovem soldado #shorts",
+              "canal": "Fala Brasil",
+              "visualizaciones": "224884",
+              "likes": "11053"
+            },
+            {
+              "id": "1OQxQG2EvP0",
+              "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+              "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+              "canal": "CidadeAlertaRecord",
+              "visualizaciones": "456654",
+              "likes": "20934"
+            },
+            {
+              "id": "TPdf8HZ9nMw",
+              "imagen": "https://i.ytimg.com/vi/TPdf8HZ9nMw/default.jpg",
+              "titulo": "\"NÃO É O MOMENTO PARA ISSO! O que EU IMAGINO é que o Flamengo...\" Mauro Cezar MANDA A REAL!",
+              "canal": "Jovem Pan Esportes",
+              "visualizaciones": "332404",
+              "likes": "11985",
+              "cant_comentarios": "623"
+            },
+            {
+              "id": "YtkhlmNCCSY",
+              "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+              "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+              "canal": "Band Jornalismo",
+              "visualizaciones": "492267",
+              "likes": "11223",
+              "cant_comentarios": "1176"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "fecha": "11-11-2023",
+          "hora": "21:34",
+          "pais": "Brasil",
+          "url_bandera": "https://flagcdn.com/w320/br.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "QYNAMARqgk4",
+              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+              "canal": "SBT News",
+              "visualizaciones": "875651",
+              "likes": "21286",
+              "cant_comentarios": "7153"
+            },
+            {
+              "id": "hyVa9EHhlPk",
+              "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+              "titulo": "Exército confirma morte de jovem soldado #shorts",
+              "canal": "Fala Brasil",
+              "visualizaciones": "224884",
+              "likes": "11053"
+            },
+            {
+              "id": "1OQxQG2EvP0",
+              "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+              "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+              "canal": "CidadeAlertaRecord",
+              "visualizaciones": "456654",
+              "likes": "20935"
+            },
+            {
+              "id": "TPdf8HZ9nMw",
+              "imagen": "https://i.ytimg.com/vi/TPdf8HZ9nMw/default.jpg",
+              "titulo": "\"NÃO É O MOMENTO PARA ISSO! O que EU IMAGINO é que o Flamengo...\" Mauro Cezar MANDA A REAL!",
+              "canal": "Jovem Pan Esportes",
+              "visualizaciones": "332404",
+              "likes": "11985",
+              "cant_comentarios": "623"
+            },
+            {
+              "id": "YtkhlmNCCSY",
+              "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+              "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+              "canal": "Band Jornalismo",
+              "visualizaciones": "492267",
+              "likes": "11223",
+              "cant_comentarios": "1176"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elmascapodetodos@latinmail.com",
+      "resultados": [
+        {
+          "id": "",
+          "fecha": "12-11-2023",
+          "hora": "6:54",
+          "pais": "Argentina",
+          "url_bandera": "https://flagcdn.com/w320/ar.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "n3hiGKs0CGw",
+              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+              "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+              "canal": "Todo Noticias",
+              "visualizaciones": "1201265",
+              "likes": "19140",
+              "cant_comentarios": "13449"
+            },
+            {
+              "id": "TxB8gJdsxvY",
+              "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+              "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+              "canal": "LA NACION",
+              "visualizaciones": "244682",
+              "likes": "4933",
+              "cant_comentarios": "751"
+            },
+            {
+              "id": "vcyZ6yq8R0o",
+              "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
+              "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
+              "canal": "BREAK POINT",
+              "visualizaciones": "302849",
+              "likes": "15980",
+              "cant_comentarios": "1305"
+            },
+            {
+              "id": "eTnvjod7Tvo",
+              "imagen": "https://i.ytimg.com/vi/eTnvjod7Tvo/default.jpg",
+              "titulo": "Yuyito vs. Fátima Florez + Cinthia Fernández sin filtro - #LAM | Programa completo (9/11/23)",
+              "canal": "América TV",
+              "visualizaciones": "135262",
+              "likes": "828",
+              "cant_comentarios": "307"
+            },
+            {
+              "id": "9yYRJ_BOBgQ",
+              "imagen": "https://i.ytimg.com/vi/9yYRJ_BOBgQ/default.jpg",
+              "titulo": "Elecciones 2023: ¿Qué pasa si Milei se BAJA del segundo DEBATE presidencial?",
+              "canal": "C5N",
+              "visualizaciones": "67636",
+              "likes": "1630",
+              "cant_comentarios": "1702"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gonzalobenoffi@gmail.com",
+      "resultados": [
+        {
+          "id": "",
+          "fecha": "12-11-2023",
+          "hora": "7:8",
+          "pais": "Argentina",
+          "url_bandera": "https://flagcdn.com/w320/ar.png",
+          "cantidad": "5",
+          "categoria": "Deportes",
+          "videos": [
+            {
+              "id": "vbhiLKk5AGY",
+              "imagen": "https://i.ytimg.com/vi/vbhiLKk5AGY/default.jpg",
+              "titulo": "😂 ¡La insólita reacción de Gary Medel vs Diego Costa!",
+              "canal": "Futbol Activo",
+              "visualizaciones": "1548683",
+              "likes": "68891",
+              "cant_comentarios": "709"
+            },
+            {
+              "id": "CQ8wOnnZiEg",
+              "imagen": "https://i.ytimg.com/vi/CQ8wOnnZiEg/default.jpg",
+              "titulo": "WHEN ZINEDINE ZIDANE MET LIONEL MESSI",
+              "canal": "adidas Football",
+              "visualizaciones": "4234713",
+              "likes": "203733",
+              "cant_comentarios": "9272"
+            },
+            {
+              "id": "X5DC5DWYOHY",
+              "imagen": "https://i.ytimg.com/vi/X5DC5DWYOHY/default.jpg",
+              "titulo": "El increíble regalo que recibió Angel Di Maria",
+              "canal": "Noticias del Futbol",
+              "visualizaciones": "2175434",
+              "likes": "72376",
+              "cant_comentarios": "311"
+            },
+            {
+              "id": "sPX3ep553Uw",
+              "imagen": "https://i.ytimg.com/vi/sPX3ep553Uw/default.jpg",
+              "titulo": "El #Canalla venció al #Millonario y acaricia la #Libertadores | #RosarioCentral 3-1 #River | Resumen",
+              "canal": "TNT Sports Argentina",
+              "visualizaciones": "201422",
+              "likes": "2213",
+              "cant_comentarios": "693"
+            },
+            {
+              "id": "To2dVY18cwQ",
+              "imagen": "https://i.ytimg.com/vi/To2dVY18cwQ/default.jpg",
+              "titulo": "¿Que jugadores tienen 3 balones de oro o mas? #quiz #madrid #balondeoro #messi #cr7 #shorts",
+              "canal": "Iván Faor",
+              "visualizaciones": "3406812",
+              "likes": "266122",
+              "cant_comentarios": "1038"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "fecha": "12-11-2023",
+          "hora": "7:8",
+          "pais": "Brasil",
+          "url_bandera": "https://flagcdn.com/w320/br.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "QYNAMARqgk4",
+              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+              "canal": "SBT News",
+              "visualizaciones": "918094",
+              "likes": "22049",
+              "cant_comentarios": "7284"
+            },
+            {
+              "id": "hyVa9EHhlPk",
+              "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+              "titulo": "Exército confirma morte de jovem soldado #shorts",
+              "canal": "Fala Brasil",
+              "visualizaciones": "247086",
+              "likes": "11915"
+            },
+            {
+              "id": "1OQxQG2EvP0",
+              "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+              "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+              "canal": "CidadeAlertaRecord",
+              "visualizaciones": "473658",
+              "likes": "21262"
+            },
+            {
+              "id": "TPdf8HZ9nMw",
+              "imagen": "https://i.ytimg.com/vi/TPdf8HZ9nMw/default.jpg",
+              "titulo": "\"NÃO É O MOMENTO PARA ISSO! O que EU IMAGINO é que o Flamengo...\" Mauro Cezar MANDA A REAL!",
+              "canal": "Jovem Pan Esportes",
+              "visualizaciones": "338812",
+              "likes": "12083",
+              "cant_comentarios": "630"
+            },
+            {
+              "id": "YtkhlmNCCSY",
+              "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+              "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+              "canal": "Band Jornalismo",
+              "visualizaciones": "500957",
+              "likes": "11318",
+              "cant_comentarios": "1185"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sergio.arean@gmail.com",
       "resultados": [
         {
@@ -725,403 +1171,252 @@
               "likes": "834"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "jorge.arean@gmail.com",
-      "resultados": [
-        {
-          "id": "",
-          "fecha": "11-11-2023",
-          "hora": "21:28",
-          "pais": "Bolivia",
-          "url_bandera": "https://flagcdn.com/w320/bo.png",
-          "cantidad": "10",
-          "categoria": "Deportes",
-          "videos": [
-            {
-              "id": "aM2dS9_diFU",
-              "imagen": "https://i.ytimg.com/vi/aM2dS9_diFU/default.jpg",
-              "titulo": "¡GOLAZO DE CHILENA Y REMONTADA ROSSONERA ANTE LOS PARISINOS EN SAN SIRO! | Milan 2-1 PSG | RESUMEN",
-              "canal": "ESPN Fans",
-              "visualizaciones": "1926626",
-              "likes": "38187",
-              "cant_comentarios": "1309"
-            },
-            {
-              "id": "bHw7Gu3u79Y",
-              "imagen": "https://i.ytimg.com/vi/bHw7Gu3u79Y/default.jpg",
-              "titulo": "🏆¡Final del partido! Remontada épica de Vaca Díez sobre Bolívar en un encuentro lleno de golazos.",
-              "canal": "Tigo Sports Bolivia",
-              "visualizaciones": "75301",
-              "likes": "578",
-              "cant_comentarios": "242"
-            },
-            {
-              "id": "5bZaHkxQJ4A",
-              "imagen": "https://i.ytimg.com/vi/5bZaHkxQJ4A/default.jpg",
-              "titulo": "Messi el mejor del mundo 🌎 #messi #leomessi #barcelona #argentina #interdemiami #messifans #fupシ",
-              "canal": "Nene Blass",
-              "visualizaciones": "1587917",
-              "likes": "90859",
-              "cant_comentarios": "976"
-            },
-            {
-              "id": "zE78_ze-klc",
-              "imagen": "https://i.ytimg.com/vi/zE78_ze-klc/default.jpg",
-              "titulo": "Respect To The Kid Who Hugged Messi😈❤️ #shorts #football #soccer",
-              "canal": "Life Football",
-              "visualizaciones": "34916185",
-              "likes": "1507690",
-              "cant_comentarios": "11419"
-            },
-            {
-              "id": "X5DC5DWYOHY",
-              "imagen": "https://i.ytimg.com/vi/X5DC5DWYOHY/default.jpg",
-              "titulo": "El increíble regalo que recibió Angel Di Maria",
-              "canal": "Noticias del Futbol",
-              "visualizaciones": "2025574",
-              "likes": "68315",
-              "cant_comentarios": "301"
-            },
-            {
-              "id": "To2dVY18cwQ",
-              "imagen": "https://i.ytimg.com/vi/To2dVY18cwQ/default.jpg",
-              "titulo": "¿Que jugadores tienen 3 balones de oro o mas? #quiz #madrid #balondeoro #messi #cr7 #shorts",
-              "canal": "Iván Faor",
-              "visualizaciones": "3150683",
-              "likes": "248399",
-              "cant_comentarios": "980"
-            },
-            {
-              "id": "ozdikJW4kOE",
-              "imagen": "https://i.ytimg.com/vi/ozdikJW4kOE/default.jpg",
-              "titulo": "¡Cumplen su sueño de ver a BOCA JUNIORS! 🟦🟨",
-              "canal": "Valentin Vera",
-              "visualizaciones": "7249866",
-              "likes": "394522",
-              "cant_comentarios": "1651"
-            },
-            {
-              "id": "Sf5j2wZmxCo",
-              "imagen": "https://i.ytimg.com/vi/Sf5j2wZmxCo/default.jpg",
-              "titulo": "Por que Mbappe usa el #10 en Francia y el #7 en PSG",
-              "canal": "Adictos Futbol",
-              "visualizaciones": "1874532",
-              "likes": "126785",
-              "cant_comentarios": "193"
-            },
-            {
-              "id": "6k0Rx-LfzME",
-              "imagen": "https://i.ytimg.com/vi/6k0Rx-LfzME/default.jpg",
-              "titulo": "LA HISTORIA DE MESSI EN UN MINUTO: UN CORTOMETRAJE | #shorts",
-              "canal": "aquí lo VISTE",
-              "visualizaciones": "1510081",
-              "likes": "122174",
-              "cant_comentarios": "115"
-            },
-            {
-              "id": "Yc67OwRKyTU",
-              "imagen": "https://i.ytimg.com/vi/Yc67OwRKyTU/default.jpg",
-              "titulo": "¡Messi erró un tiro libre y lo festejaron como un gol propio!",
-              "canal": "Futbol Activo",
-              "visualizaciones": "428002",
-              "likes": "38209",
-              "cant_comentarios": "139"
-            }
-          ]
         },
-        {
-          "id": "",
-          "fecha": "11-11-2023",
-          "hora": "21:30",
-          "pais": "Estados Unidos",
-          "url_bandera": "https://flagcdn.com/w320/us.png",
-          "cantidad": "5",
-          "categoria": "Noticias y Política",
-          "videos": [
-            {
-              "id": "-dmXJ99oC4k",
-              "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
-              "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
-              "canal": "NBC News",
-              "visualizaciones": "1393878",
-              "likes": "10844",
-              "cant_comentarios": "9988"
-            },
-            {
-              "id": "O5WOyZadFm0",
-              "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
-              "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
-              "canal": "BBC News",
-              "visualizaciones": "16619511",
-              "likes": "478381",
-              "cant_comentarios": "37960"
-            },
-            {
-              "id": "5BEqYONDkFc",
-              "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
-              "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
-              "canal": "Late Night with Seth Meyers",
-              "visualizaciones": "1737524",
-              "likes": "43773",
-              "cant_comentarios": "2367"
-            },
-            {
-              "id": "tDq6P0yp7T0",
-              "imagen": "https://i.ytimg.com/vi/tDq6P0yp7T0/default.jpg",
-              "titulo": "Republicans Debate in Miami, Ivanka Testifies in Daddy Donald’s Fraud Case & Rough Election for GOP",
-              "canal": "Jimmy Kimmel Live",
-              "visualizaciones": "1937080",
-              "likes": "29935",
-              "cant_comentarios": "1709"
-            },
-            {
-              "id": "cGziIjdTf3k",
-              "imagen": "https://i.ytimg.com/vi/cGziIjdTf3k/default.jpg",
-              "titulo": "Trump testimony goes 'off the rail'",
-              "canal": "MSNBC",
-              "visualizaciones": "1434686",
-              "likes": "37892",
-              "cant_comentarios": "7550"
-            }
-          ]
-        },
-        {
-          "id": "",
-          "fecha": "11-11-2023",
-          "hora": "21:34",
-          "pais": "Brasil",
-          "url_bandera": "https://flagcdn.com/w320/br.png",
-          "cantidad": "5",
-          "categoria": "Noticias y Política",
-          "videos": [
-            {
-              "id": "QYNAMARqgk4",
-              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
-              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
-              "canal": "SBT News",
-              "visualizaciones": "875651",
-              "likes": "21286",
-              "cant_comentarios": "7153"
-            },
-            {
-              "id": "hyVa9EHhlPk",
-              "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
-              "titulo": "Exército confirma morte de jovem soldado #shorts",
-              "canal": "Fala Brasil",
-              "visualizaciones": "224884",
-              "likes": "11053"
-            },
-            {
-              "id": "1OQxQG2EvP0",
-              "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
-              "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
-              "canal": "CidadeAlertaRecord",
-              "visualizaciones": "456654",
-              "likes": "20934"
-            },
-            {
-              "id": "TPdf8HZ9nMw",
-              "imagen": "https://i.ytimg.com/vi/TPdf8HZ9nMw/default.jpg",
-              "titulo": "\"NÃO É O MOMENTO PARA ISSO! O que EU IMAGINO é que o Flamengo...\" Mauro Cezar MANDA A REAL!",
-              "canal": "Jovem Pan Esportes",
-              "visualizaciones": "332404",
-              "likes": "11985",
-              "cant_comentarios": "623"
-            },
-            {
-              "id": "YtkhlmNCCSY",
-              "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
-              "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
-              "canal": "Band Jornalismo",
-              "visualizaciones": "492267",
-              "likes": "11223",
-              "cant_comentarios": "1176"
-            }
-          ]
-        },
-        {
-          "id": "",
-          "fecha": "11-11-2023",
-          "hora": "21:34",
-          "pais": "Brasil",
-          "url_bandera": "https://flagcdn.com/w320/br.png",
-          "cantidad": "5",
-          "categoria": "Noticias y Política",
-          "videos": [
-            {
-              "id": "QYNAMARqgk4",
-              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
-              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
-              "canal": "SBT News",
-              "visualizaciones": "875651",
-              "likes": "21286",
-              "cant_comentarios": "7153"
-            },
-            {
-              "id": "hyVa9EHhlPk",
-              "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
-              "titulo": "Exército confirma morte de jovem soldado #shorts",
-              "canal": "Fala Brasil",
-              "visualizaciones": "224884",
-              "likes": "11053"
-            },
-            {
-              "id": "1OQxQG2EvP0",
-              "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
-              "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
-              "canal": "CidadeAlertaRecord",
-              "visualizaciones": "456654",
-              "likes": "20935"
-            },
-            {
-              "id": "TPdf8HZ9nMw",
-              "imagen": "https://i.ytimg.com/vi/TPdf8HZ9nMw/default.jpg",
-              "titulo": "\"NÃO É O MOMENTO PARA ISSO! O que EU IMAGINO é que o Flamengo...\" Mauro Cezar MANDA A REAL!",
-              "canal": "Jovem Pan Esportes",
-              "visualizaciones": "332404",
-              "likes": "11985",
-              "cant_comentarios": "623"
-            },
-            {
-              "id": "YtkhlmNCCSY",
-              "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
-              "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
-              "canal": "Band Jornalismo",
-              "visualizaciones": "492267",
-              "likes": "11223",
-              "cant_comentarios": "1176"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "elmascapodetodos@latinmail.com",
-      "resultados": [
         {
           "id": "",
           "fecha": "12-11-2023",
-          "hora": "6:54",
-          "pais": "Argentina",
-          "url_bandera": "https://flagcdn.com/w320/ar.png",
+          "hora": "11:31",
+          "pais": "Brasil",
+          "url_bandera": "https://flagcdn.com/w320/br.png",
           "cantidad": "5",
           "categoria": "Noticias y Política",
           "videos": [
             {
-              "id": "n3hiGKs0CGw",
-              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
-              "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
-              "canal": "Todo Noticias",
-              "visualizaciones": "1201265",
-              "likes": "19140",
-              "cant_comentarios": "13449"
+              "id": "QYNAMARqgk4",
+              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+              "canal": "SBT News",
+              "visualizaciones": "937205",
+              "likes": "22495",
+              "cant_comentarios": "7418"
             },
             {
-              "id": "TxB8gJdsxvY",
-              "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
-              "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
-              "canal": "LA NACION",
-              "visualizaciones": "244682",
-              "likes": "4933",
-              "cant_comentarios": "751"
+              "id": "hyVa9EHhlPk",
+              "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
+              "titulo": "Exército confirma morte de jovem soldado #shorts",
+              "canal": "Fala Brasil",
+              "visualizaciones": "253853",
+              "likes": "12325"
             },
             {
-              "id": "vcyZ6yq8R0o",
-              "imagen": "https://i.ytimg.com/vi/vcyZ6yq8R0o/default.jpg",
-              "titulo": "LA VICE DE MILEI DEBATE CON EL VICE DE MASSA EN VIVO | VICKY VILLARRUEL VS AGUSTIN ROSSI EN TN",
-              "canal": "BREAK POINT",
-              "visualizaciones": "302849",
-              "likes": "15980",
-              "cant_comentarios": "1305"
+              "id": "1OQxQG2EvP0",
+              "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
+              "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
+              "canal": "CidadeAlertaRecord",
+              "visualizaciones": "479431",
+              "likes": "21517"
+            },
+            {
+              "id": "TPdf8HZ9nMw",
+              "imagen": "https://i.ytimg.com/vi/TPdf8HZ9nMw/default.jpg",
+              "titulo": "\"NÃO É O MOMENTO PARA ISSO! O que EU IMAGINO é que o Flamengo...\" Mauro Cezar MANDA A REAL!",
+              "canal": "Jovem Pan Esportes",
+              "visualizaciones": "341419",
+              "likes": "12132",
+              "cant_comentarios": "635"
+            },
+            {
+              "id": "YtkhlmNCCSY",
+              "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
+              "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
+              "canal": "Band Jornalismo",
+              "visualizaciones": "502932",
+              "likes": "11356",
+              "cant_comentarios": "1160"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otroprofe@gmail.com",
+      "resultados": [
+        {
+          "id": "",
+          "fecha": "13-11-2023",
+          "hora": "8:56",
+          "pais": "Perú",
+          "url_bandera": "https://flagcdn.com/w320/pe.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "nvC1uaeOtnQ",
+              "imagen": "https://i.ytimg.com/vi/nvC1uaeOtnQ/default.jpg",
+              "titulo": "¡Quieren quedarse! ONG demanda al Perú por Venezolanos",
+              "canal": "La Peruanidad",
+              "visualizaciones": "330591",
+              "likes": "9632",
+              "cant_comentarios": "4572",
+              "tag": "bandas venezolanas en peru"
+            },
+            {
+              "id": "aDHP6ItH-kc",
+              "imagen": "https://i.ytimg.com/vi/aDHP6ItH-kc/default.jpg",
+              "titulo": "🔴 'Magaly Tv, la firme' |  EN VIVO  9 de noviembre del 2023",
+              "canal": "Magaly ATV",
+              "visualizaciones": "187611",
+              "likes": "1677",
+              "cant_comentarios": "218",
+              "tag": "atv"
+            },
+            {
+              "id": "xxT4EZuSiR0",
+              "imagen": "https://i.ytimg.com/vi/xxT4EZuSiR0/default.jpg",
+              "titulo": "BIEN C*R4JO! COMANDO GRECCO ARRASA BUNKER VENEC0 Y CAPTURAN A MAFI4 EXTORS10N4D0RES EN MEGAOPERATIVO",
+              "canal": "HOLA PERU NOTICIAS ",
+              "visualizaciones": "210883",
+              "likes": "4583",
+              "cant_comentarios": "1339",
+              "tag": "Venezolanos"
+            },
+            {
+              "id": "0_9h8lsopGo",
+              "imagen": "https://i.ytimg.com/vi/0_9h8lsopGo/default.jpg",
+              "titulo": "NOTICIAS ACTUALES 08/11/23",
+              "canal": "En Lineas Generales",
+              "visualizaciones": "90155",
+              "likes": "770",
+              "tag": ""
+            },
+            {
+              "id": "nqhl2giTeSs",
+              "imagen": "https://i.ytimg.com/vi/nqhl2giTeSs/default.jpg",
+              "titulo": "Universitario derrota a Alianza Lima en final de Liga 1: ¿Cómo se vivió el apagón desde Matute?",
+              "canal": "Latina Noticias",
+              "visualizaciones": "102549",
+              "likes": "1340",
+              "cant_comentarios": "507",
+              "tag": "Latina noticias en vivo"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "fecha": "13-11-2023",
+          "hora": "8:59",
+          "pais": "Uruguay",
+          "url_bandera": "https://flagcdn.com/w320/uy.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "uUnWxqft3Wo",
+              "imagen": "https://i.ytimg.com/vi/uUnWxqft3Wo/default.jpg",
+              "titulo": "¡LACALLE y GRACIELA BIANCHI no resisten el ARCHIVO! | Resumen de la Semana #128",
+              "canal": "ZIN TV",
+              "visualizaciones": "67996",
+              "likes": "3958",
+              "cant_comentarios": "573",
+              "tag": ""
+            },
+            {
+              "id": "S8xyhrk2dUk",
+              "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
+              "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
+              "canal": "Latina Noticias",
+              "visualizaciones": "428626",
+              "likes": "4973",
+              "cant_comentarios": "137",
+              "tag": "Latina noticias en vivo"
             },
             {
               "id": "eTnvjod7Tvo",
               "imagen": "https://i.ytimg.com/vi/eTnvjod7Tvo/default.jpg",
               "titulo": "Yuyito vs. Fátima Florez + Cinthia Fernández sin filtro - #LAM | Programa completo (9/11/23)",
               "canal": "América TV",
-              "visualizaciones": "135262",
-              "likes": "828",
-              "cant_comentarios": "307"
+              "visualizaciones": "147899",
+              "likes": "865",
+              "cant_comentarios": "312",
+              "tag": "americaTV"
             },
             {
-              "id": "9yYRJ_BOBgQ",
-              "imagen": "https://i.ytimg.com/vi/9yYRJ_BOBgQ/default.jpg",
-              "titulo": "Elecciones 2023: ¿Qué pasa si Milei se BAJA del segundo DEBATE presidencial?",
-              "canal": "C5N",
-              "visualizaciones": "67636",
-              "likes": "1630",
-              "cant_comentarios": "1702"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gonzalobenoffi@gmail.com",
-      "resultados": [
-        {
-          "id": "",
-          "fecha": "12-11-2023",
-          "hora": "7:8",
-          "pais": "Argentina",
-          "url_bandera": "https://flagcdn.com/w320/ar.png",
-          "cantidad": "5",
-          "categoria": "Deportes",
-          "videos": [
-            {
-              "id": "vbhiLKk5AGY",
-              "imagen": "https://i.ytimg.com/vi/vbhiLKk5AGY/default.jpg",
-              "titulo": "😂 ¡La insólita reacción de Gary Medel vs Diego Costa!",
-              "canal": "Futbol Activo",
-              "visualizaciones": "1548683",
-              "likes": "68891",
-              "cant_comentarios": "709"
+              "id": "n3hiGKs0CGw",
+              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+              "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+              "canal": "Todo Noticias",
+              "visualizaciones": "1429309",
+              "likes": "20346",
+              "cant_comentarios": "14143",
+              "tag": "balotaje"
             },
             {
-              "id": "CQ8wOnnZiEg",
-              "imagen": "https://i.ytimg.com/vi/CQ8wOnnZiEg/default.jpg",
-              "titulo": "WHEN ZINEDINE ZIDANE MET LIONEL MESSI",
-              "canal": "adidas Football",
-              "visualizaciones": "4234713",
-              "likes": "203733",
-              "cant_comentarios": "9272"
-            },
-            {
-              "id": "X5DC5DWYOHY",
-              "imagen": "https://i.ytimg.com/vi/X5DC5DWYOHY/default.jpg",
-              "titulo": "El increíble regalo que recibió Angel Di Maria",
-              "canal": "Noticias del Futbol",
-              "visualizaciones": "2175434",
-              "likes": "72376",
-              "cant_comentarios": "311"
-            },
-            {
-              "id": "sPX3ep553Uw",
-              "imagen": "https://i.ytimg.com/vi/sPX3ep553Uw/default.jpg",
-              "titulo": "El #Canalla venció al #Millonario y acaricia la #Libertadores | #RosarioCentral 3-1 #River | Resumen",
-              "canal": "TNT Sports Argentina",
-              "visualizaciones": "201422",
-              "likes": "2213",
-              "cant_comentarios": "693"
-            },
-            {
-              "id": "To2dVY18cwQ",
-              "imagen": "https://i.ytimg.com/vi/To2dVY18cwQ/default.jpg",
-              "titulo": "¿Que jugadores tienen 3 balones de oro o mas? #quiz #madrid #balondeoro #messi #cr7 #shorts",
-              "canal": "Iván Faor",
-              "visualizaciones": "3406812",
-              "likes": "266122",
-              "cant_comentarios": "1038"
+              "id": "TxB8gJdsxvY",
+              "imagen": "https://i.ytimg.com/vi/TxB8gJdsxvY/default.jpg",
+              "titulo": "Peleas, declaraciones y propuestas de los vices. El pase de Jonatan Viale y Luis Majul.",
+              "canal": "LA NACION",
+              "visualizaciones": "259384",
+              "likes": "5095",
+              "cant_comentarios": "767",
+              "tag": "lazaro baez"
             }
           ]
         },
         {
           "id": "",
-          "fecha": "12-11-2023",
-          "hora": "7:8",
+          "fecha": "13-11-2023",
+          "hora": "9:0",
+          "pais": "Estados Unidos",
+          "url_bandera": "https://flagcdn.com/w320/us.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "C1IPShHV85Q",
+              "imagen": "https://i.ytimg.com/vi/C1IPShHV85Q/default.jpg",
+              "titulo": "Republican Debate Cold Open - SNL",
+              "canal": "Saturday Night Live",
+              "visualizaciones": "1906892",
+              "likes": "34187",
+              "cant_comentarios": "2738",
+              "tag": "dune"
+            },
+            {
+              "id": "-dmXJ99oC4k",
+              "imagen": "https://i.ytimg.com/vi/-dmXJ99oC4k/default.jpg",
+              "titulo": "Full video: Watch the third GOP presidential primary debate in Miami",
+              "canal": "NBC News",
+              "visualizaciones": "1696790",
+              "likes": "12862",
+              "cant_comentarios": "11150",
+              "tag": "NBC News"
+            },
+            {
+              "id": "O5WOyZadFm0",
+              "imagen": "https://i.ytimg.com/vi/O5WOyZadFm0/default.jpg",
+              "titulo": "Matthew Perry went head-to-head with journalist Peter Hitchens on drug addiction in 2013. #BBCNews",
+              "canal": "BBC News",
+              "visualizaciones": "16912871",
+              "likes": "485538",
+              "cant_comentarios": "38581",
+              "tag": "world"
+            },
+            {
+              "id": "23UyHNRaox0",
+              "imagen": "https://i.ytimg.com/vi/23UyHNRaox0/default.jpg",
+              "titulo": "Secretly-recorded video shows former sheriff order handcuffed man into restraint chair",
+              "canal": "11Alive",
+              "visualizaciones": "959586",
+              "likes": "31973",
+              "cant_comentarios": "4397",
+              "tag": "news today"
+            },
+            {
+              "id": "5BEqYONDkFc",
+              "imagen": "https://i.ytimg.com/vi/5BEqYONDkFc/default.jpg",
+              "titulo": "Ivanka Takes Stand in Trump Fraud Trial, GOP Loses Big in Key Elections: A Closer Look",
+              "canal": "Late Night with Seth Meyers",
+              "visualizaciones": "1780761",
+              "likes": "44437",
+              "cant_comentarios": "2426",
+              "tag": "new york fraud trial"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "fecha": "13-11-2023",
+          "hora": "9:41",
           "pais": "Brasil",
           "url_bandera": "https://flagcdn.com/w320/br.png",
           "cantidad": "5",
@@ -1132,43 +1427,48 @@
               "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
               "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
               "canal": "SBT News",
-              "visualizaciones": "918094",
-              "likes": "22049",
-              "cant_comentarios": "7284"
+              "visualizaciones": "1093441",
+              "likes": "25219",
+              "cant_comentarios": "8089",
+              "tag": "jornalismo sbt"
+            },
+            {
+              "id": "jljGEkuFszk",
+              "imagen": "https://i.ytimg.com/vi/jljGEkuFszk/default.jpg",
+              "titulo": "Ana Hickmann presta queixa e acusa marido de agressão durante briga em SP | AGORA CNN",
+              "canal": "CNN Brasil",
+              "visualizaciones": "454913",
+              "likes": "9345",
+              "cant_comentarios": "2878",
+              "tag": "últimas notícias cnn brasil"
             },
             {
               "id": "hyVa9EHhlPk",
               "imagen": "https://i.ytimg.com/vi/hyVa9EHhlPk/default.jpg",
               "titulo": "Exército confirma morte de jovem soldado #shorts",
               "canal": "Fala Brasil",
-              "visualizaciones": "247086",
-              "likes": "11915"
+              "visualizaciones": "327899",
+              "likes": "15393",
+              "tag": "Eduardo Ribeiro"
             },
             {
-              "id": "1OQxQG2EvP0",
-              "imagen": "https://i.ytimg.com/vi/1OQxQG2EvP0/default.jpg",
-              "titulo": "Urgente no Caso Sophia: corpo é encontrado e pode colocar fim ao mistério",
-              "canal": "CidadeAlertaRecord",
-              "visualizaciones": "473658",
-              "likes": "21262"
-            },
-            {
-              "id": "TPdf8HZ9nMw",
-              "imagen": "https://i.ytimg.com/vi/TPdf8HZ9nMw/default.jpg",
-              "titulo": "\"NÃO É O MOMENTO PARA ISSO! O que EU IMAGINO é que o Flamengo...\" Mauro Cezar MANDA A REAL!",
+              "id": "x07ry_vwMwM",
+              "imagen": "https://i.ytimg.com/vi/x07ry_vwMwM/default.jpg",
+              "titulo": "\"O Botafogo TÁ PEDINDO pra SE LASCAR! O TÍTULO AGORA TÁ NA MÃO do Palmeiras e...\" OLHA esse DEBATE!",
               "canal": "Jovem Pan Esportes",
-              "visualizaciones": "338812",
-              "likes": "12083",
-              "cant_comentarios": "630"
+              "visualizaciones": "321629",
+              "likes": "9764",
+              "cant_comentarios": "560",
+              "tag": "asmar_pilula"
             },
             {
-              "id": "YtkhlmNCCSY",
-              "imagen": "https://i.ytimg.com/vi/YtkhlmNCCSY/default.jpg",
-              "titulo": "Tropas israelenses ganham terreno e encurralam soldados do Hamas | Jornal da Band",
-              "canal": "Band Jornalismo",
-              "visualizaciones": "500957",
-              "likes": "11318",
-              "cant_comentarios": "1185"
+              "id": "5CFpI1TNAjs",
+              "imagen": "https://i.ytimg.com/vi/5CFpI1TNAjs/default.jpg",
+              "titulo": "Caso Sophia: corpo encontrado em área de mata pode ser do suspeito pelo desaparecimento da menina",
+              "canal": "CidadeAlertaRecord",
+              "visualizaciones": "468092",
+              "likes": "19718",
+              "tag": "menina sophia"
             }
           ]
         }

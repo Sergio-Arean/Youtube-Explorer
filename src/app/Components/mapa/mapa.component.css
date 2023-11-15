@@ -57,6 +57,7 @@ svg{
   /*9-11 aplicando criterio de distinto hover color s/disponibilidad de pais*/
   .pais-hover-rojo path:hover{
       fill:#FF5858;
+      transition: 0.4s;
      
 }
 
@@ -64,6 +65,7 @@ svg{
 
 .pais-hover-verde path:hover{
       fill:#8AB114;
+      transition: 0.4s;
       
 }
 

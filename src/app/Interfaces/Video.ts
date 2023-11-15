@@ -6,4 +6,5 @@ export interface Video{
     visualizaciones:string,
     likes:string,
     cant_comentarios:string,
+    tag:string
 }

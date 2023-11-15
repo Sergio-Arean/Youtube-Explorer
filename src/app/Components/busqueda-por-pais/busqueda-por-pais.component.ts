@@ -5,6 +5,7 @@ import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 import { Video } from 'src/app/Interfaces/Video';
 import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.service';
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
+import { DatosEspecificosPaisesService } from 'src/app/Services/datos-especificos-paises.service';
 
 @Component({
   selector: 'app-busqueda-por-pais',
@@ -24,7 +25,7 @@ export class BusquedaPorPaisComponent {
 
   mail_usuario_logueado: string = ''; //variable que almacena mail del usuario logueado en el sistema, o bien null si no hay nadie logueado
 
-  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService){
+  constructor(private ruti:Router,private route: ActivatedRoute, private popularVideosService: PopularVideosService, private historialBusquedaService:HistorialBusquedaService,private autentificacionService: AutentificacionService,private datosEspecificosPaises:DatosEspecificosPaisesService){
 
   }
 
@@ -88,14 +89,25 @@ async getVideos(){
   
 
 
-  verDetallesVideo(idVideo:string){
+  async verDetallesVideo(idVideo:string,tag:string){
     //alert(`Prueba del id video ${idVideo}`);
-    this.ruti.navigate(['videos', idVideo]);
+    //tomo lenguaje del pais //le meti async await
+    const lenguaje = await this.datosEspecificosPaises.getIdiomaDelPaisByCode(this.idPais);
+    console.log(`El lenguaje retornado por la funcion es ${lenguaje}`);
+    //const lenguaje = "es";
+    this.ruti.navigate(['videos', idVideo,tag,lenguaje,this.idPais]);
+    //el lenguaje? servicio de datos por paises
   }
 
   /*6-11*/ //el metodo que esta a continuacion LO VA A HACER EL SERVICE!! Provisoriamente esta aca
   cargarListaVideos(json:any){
       json.forEach((item:any)=>{
+        //hay tag?
+        let tag_video:string="";
+       if(item.snippet.tags!=null){
+          tag_video = item.snippet.tags[item.snippet.tags.length-1]; //criterio: el ultimo tag
+        }
+        console.log(`El tag del video es: ${tag_video}`);
         const video:Video = {
           id:item.id,
           imagen:item.snippet.thumbnails.default.url,
@@ -104,6 +116,7 @@ async getVideos(){
           visualizaciones:item.statistics.viewCount,
           likes:item.statistics.likeCount,
           cant_comentarios:item.statistics.commentCount,
+          tag: tag_video
         };
         this.lista_videos.push(video);
       });
