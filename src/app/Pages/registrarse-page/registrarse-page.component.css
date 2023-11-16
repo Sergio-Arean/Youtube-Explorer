@@ -17,13 +17,29 @@
 .error-campo-requerido{
     color: rgb(238, 70, 47);
     text-align: end;
-    margin-left: 9rem;
+    margin-left: 15rem;
+}
+.error-campo-requerido-password{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 13rem;
+}
+
+.error-email-formato{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 12.5rem; 
 }
 
 .error-email{
     color: rgb(238, 70, 47);
     text-align: end;
     margin-left: 8rem;
+}
+.error-email-ya-registrado{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 14.5rem;
 }
 
 .error-password{
@@ -32,9 +48,15 @@
     margin-left: 8rem;
 }
 
+.error-password-corto{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 12rem;
+}
+
 .icono-check{
     color:greenyellow;
-    margin-left: 20.5rem;
+    margin-left: 20rem;
 }
 
 /*BOTON*/

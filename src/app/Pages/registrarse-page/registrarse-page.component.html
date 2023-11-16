@@ -6,8 +6,8 @@
       <h2 class="titulo mb-5">Registrarse</h2>
       <label for="exampleInputEmail1" class="form-label">Email</label> 
       <span class="error-campo-requerido" *ngIf="EmailAusente()">Campo requerido</span>
-      <span class="error-email" *ngIf="EmailErroneo()">Debe ingresar un Email</span>
-      <span class="error-email" *ngIf="EmailEnUso()">Email no disponible</span>
+      <span class="error-email-formato" *ngIf="EmailErroneo()">Debe ingresar un Email</span>
+      <span class="error-email-ya-registrado" *ngIf="EmailEnUso()">Email no disponible</span>
       <!--
       <input type="email" placeholder="Ingrese su email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="usuario.email" name="email">-->
       <input type="email" placeholder="Ingrese su email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="email" >
@@ -15,8 +15,8 @@
 
     <div class="mb-4">
       <label for="exampleInputPassword1" class="form-label">Password</label>
-      <span class="error-campo-requerido" *ngIf="PasswordAusente()">Campo requerido</span>
-      <span class="error-password" *ngIf="PasswordMuyCorto()">Password muy corto!</span>
+      <span class="error-campo-requerido-password" *ngIf="PasswordAusente()">Campo requerido</span>
+      <span class="error-password-corto" *ngIf="PasswordMuyCorto()">Password muy corto!</span>
       <span class="check-password-length" *ngIf="PasswordAceptable()"><i class="bi bi-check2 icono-check"></i></span>
       <input type="password" placeholder="Ingrese su password" class="form-control" id="exampleInputPassword1" formControlName="password" >
     </div>
