@@ -17,6 +17,7 @@ import {AngularFireModule} from '@angular/fire/compat';
 import { LoginPageComponent } from './Pages/login-page/login-page.component';
 
 import { AuthGuard } from '@angular/fire/auth-guard';
+import { VerBusquedaAnteriorPageComponent } from './Pages/ver-busqueda-anterior-page/ver-busqueda-anterior-page.component';
 
 
 const firebaseConfig = {
@@ -42,6 +43,7 @@ const firebaseConfig = {
     BarraBusquedaComponent,
     RegistrarsePageComponent,
     LoginPageComponent,
+    VerBusquedaAnteriorPageComponent,
   ],
   imports: [
     BrowserModule,

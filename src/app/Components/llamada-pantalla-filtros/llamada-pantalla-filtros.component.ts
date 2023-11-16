@@ -39,8 +39,9 @@ export class LlamadaPantallaFiltrosComponent {
 
 
   hacerClick() { //reformulacion del metodo: aca no necesita recibir algo por parametro
-    //this.router.navigate(['paises',this.idPais,this.cantidad,this.categoria]);
     this.router.navigate(['paises',this.idPais,this.cantidad,this.categoria]);
+    //this.router.navigate(['paises',this.idPais,this.cantidad,this.categoria,]);//16-11
+   // this.router.navigate(['paises',this.idPais,this.cantidad,this.categoria,'true']);
   }
 
 

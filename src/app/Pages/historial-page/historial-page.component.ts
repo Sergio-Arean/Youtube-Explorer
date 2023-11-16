@@ -12,28 +12,24 @@ import { Router } from '@angular/router';
   styleUrls: ['./historial-page.component.css']
 })
 export class HistorialPageComponent {
-  //mail_usuario_logueado: string|null = null; //transitoriamente comentado
+ 
+
   mail_usuario_logueado: string = 'Ninguno';
 
   lista_resultados:Resultado[] = [];
+  lista_resultados_a_mostrar:Resultado[] = [];
+  resultados_cargados:boolean = false;
   //json:any[] = [];
 
   constructor(private autentificacionService: AutentificacionService,private historialBusquedaService: HistorialBusquedaService, private datosEspecificosPais:DatosEspecificosPaisesService, private router:Router){}
 
   ngOnInit(){
-/*
-    this.autentificacionService.user.subscribe(user => {
-      if (user) {
-        this.mail_usuario_logueado = user.email;
-      } else {
-        this.mail_usuario_logueado = null;
-      }
-    });*/ //esto es transitoriamente comentado, EQ es donde recibe el mail de quien esta logueado
-  // this.cargarListaResultados(); //comentado porque esto es lo que estaba antes
- // this.mail_usuario_logueado = this.autentificacionService.getEmailUsuarioLogueado();
- this.mail_usuario_logueado = this.autentificacionService.emailUsuario() ;
+
+ this.mail_usuario_logueado = this.autentificacionService.emailUsuario() ; //transitorio 16-11
+// this.mail_usuario_logueado = 'sergio.arean@gmail.com'; //comentarlo luego y poner linea de arriba
  this.ConsologuearHistorialSegunUsuario();
   this.cargarListaResultadosII();
+
   }
 
 
@@ -46,29 +42,7 @@ export class HistorialPageComponent {
 
   }
 
-  /*async cargarListaResultados(){
-    let json =  await this.historialBusquedaService.getHistorial();
-    json.forEach((item:any)=>{
-      const resultado:Resultado = {
-        id:item.id,
-        fecha:item.fecha,
-        hora:item.hora,
-        pais:item.pais,
-        cantidad:item.cantidad,
-        categoria:item.categoria,
-        videos: item.videos //con esto alcanzara?
-      }
-      console.log(`Consologueando el item:`);
-      console.log(item);
-      this.lista_resultados.push(resultado);
-      
-  });
 
-  //a esta altura, la lista de resultados esta ok...
-  console.log(`Lista de Resultados desde HISTORIAL PAGE COMPONENT:`);
-  console.log(this.lista_resultados);
-
-  }*/
 
   /* sabado 11-11 */
   async ConsologuearHistorialSegunUsuario(){
@@ -97,13 +71,20 @@ export class HistorialPageComponent {
   
   const json:any = await this.historialBusquedaService.getBusquedasSegunUsuario(this.mail_usuario_logueado); //envaimos a sergio
   console.log(`Este es el json que recibe la page: `, json);
-  if(json!=null){
+  if(json){
+    
     historial.id = json.id,
     historial.resultados = json.resultados;
-    this.lista_resultados = historial.resultados;
+    if(historial.resultados!=undefined && historial.resultados.length>0){
+      this.resultados_cargados = true;
+      this.lista_resultados = historial.resultados.reverse(); //invertir arreglo para la vista
+    }
+    
   }
   
   }
+
+
 
   //funcion intermediaria para cargar resultados
   async getNombreEnCastellano(idPais:string){
@@ -112,6 +93,55 @@ export class HistorialPageComponent {
 
   async getUrlImagenBandera(idPais:string){
     return await this.datosEspecificosPais.getBanderaByCode(idPais);
+  }
+
+  /*16-11*/ 
+   async eliminarBusqueda(idResultado:string){
+    alert(`Usted quiere eliminar el resultado con id ${idResultado}`);
+
+    const data = await this.historialBusquedaService.eliminarUnaBusqueda(this.mail_usuario_logueado,idResultado); 
+    if(data){
+      this.borrarBusquedaVista(idResultado); //elimina vista
+    }
+    
+
+    
+    //this.lista_resultados 
+  }
+
+  borrarBusquedaVista(idResultado:string){
+    for(let i:number=0;i<this.lista_resultados.length;i++){
+        if(this.lista_resultados[i].id==idResultado){
+          this.lista_resultados.splice(i,1);
+          return;
+        }
+    }
+  }
+
+
+
+ async LimpiarHistorial(){
+    const data = await this.historialBusquedaService.eliminarTodasLasBusquedas(this.mail_usuario_logueado);
+    if(data){
+      this.borrarTodasLasBusquedasVista();
+      alert(`Las búsquedas han sido eliminadas exitosamente`);
+      
+    }
+  }
+  borrarTodasLasBusquedasVista(){
+    this.lista_resultados.splice(0,this.lista_resultados.length);
+    this.resultados_cargados = false;
+  }
+
+  async HayResultados(){
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    return this.resultados_cargados;
+  }
+
+
+
+  VerBusquedasAnteriores(idResultado:string){
+    this.router.navigate(['historial',this.mail_usuario_logueado,idResultado]);
   }
 
 }

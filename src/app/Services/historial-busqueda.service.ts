@@ -37,61 +37,6 @@ export class HistorialBusquedaService {
 
 
 
-
-/**
- *     id:string, //para el borrado supongo que es necesario
-    fecha:string, //si bien para esta propiedad y la de abajo usaremos date, eq esto facilita el json
-    hora:string, //lo ultimo q hicimos fue cambiar esto a number
-    pais:string,
-    cantidad:string, //string? EQ si, no realizamos manipulacion numerica asiq x ahora eq es un string
-    categoria:string,
-    videos:Video[],
- */
-
-/**
- *   cargarListaVideos(json:any){
-      json.forEach((item:any)=>{
-        const video:Video = {
-          id:item.id,
-          imagen:item.snippet.thumbnails.default.url,
-          titulo:item.snippet.title,
-          canal:item.snippet.channelTitle,
-          visualizaciones:item.statistics.viewCount,
-          likes:item.statistics.likeCount,
-          cant_comentarios:item.statistics.commentCount,
-        };
-        this.lista_videos.push(video);
-      });
- */
-  
-
-
-  /*Metodos asociados al POST*/
-  /*
-  guardarEnHistorial(lista_videos:Video[], date:Date, id_pais:string, cant:string, categoria_video:string){
-    /*este metodo recibe la lista de videos y se encarga
-    de guardarla en el historial*
-    const formatter = {
-      fecha: `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`, 
-      hora: `${date.getHours()}:${date.getMinutes()}`
-      //llamado a formateador de categoria
-    };
-
-    const resultado:Resultado = {
-       id: "", //XLQV, Json server genera un id, capo
-       fecha: formatter.fecha,
-       hora: formatter.hora,
-       pais: id_pais,
-       cantidad: cant,
-       categoria: categoria_video,
-       videos: lista_videos
-    };
-    this.lista_resultados.push(resultado); //necesario
-    this.postResultado(resultado); //es necesario el async await aca? mm xlqe no.
-  }*/
-
-
-
  async postResultado(resultado:Resultado) {
 	try{
     await fetch(this.url,{
@@ -105,24 +50,7 @@ export class HistorialBusquedaService {
 
  }
 
- /**Reformulacion de metodos.. teniendo en cuenta los emails
-  * Vamos a hacer el paso a paso de aca en mas para facilitar..
-  * La particularidad de la pelicula actual es que todo POST
-  * requiere un previo GET.
-  */
- /*
- async postHistorial(resultado:Resultado) { 
-	try{
-    await fetch(this.url_historiales,{
-      method: 'POST',
-      body: JSON.stringify(resultado),
-      headers: {'Content-type': 'application/json'}
-    });
-    }catch(error){
-      console.log(error);
-    }   
-
- }*/
+ 
 /*sabado 11-11*/
 async guardarEnHistorialII(email_usuario:string,lista_videos:Video[], date:Date, id_pais:string, cant:string, categoria_video:string){
 
@@ -146,7 +74,9 @@ async postResultadoEnUsuario(url:string,historial_resultados:Resultado[], nuevo_
 async getBusquedasSegunUsuario(mail_usuario_logueado:string|null): Promise<Historial|null>{
   try{
     const response = await fetch(`http://localhost:1234/historiales/${mail_usuario_logueado}`,{method:'GET'});
+    await new Promise(resolve => setTimeout(resolve, 1000)); //16-11
     const json = await response.json();
+    await new Promise(resolve => setTimeout(resolve, 1000)); //16-11
     console.log(`Este es el json que getea el service:`,json);
     return json;
     }catch(error){
@@ -203,8 +133,9 @@ async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], d
       historial.id = data_g.id;
       historial.resultados = data_g.resultados;
 
-      /*agregado 15-11*/ 
-      resultado.id = historial.resultados.length.toString();
+      /*agregado 16-11*/ 
+      //resultado.id = historial.resultados.length.toString();
+      resultado.id = this.generarIdAleatorio(8);
 
       /*En esta instancia, la variable local historial:Historial
       tiene al usuario. */
@@ -249,21 +180,19 @@ async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], d
     console.log(`ERROR EN METODO DE POSTEO: `,error);
   }
 }
-/* domingo 12-11
-metodos pendientes
-1)  metodo para que el registrarse un usuario se cree el 'espacio'
-  en la base de datos para empezar a almacenar informacion del mismo
 
-2) metodo que elimina un usuario (facil, solo un delete)
+generarIdAleatorio(tamanioId:number) {
+  let result = '';
+  const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 
-3) validaciones con formularios reactivos
+  for (let i = 0; i < tamanioId; i++) {
+    const indiceAleatorio = Math.floor(Math.random() * caracteres.length);
+    result += caracteres.charAt(indiceAleatorio);
+  }
 
-4) apis noticias
+  return result;
+}
 
-
-cosas extra
-1) gestionar mejor el historial, que cada busqueda me permita ver esos videos
-*/
 
 //metodo para crear espacio de usuario recien registrado en 'base de datos' (jsonServer)
 async crearEspacioEnBdd(email_usuario:string){
@@ -310,7 +239,226 @@ async getUsuariosRegistrados(lista_usuarios:string[]){
 
 }
 
+async eliminarUnaBusqueda(email_usuario_logueado:string,id_resultado_a_eliminar:string){
+ /*metodo que elimina una busqueda en particular
+ accede a cada usuario de una manera similar al metodo que postea*/ 
+ //seccion encontrar al usuario que elimina
+const url:string = `${this.url_historiales}${email_usuario_logueado}`;
+ let historial:Historial = {
+  id: '',
+  resultados:[]
+};
+
+
+try{
+  //objetivos: encontrar el historial, luego, postearle el resultado
+  const response_g = await fetch(url,{method:'GET'});
+  if(response_g.ok){ // si la rpta dio okey, significa que encontre el historial
+    const data_g = await response_g.json();
+    historial.id = data_g.id;
+    historial.resultados = data_g.resultados;
+    
+    //Ya tengo al usuario, tambien tengo todos sus resultados a mi disposicion.
+    
+    await new Promise(resolve => setTimeout(resolve, 1000)); //retraso 1 segundo
+
+    if(this.BorrarBusqueda(historial,id_resultado_a_eliminar)){ //pude borrarlo? continuo
+      const response_d = await fetch(url,{method:'DELETE'}); //deleteo transitorio
+      if(response_d.ok){
+        console.log(`El historial fue eliminado transitoriamente. Respuesta exitosa`);
+        await new Promise(resolve => setTimeout(resolve, 1000));//retraso otro segundo
+      
+           //Posteo de Historial Actualizado
+           const response_post_historial = await fetch(this.url_historiales,{
+              method: 'POST',
+              body: JSON.stringify(historial),
+              headers: {'Content-type': 'application/json'}
+            });
+            if (response_post_historial.ok) {
+              //respuesta exitosa:
+              console.log(`Se pudo hacer el post del historial tras eliminarlo transitoriamente`);
+              return true;
+            } else {
+              console.log(`Error al hacer el post del historial: ${response_post_historial.statusText}`);
+              return false;
+            }
+      }else{
+        console.log(`error al eliminar historial transitoriamente`);
+        return false;
+      }
+    }else{
+      console.log(`La busqueda seleccionada no pudo ser eliminada`);
+      return false;
+    }
+    
+    }else{
+      console.log(`El usuario y/o su historial no fueron encontrados`);
+      return false;
+    }}
+  catch(e){
+        console.log(`Se encontraron errores en el proceso ${e}`);
+        return false;
+
+  }
+
+
 }
+
+BorrarBusqueda(historial:Historial,id_resultado_a_eliminar:string){
+  let encontrado:boolean = false;
+  for(let i:number=0;i<historial.resultados.length && !encontrado;i++){
+    if(historial.resultados[i].id==id_resultado_a_eliminar){
+      encontrado=true;
+      historial.resultados.splice(i,1);
+    }
+  }
+  return encontrado;
+}
+
+async eliminarTodasLasBusquedas(email_usuario_logueado:string){
+  /*metodo que elimina una busqueda en particular
+  accede a cada usuario de una manera similar al metodo que postea*/ 
+  //seccion encontrar al usuario que elimina
+ const url:string = `${this.url_historiales}${email_usuario_logueado}`;
+  let historial:Historial = {
+   id: '',
+   resultados:[]
+ };
+ 
+ 
+ try{
+   //objetivos: encontrar el historial, luego, postearle el resultado
+   const response_g = await fetch(url,{method:'GET'});
+   if(response_g.ok){ // si la rpta dio okey, significa que encontre el historial
+     const data_g = await response_g.json();
+     historial.id = data_g.id;
+     historial.resultados = data_g.resultados;
+     
+     //Ya tengo al usuario, tambien tengo todos sus resultados a mi disposicion.
+     
+     await new Promise(resolve => setTimeout(resolve, 1000)); //retraso 1 segundo
+ 
+     //'borrado'
+     historial.resultados = [];
+     //pude borrarlo? continuo
+       const response_d = await fetch(url,{method:'DELETE'}); //deleteo transitorio
+       if(response_d.ok){
+         console.log(`El historial fue eliminado transitoriamente. Respuesta exitosa`);
+         await new Promise(resolve => setTimeout(resolve, 1000));//retraso otro segundo
+       
+            //Posteo de Historial Actualizado
+            const response_post_historial = await fetch(this.url_historiales,{
+               method: 'POST',
+               body: JSON.stringify(historial),
+               headers: {'Content-type': 'application/json'}
+             });
+             if (response_post_historial.ok) {
+               //respuesta exitosa:
+               console.log(`Se pudo hacer el post del historial tras eliminarlo transitoriamente`);
+               return true;
+             } else {
+               console.log(`Error al hacer el post del historial: ${response_post_historial.statusText}`);
+               return false;
+             }
+       }else{
+         console.log(`error al eliminar historial transitoriamente`);
+         return false;
+       }
+     
+     
+     }else{
+       console.log(`El usuario y/o su historial no fueron encontrados`);
+       return false;
+     }}
+   catch(e){
+         console.log(`Se encontraron errores en el proceso ${e}`);
+         return false;
+ 
+   }
+ 
+ 
+ }
+
+
+ /*seccion ver videos anteriores*/
+ async getVideosSegunIdResultado(email_usuario_logueado:string,idResultado:string,lista_videos:Video[]){
+  /*metodo que carga una lista de videos a partir de un id resultado.
+  utilizado en el contexto de usuario que desea ver busquedas anteriores*/ 
+  //seccion encontrar al usuario que elimina
+  console.log(`Llega un email al service ${email_usuario_logueado} con el id resultado ${idResultado}`);
+ const url:string = `${this.url_historiales}${email_usuario_logueado}`;
+  let historial:Historial = {
+   id: '',
+   resultados:[]
+ };
+ 
+ try{
+   
+   const response_g = await fetch(url,{method:'GET'});
+   if(response_g.ok){ // si la rpta dio okey, significa que encontre el historial
+     const data_g = await response_g.json();
+     historial.id = data_g.id;
+     historial.resultados = data_g.resultados;
+     if(this.BuscarVideos(historial,idResultado,lista_videos)){
+      console.log(`Los videos fueron cargados exixtosamente desde el service. asi se ven
+      desde el service:`);
+      console.log(lista_videos);
+
+     }
+   }else{
+      console.log(`error en fetch de api`);
+   }
+  }catch(e){
+    console.log(`error: ${e}`);
+  } 
+
+
+}
+
+BuscarVideos(historial:Historial, idResultado:string, lista_videos:Video[]){
+  let encontrado:boolean = false;
+  for(let i:number=0;i<historial.resultados.length && !encontrado;i++){
+    if(historial.resultados[i].id==idResultado){
+      encontrado=true;
+      //lista_videos = historial.resultados[i].videos;
+      this.CargarListaVideos(historial.resultados[i],lista_videos);
+    }
+  }
+  return encontrado;
+}
+
+CargarListaVideos(r:Resultado,lista_videos:Video[]){
+  const resultado:Resultado = {
+    id: r.id,
+    fecha: r.fecha,
+    hora: r.hora,
+    pais: r.pais,
+    url_bandera: r.url_bandera,
+    cantidad: r.cantidad,
+    categoria: r.categoria,
+    videos: r.videos
+  };
+  
+  for(let i:number = 0; i<resultado.videos.length;i++){
+    const v:Video = {
+      id: resultado.videos[i].id,
+      imagen: resultado.videos[i].imagen,
+      titulo: resultado.videos[i].titulo,
+      canal: resultado.videos[i].canal,
+      visualizaciones: resultado.videos[i].visualizaciones,
+      likes: resultado.videos[i].likes,
+      cant_comentarios: resultado.videos[i].cant_comentarios,
+      tag: resultado.videos[i].tag
+    };
+    lista_videos.push(v);
+  }
+  console.log(`tras desmenuzar, he aqui la lista de videos desde el service:`)
+  console.log(lista_videos);
+}
+
+}
+
+
 
 
 

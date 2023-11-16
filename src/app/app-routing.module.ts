@@ -10,30 +10,23 @@ import { BarraBusquedaComponent } from './Components/barra-busqueda/barra-busque
 import { RegistrarsePageComponent } from './Pages/registrarse-page/registrarse-page.component';
 import { LoginPageComponent } from './Pages/login-page/login-page.component';
 import { loginGuard } from './guards/login.guard';
+import { VerBusquedaAnteriorPageComponent } from './Pages/ver-busqueda-anterior-page/ver-busqueda-anterior-page.component';
 
 
 
 const routes: Routes = [
   {path: 'home', component: MapaComponent},
-  /*{path: 'ejemplo', component: EjemploComponent},*/
-  //{path: 'paises/:idPais', component: BusquedaPorPaisComponent},
+
   {path: 'paises/:idPais/:cantidad/:categoria', component: BusquedaPorPaisComponent},
-   // NECESITAMOS : TAG - LENGUAJE - ID PAIS
+
+  {path: 'historial/:email/:idResultado', component: VerBusquedaAnteriorPageComponent},
+
   {path: 'videos/:idVideo/:tag/:lenguaje/:idPais', component: DetallesVideoComponent}, //path reproduccion video
   {path: 'home/busqueda', component: BarraBusquedaComponent },
 
   //tomy routes:
   { path: 'home/pais/:nombrePais', component: LlamadaPantallaFiltrosComponent },
-  /*  { path: 'home', component: MapaComponent },
- { path: 'home/pais/:nombrePais', component: LlamadaPantallaFiltrosComponent },
-  { path: 'busqueda/:id', component: BusquedaPorPaisComponent }  ,
-  { path: 'courses', component: CoursesComponent } */
 
-  //historial de busqueda
- /* { path: 'historial', component: HistorialPageComponent },*/
-
-
-  //registrarse
   { path: 'registrarse', component: RegistrarsePageComponent },
 
   //loguearse
