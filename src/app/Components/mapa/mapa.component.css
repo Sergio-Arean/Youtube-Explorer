@@ -19,10 +19,7 @@ svg{
     
   }
   
-  #MX:hover{
-    fill:rgba(247, 58, 58, 0.685);
-    transition: 0.2s;
-  }
+
   /*
   
   path:hover{
@@ -57,14 +54,14 @@ svg{
   /*9-11 aplicando criterio de distinto hover color s/disponibilidad de pais*/
 .pais-hover-rojo path:hover{
   fill:#FF5858;
-  transition: 0.10s;
+  /*transition: 0.10s;*/
 }
 
 
 
 .pais-hover-verde path:hover{
   fill:#8AB114;
-  transition: 0.10s;
+  /*transition: 0.10s;*/
 }
 
 /*bandera*/

@@ -1,147 +1,70 @@
 {
   "historiales": [
     {
-      "id": "gonzalobenoffi@gmail.com",
-      "resultados": []
-    },
-    {
-      "id": "sdfsd@gmail.com",
-      "resultados": []
-    },
-    {
-      "id": "davidluiz@gmail.com",
+      "id": "sergio.arean@gmail.com",
       "resultados": [
         {
-          "id": "0",
+          "id": "PCeViSeU",
           "fecha": "16-11-2023",
-          "hora": "09:56",
-          "pais": "Brasil",
-          "url_bandera": "https://flagcdn.com/w320/br.png",
+          "hora": "19:40",
+          "pais": "Bolivia",
+          "url_bandera": "https://flagcdn.com/w320/bo.png",
           "cantidad": "5",
           "categoria": "Noticias y Política",
           "videos": [
             {
-              "id": "uZuq3iejxlQ",
-              "imagen": "https://i.ytimg.com/vi/uZuq3iejxlQ/default.jpg",
-              "titulo": "GRAVE: tudo sobre o caso de agressão sofrido por Ana Hickmann l Hora da Fofoca l TV Gazeta",
-              "canal": "TV Gazeta",
-              "visualizaciones": "660177",
-              "likes": "19698",
-              "cant_comentarios": "1870",
-              "tag": "Hora da Fofoca"
-            },
-            {
-              "id": "fXsRrYmE--I",
-              "imagen": "https://i.ytimg.com/vi/fXsRrYmE--I/default.jpg",
-              "titulo": "Como assim uma PÉSSIMA NOTÍCIA? 😰 #coffee_dfn",
-              "canal": "Coffee DFN",
-              "visualizaciones": "450531",
-              "likes": "33642",
-              "cant_comentarios": "202",
-              "tag": "React"
-            },
-            {
-              "id": "PKVJdmpseJw",
-              "imagen": "https://i.ytimg.com/vi/PKVJdmpseJw/default.jpg",
-              "titulo": "\"Sobre o Scarpa, a INFORMAÇÃO que EU TIVE é que o Flamengo...\" Mauro Cezar APURA e FALA A REAL!",
-              "canal": "Jovem Pan Esportes",
-              "visualizaciones": "382689",
-              "likes": "13837",
-              "cant_comentarios": "621",
-              "tag": "mcp_pilula"
-            },
-            {
-              "id": "QYNAMARqgk4",
-              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
-              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
-              "canal": "SBT News",
-              "visualizaciones": "1577676",
-              "likes": "32471",
-              "cant_comentarios": "9868",
-              "tag": "jornalismo sbt"
-            },
-            {
-              "id": "NhED3MyxVpw",
-              "imagen": "https://i.ytimg.com/vi/NhED3MyxVpw/default.jpg",
-              "titulo": "Caso Sophia: polícia cerca cemitério após princípio de confusão no enterro de Tiago Fontes",
-              "canal": "CidadeAlertaRecord",
-              "visualizaciones": "409029",
-              "likes": "14043",
-              "tag": "menina sophia"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "robertocarlos@gmail.com",
-      "resultados": [
-        {
-          "id": "0",
-          "fecha": "16-11-2023",
-          "hora": "09:57",
-          "pais": "Paraguay",
-          "url_bandera": "https://flagcdn.com/w320/py.png",
-          "cantidad": "5",
-          "categoria": "Noticias y Política",
-          "videos": [
-            {
-              "id": "URexPq3CA4U",
-              "imagen": "https://i.ytimg.com/vi/URexPq3CA4U/default.jpg",
-              "titulo": "Cae sospechoso del atraco de transportador de caudales",
-              "canal": "SNT Paraguay",
-              "visualizaciones": "21037",
-              "likes": "192",
-              "cant_comentarios": "22",
-              "tag": "Noticias"
-            },
-            {
-              "id": "2kMOogJDVmk",
-              "imagen": "https://i.ytimg.com/vi/2kMOogJDVmk/default.jpg",
-              "titulo": "Apresan a una mujer por crimen de su marido",
-              "canal": "ABC TV Paraguay",
-              "visualizaciones": "19098",
-              "likes": "172",
-              "cant_comentarios": "35",
-              "tag": "PARAGUAY"
-            },
-            {
-              "id": "Yf1YjISy-os",
-              "imagen": "https://i.ytimg.com/vi/Yf1YjISy-os/default.jpg",
-              "titulo": "Estados Unidos bombardea instalaciones en Siria vinculadas a Irán",
-              "canal": "Canal 26",
-              "visualizaciones": "72761",
-              "likes": "1307",
-              "cant_comentarios": "459",
-              "tag": "estados unidos"
+              "id": "LQtziwKtvTg",
+              "imagen": "https://i.ytimg.com/vi/LQtziwKtvTg/default.jpg",
+              "titulo": "Resumen en video de la guerra Israel - Hamas: noticias del 14 de noviembre de 2023",
+              "canal": "CNN en Español",
+              "visualizaciones": "486735",
+              "likes": "5121",
+              "cant_comentarios": "816",
+              "tag": "Hospital"
             },
             {
               "id": "S8xyhrk2dUk",
               "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
               "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
               "canal": "Latina Noticias",
-              "visualizaciones": "438227",
-              "likes": "4995",
-              "cant_comentarios": "222",
+              "visualizaciones": "438347",
+              "likes": "4996",
+              "cant_comentarios": "224",
               "tag": "Latina noticias en vivo"
             },
             {
-              "id": "aLwHhF__tlg",
-              "imagen": "https://i.ytimg.com/vi/aLwHhF__tlg/default.jpg",
-              "titulo": "Match point. El editorial de Jonatan Viale.",
+              "id": "_av85d5fvfY",
+              "imagen": "https://i.ytimg.com/vi/_av85d5fvfY/default.jpg",
+              "titulo": "Psicosis; el editorial de Jonatan Viale",
               "canal": "LA NACION",
-              "visualizaciones": "264341",
-              "likes": "9061",
-              "cant_comentarios": "2053",
+              "visualizaciones": "190527",
+              "likes": "7913",
+              "cant_comentarios": "1594",
               "tag": "lazaro baez"
+            },
+            {
+              "id": "Yf1YjISy-os",
+              "imagen": "https://i.ytimg.com/vi/Yf1YjISy-os/default.jpg",
+              "titulo": "Estados Unidos bombardea instalaciones en Siria vinculadas a Irán",
+              "canal": "Canal 26",
+              "visualizaciones": "79619",
+              "likes": "1392",
+              "cant_comentarios": "504",
+              "tag": "estados unidos"
+            },
+            {
+              "id": "ZVtY7ZhZmyg",
+              "imagen": "https://i.ytimg.com/vi/ZVtY7ZhZmyg/default.jpg",
+              "titulo": "ÚLTIMA HORA | Irán se desmarca de Hamás: \"No nos avisasteis del ataque y no entraremos en la guerra\"",
+              "canal": "Negocios TV",
+              "visualizaciones": "170936",
+              "likes": "2237",
+              "cant_comentarios": "829",
+              "tag": "gaza ultima hora"
             }
           ]
         }
       ]
-    },
-    {
-      "id": "sergio.arean@gmail.com",
-      "resultados": []
     }
   ]
 }

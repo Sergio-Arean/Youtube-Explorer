@@ -52,13 +52,15 @@ export class MapaComponent
       id_pais = event.target.id; 
       //this.nombre_pais_hover= this.paisService.getPaisPorAbreviatura(id_pais); //trae nombre de pais
       /*la linea de arriba comentada transitoriamente para probar lo siguiente:*/ 
+
+      this.pais_disponible = this.popularVideos.isDisponible(id_pais); //cambia color de mapa
       this.pais_hovereado = await this.datosEspecificos.getPaisByCode(id_pais); //llamada api
       console.log(`El objeto pais que recibe el componente es este:`,this.pais_hovereado);
 
       this.nombre_pais_hover = this.pais_hovereado.nombre_castellano; 
       this.url_bandera_pais_hover = this.pais_hovereado.url_bandera;
   
-      this.pais_disponible = this.popularVideos.isDisponible(id_pais); //cambia color de mapa
+      
     }
 
 /*FIN SECCION METODOS HOVER PAIS*/
