@@ -287,7 +287,28 @@ async crearEspacioEnBdd(email_usuario:string){
 
 }
 
- 
+/*16-11*/ 
+async getUsuariosRegistrados(lista_usuarios:string[]){
+  /*metodo que permitira verificar existencia de usuarios
+  devolviendo un arreglo de strings con los usuarios */
+  try{
+    const response_g = await fetch(`${this.url_historiales}`,{method:'GET'});
+    if(response_g.ok){ 
+      const json = await response_g.json();
+      json.forEach((historial:Historial)=>{
+          //console.log(historial.id);
+          lista_usuarios.push(historial.id);
+      });
+      return true;
+    }else{
+      return false;
+    }
+
+  }catch(e){
+    return false;
+  }
+
+}
 
 }
 

@@ -35,10 +35,10 @@ export class AutentificacionService{
   async loguearse(email:string, password:string){
     try{
       return await this.afauth.signInWithEmailAndPassword(email,password);
-    }catch(err){
+    }catch(err:any){
       console.log(`Error al Loguearse:`,err);
       return null;
-    }
+    };
   }
 
   async loguearseConGoogle(email:string, password:string){

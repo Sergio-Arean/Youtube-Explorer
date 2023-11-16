@@ -6,3 +6,41 @@
     text-align: center;
     margin-bottom: 1rem;
 }
+
+
+
+.error-email-campo-requerido{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 16rem;
+}
+
+.error-password-campo-requerido{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 14rem;
+}
+
+.error-email-invalido{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 13.5rem;
+}
+
+.error-password-corto{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 10.5rem;
+      
+}
+
+.icono-check{
+    color:greenyellow;
+    margin-left: 20.5rem;
+}
+
+.error-email-ya-registrado{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 15.5rem;
+}

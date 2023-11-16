@@ -9,7 +9,7 @@ import { EjemploComponent } from './Components/ejemplo/ejemplo.component';
 import { BusquedaPorPaisComponent } from './Components/busqueda-por-pais/busqueda-por-pais.component';
 import { LlamadaPantallaFiltrosComponent } from './Components/llamada-pantalla-filtros/llamada-pantalla-filtros.component';
 import { DetallesVideoComponent } from './Components/detalles-video/detalles-video.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HistorialPageComponent } from './Pages/historial-page/historial-page.component';
 import { BarraBusquedaComponent } from './Components/barra-busqueda/barra-busqueda.component';
 import { RegistrarsePageComponent } from './Pages/registrarse-page/registrarse-page.component';
@@ -47,7 +47,8 @@ const firebaseConfig = {
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+    ReactiveFormsModule
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]

@@ -1,15 +1,23 @@
 <div class="container">
 
-<form>
+<form [formGroup]="formulario">
     <div class="mb-3">
-        <h2 class="titulo">Registrarse</h2>
-      <label for="exampleInputEmail1" class="form-label">Email</label>
-      <input type="email" placeholder="Ingrese su email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="usuario.email" name="email">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <h2 class="titulo mb-5">Registrarse</h2>
+      <label for="exampleInputEmail1" class="form-label">Email</label> 
+      <span class="error-email-campo-requerido" *ngIf="EmailAusente()">Campo requerido</span>
+      <span class="error-email-invalido" *ngIf="EmailErroneo()">Debe ingresar un Email</span>
+      <span class="error-email-ya-registrado" *ngIf="EmailEnUso()">Email no disponible</span>
+      <!--
+      <input type="email" placeholder="Ingrese su email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="usuario.email" name="email">-->
+      <input type="email" placeholder="Ingrese su email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="email" >
+      
     </div>
     <div class="mb-4">
       <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" placeholder="Ingrese su password" class="form-control" id="exampleInputPassword1" [(ngModel)]="usuario.password" name="password">
+      <span class="error-password-campo-requerido" *ngIf="PasswordAusente()">Campo requerido</span>
+      <span class="error-password-corto" *ngIf="PasswordMuyCorto()">El password es muy corto!</span>
+      <span class="check-password-length" *ngIf="PasswordAceptable()"><i class="bi bi-check2 icono-check"></i></span>
+      <input type="password" placeholder="Ingrese su password" class="form-control" id="exampleInputPassword1" formControlName="password" >
     </div>
     <button type="submit" class="btn btn-primary " (click)="Registrarse()">Registrarse</button>
   </form>

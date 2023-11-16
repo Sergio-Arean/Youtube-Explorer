@@ -10,3 +10,21 @@
 .btn-registrarse{
     cursor: pointer;
 }
+
+.error-email-campo-requerido{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 16rem;
+}
+
+.error-password-campo-requerido{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 14rem;
+}
+  
+.error-email-invalido{
+    color: rgb(238, 70, 47);
+    text-align: end;
+    margin-left: 13.5rem;
+}
