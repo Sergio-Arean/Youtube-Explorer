@@ -1,32 +1,35 @@
+h1{
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
+}
+
 aside{
   padding: 3rem;
   position:sticky; 
   top:0;
   height:100vh;
   background-color: black;
-  color: white;
-  width: 250px; /* Ajusta el ancho según tus necesidades */
+  width: 250px; /* Ancho */
 }  
 
-  
-  
-  /*Barra navegacion*/
-  .barra-navegacion{
-    margin-top: 1rem;
+/*BARRA NAVEGACION*/
+.barra-navegacion{
+    margin-top: 2rem;
   }
 
-  .texto-opcion-menu{
-    text-align: center; /* Centra el texto horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
-    margin-left: .9rem;
-    margin-top: 0.2rem;
-    cursor: pointer;
-  }
+.texto-opcion-menu{
+  text-align: center; /* Centra el texto horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  margin-left: .9rem;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
 
-  .opcion-menu:hover{
-    .texto-opcion-menu, .bi{
-      color:rgba(247, 58, 58, 0.95);
-      transition: 0.1s;
-      font-weight: 800;
-    }
+.opcion-menu:hover{
+  .texto-opcion-menu, .bi{
+    color:rgba(247, 58, 58, 0.95);
+    transition: 0.1s;
+    font-weight: 800;
   }
+}

@@ -30,9 +30,7 @@
   }
   
 
-  /*Seccion Noticias*/
- 
-
+  /*NOTICIAS*/
   .titulo-noticias-relacionadas{
     display:flex;
     justify-content: center;
@@ -54,8 +52,18 @@
   }
 
   /*background del listado noticias*/
-  .seccion-listar-noticias{
-   /* background-color: grey;*/
+
+  .noticias-locales{
+    background-color:  rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .noticias-internacionales{
+    background-color:  rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    margin-block: 50px;
   }
 
   .noticia{
@@ -68,7 +76,6 @@
 
   .foto-noticia{
     width: 8rem;
-    
   }
 
   .titulo-noticia{

@@ -141,7 +141,69 @@
     },
     {
       "id": "sergio.arean@gmail.com",
-      "resultados": []
+      "resultados": [
+        {
+          "id": "CgFzRuGM",
+          "fecha": "16-11-2023",
+          "hora": "17:42",
+          "pais": "Chile",
+          "url_bandera": "https://flagcdn.com/w320/cl.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "8UsCBduXvH8",
+              "imagen": "https://i.ytimg.com/vi/8UsCBduXvH8/default.jpg",
+              "titulo": "EN VIVO | Meganoticias Alerta - Jueves 16 de noviembre",
+              "canal": "Meganoticias",
+              "visualizaciones": "57057",
+              "likes": "287",
+              "cant_comentarios": "11",
+              "tag": "mega"
+            },
+            {
+              "id": "Ye2aG20Ppxw",
+              "imagen": "https://i.ytimg.com/vi/Ye2aG20Ppxw/default.jpg",
+              "titulo": "EXCLUSIVO | Las escuchas telefónicas de la “narco reina” con la líder de los Marchant - CHV Noticias",
+              "canal": "CHV Noticias",
+              "visualizaciones": "280869",
+              "likes": "1786",
+              "cant_comentarios": "727",
+              "tag": "noviembre 2023"
+            },
+            {
+              "id": "2B9R-INesrE",
+              "imagen": "https://i.ytimg.com/vi/2B9R-INesrE/default.jpg",
+              "titulo": "NUEVO ESCÁNDALO: Audios revelan coimas a funcionarios públicos - Contigo en la Mañana",
+              "canal": "Chilevisión",
+              "visualizaciones": "75865",
+              "likes": "729",
+              "cant_comentarios": "533",
+              "tag": "gobierno"
+            },
+            {
+              "id": "GQMuKW3A2f0",
+              "imagen": "https://i.ytimg.com/vi/GQMuKW3A2f0/default.jpg",
+              "titulo": "Deportistas cubanas fugadas rompen su silencio: solicitaron refugio en Chile #ReportajesT13",
+              "canal": "T13",
+              "visualizaciones": "680377",
+              "likes": "11122",
+              "cant_comentarios": "3859",
+              "tag": "noticias"
+            },
+            {
+              "id": "9JSSk_TeBUY",
+              "imagen": "https://i.ytimg.com/vi/9JSSk_TeBUY/default.jpg",
+              "titulo": "Tu Día | jueves 16 Noviembre | Canal 13",
+              "canal": "Canal 13",
+              "visualizaciones": "30438",
+              "likes": "219",
+              "cant_comentarios": "0",
+              "tag": "Programa Servicio"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

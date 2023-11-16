@@ -9,13 +9,19 @@ import { AutentificacionService } from 'src/app/Services/autentificacion.service
   templateUrl: './login-page.component.html',
   styleUrls: ['./login-page.component.css']
 })
-export class LoginPageComponent {
+
+export class LoginPageComponent 
+{
   usuario = {
     email:'',
     password: ''
   };
 
-  constructor(private formBuilder: FormBuilder,private autentificacion:AutentificacionService, private router:Router){}
+  constructor(
+    private formBuilder: FormBuilder,
+    private autentificacion:AutentificacionService, 
+    private router:Router){}
+
   formulario:FormGroup = this.formBuilder.group({
     email:['',[Validators.required, Validators.email]],
     password: ['',[Validators.required]]
@@ -28,6 +34,7 @@ export class LoginPageComponent {
     }
     return false;
   }
+
   EmailAusente(){
     //metodo que valida email required 
     if(this.formulario.controls['email'].getError('required') && this.formulario.touched){
@@ -36,7 +43,7 @@ export class LoginPageComponent {
     return false;
   }
   
-    EmailErroneo(){
+  EmailErroneo(){
     //metodo que valida email  con formato email
     if(this.formulario.controls['email'].getError('email') && this.formulario.touched){
       return true;
@@ -44,14 +51,13 @@ export class LoginPageComponent {
     return false;
   }
   
-    PasswordAusente(){
+  PasswordAusente(){
     //metodo que valida que el password este presente en el formulario
     if(this.EmailValidoEnLogin() && this.formulario.controls['password'].getError('required') && this.formulario.controls['password'].touched){
       return true;
     }
     return false;
   }
-
 
 
   async Ingresar(){
@@ -84,8 +90,7 @@ export class LoginPageComponent {
      // console.log(`Login exitoso. Email: ${email} - Pass: ${password} `);
     }catch(error){
       console.log(`Error al Iniciar Sesion: ${error}`);
-    }
-    
-
-}
+    }  
+  }
+  
 }

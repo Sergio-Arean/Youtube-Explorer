@@ -8,16 +8,6 @@
       </div>
 
       <div class="filtro-box">
-        <label for="filtro-tendencias">Tendencias (NO FUNCA)</label>
-          <select class="form-select" id="filtro-tendencias">
-              <option value="opcion1" disabled selected>-</option>
-              <option value="opcion2">Si</option>
-              <option value="opcion3">No</option>
-            </select>
-     </div> 
-
-      
-      <div class="filtro-box">
         <label class="" for="filtro-categoria">Categoría</label>
         <select class="form-select" id="filtro-categoria" [(ngModel)]="categoria">
             <option value="0">-</option>
@@ -56,35 +46,6 @@
         </select>
       </div>
 
-    <!--
-      <div class="filtro-box">
-          <label class="" for="filtro-idioma">Idioma</label>
-          <select class="form-select" id="filtro-idioma">
-            <option value="0">-</option>
-            <option value="es">Español</option> 
-            <option value="en">Inglés</option>
-            <option value="fr">Frances</option>
-            <option value="de">Alemán</option>
-            <option value="it">Italiano</option>
-            <option value="pt">Portugués</option>
-            <option value="ja">Japonés</option>
-            <option value="zh">Chino</option>
-            <option value="ru">Ruso</option>
-            <option value="ar">Arabe</option>
-            <option value="ko">Coreano</option>
-            <option value="nl">Holandés</option>
-            <option value="sv">Sueco</option>
-            <option value="da">Danés</option>
-            <option value="no">Noruego</option>
-            <option value="fi">Finlandés</option>
-            <option value="po">Polaco</option>
-            <option value="tr">Turco</option>
-            <option value="el">Griego</option>
-            <option value="he">Hebreo</option>
-          </select>
-      </div> -->
-
-
       <div class="filtro-box" (click)="cambiarFiltroComentarios()">
         <label class="form-check-label" for="filtro-comentarios">Más comentados</label>
         <input class="form-check-input" type="checkbox" id="filtro-comentarios" [checked]="esFiltroActivo('comentarios')">
@@ -104,7 +65,6 @@
     <button class="btn btn-primary buscar-button" 
     (click)="hacerClick()">Buscar</button>
   </div>
-    
 </div>
 
 

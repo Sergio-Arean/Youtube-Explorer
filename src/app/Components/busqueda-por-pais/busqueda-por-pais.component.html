@@ -1,4 +1,25 @@
-<!-- <p>Componente llamado "busqueda-por-pais" funciona! Aca 
+<section class="seccion-resultados" *ngFor="let video of lista_videos">
+      <div class="resultado">
+        <div class="contenedor-imagen">
+        <img src="{{video.imagen}}" alt="" class="img-resultado">
+        </div>
+        <div class="datos-video"> 
+          <p class="titulo-video" (click)="verDetallesVideo(video.id,video.tag)">{{video.titulo}}</p>
+          <p class="nombre-canal">{{video.canal}}</p>
+          <p class="stats">Vistas: {{video.visualizaciones}} - Likes: {{video.likes}} - Comentarios: {{video.cant_comentarios}}</p>
+        </div>
+      </div>   
+</section>
+
+
+<div class="mensaje-error" *ngIf="errorMensaje">
+  {{ errorMensaje }}
+</div>
+
+
+<!-- A BORRAR
+  
+  <p>Componente llamado "busqueda-por-pais" funciona! Aca 
     se supone que va a ir las distintas opciones de filtrado
     que elija el usuario, pero dado que esto es una prueba,
     procemos a harcodear algunas cosas (cantidad de videos, categoria,etc)
@@ -17,21 +38,3 @@
             </div>
           </div>   
     </section> -->
-
-<section class="seccion-resultados" *ngFor="let video of lista_videos">
-      <div class="resultado">
-        <div class="contenedor-imagen">
-        <img src="{{video.imagen}}" alt="" class="img-resultado">
-        </div>
-        <div class="datos-video"> 
-          <p class="titulo-video" (click)="verDetallesVideo(video.id,video.tag)">{{video.titulo}}</p>
-          <p class="nombre-canal">{{video.canal}}</p>
-          <p class="stats">Vistas: {{video.visualizaciones}} - Likes: {{video.likes}} - Comentarios: {{video.cant_comentarios}}</p>
-        </div>
-      </div>   
-</section>
-
-
-<div class="mensaje-error" *ngIf="errorMensaje">
-  {{ errorMensaje }}
-</div>

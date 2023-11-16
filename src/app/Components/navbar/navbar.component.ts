@@ -9,10 +9,9 @@ export class NavbarComponent {
 
   showSearch: boolean = false;
 
-  /*esto me ayuda con la barra de busqueda, me funciona bien acá pero no se si sea correcto que esté acá*/
+  /*esto me ayuda con la barra de busqueda*/
   hideSearchBar(): void {
     this.showSearch = false;
   }
-
 
 }

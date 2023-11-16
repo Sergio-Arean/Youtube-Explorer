@@ -11,8 +11,6 @@ export class AutentificacionService{
   usuario_logueado:boolean = false; //variable transitoria que usamos para simular login
   mail_usuario:string = '';
 
-
-
   constructor(private afauth:AngularFireAuth) {
     
    }

@@ -23,8 +23,12 @@ export class DetallesVideoComponent {
   url_bandera_pais='';
   noticias_locales:Noticia[] = [];
   noticias_internacionales:Noticia[] = [];
-  constructor(private route: ActivatedRoute,private sanitizer: DomSanitizer, private noticiasService:NoticiasService, private datosEspecificosPaises: DatosEspecificosPaisesService){
 
+  constructor(
+    private route: ActivatedRoute,
+    private sanitizer: DomSanitizer, 
+    private noticiasService:NoticiasService, 
+    private datosEspecificosPaises: DatosEspecificosPaisesService){
   }
 
   ngOnInit(){
@@ -34,22 +38,17 @@ export class DetallesVideoComponent {
      this.tag = params['tag'];
      this.lenguaje = params['lenguaje'];
      this.idPais = params['idPais'];
-  
     });
     //con esto especifico que hago con el parametro
 
     this.urlVideo = this.sanitizer.bypassSecurityTrustResourceUrl(`https://www.youtube.com/embed/${this.idVideo}`);
     //este componente recibe el ide del video, puede recibir el pais y tambien el tag
 
-   
    // this.getNoticiasRelacionadas(); //LISTAR NOTICIAS RELACIONADAS AL VIDEO CLICKEADO! //comentado lunes 13-11
 
     this.consologueoInformativo();
     /*Lunes 13-11*/
     this.cargarVista();
-
-
-
   }
 
   consologueoInformativo(){
@@ -67,19 +66,6 @@ export class DetallesVideoComponent {
     POR OTRO LADO, en nuestro arreglo de NOTICIAES INTERNACIONALES, TENEMOS 
     ${this.noticias_internacionales.length} ELEMENTOS`);
   }
-   /*async getNoticiasRelacionadas(){
-    //this.noticiasService.getNoticiasRelacionadasByTag()
-    // NECESITAMOS : TAG - LENGUAJE - ID PAIS
-    console.log(`Esta es la prueba de que el servicio de listar noticias puede llegar a funcionar.
-    Vas a pedir noticias de un pais con Id${this.idPais},con el tag ${this.tag},en donde se habla en ${this.lenguaje}`);
-    const data = await this.noticiasService.getNoticiasRelacionadasByTag(this.tag,this.lenguaje,this.idPais);
-    if(data){
-      this.noticias_relacionadas = data;
-    }
-    if(this.noticias_relacionadas.length==0){
-      this.aviso_sin_noticias = 'No se han encontrado noticias relacionadas';
-    }
-  }*/
 
   /*Lunes 13-11*/
   async getNombrePaisCastellano(){
@@ -108,3 +94,22 @@ export class DetallesVideoComponent {
   }
 
 }
+
+
+/* A BORRAR
+
+async getNoticiasRelacionadas(){
+    //this.noticiasService.getNoticiasRelacionadasByTag()
+    // NECESITAMOS : TAG - LENGUAJE - ID PAIS
+    console.log(`Esta es la prueba de que el servicio de listar noticias puede llegar a funcionar.
+    Vas a pedir noticias de un pais con Id${this.idPais},con el tag ${this.tag},en donde se habla en ${this.lenguaje}`);
+    const data = await this.noticiasService.getNoticiasRelacionadasByTag(this.tag,this.lenguaje,this.idPais);
+    if(data){
+      this.noticias_relacionadas = data;
+    }
+    if(this.noticias_relacionadas.length==0){
+      this.aviso_sin_noticias = 'No se han encontrado noticias relacionadas';
+    }
+  }
+  
+*/

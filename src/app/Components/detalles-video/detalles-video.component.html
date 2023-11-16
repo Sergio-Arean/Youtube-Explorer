@@ -5,50 +5,57 @@
   <iframe [src]="urlVideo" frameborder="0" allowfullscreen></iframe>
 </div>
 <br> <br>
-<!--
+
+<!--nueva seccion de noticias divididas por pais y por el mundo-->
+<div class="noticias-locales">
+  <section class="seccion-noticias-locales" *ngIf="hayNoticiasLocales()">
+
+    <div class="contenedor-titulo">
+      <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en {{nombre_pais_castellano}}</h3>
+      <img [src]="url_bandera_pais" class="bandera" alt="bandera-pais">
+    </div>
+
+    <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_locales">
+      <div class="noticia">
+        <img class="foto-noticia" [src]="noticia.urlToimage" alt="">
+        <h5 class="titulo-noticia">{{noticia.title}}</h5>
+      </div>
+    </div>
+
+  </section>
+</div>
+
+<div class="noticias-internacionales">
+  <section class="seccion-noticias-internacionales" *ngIf="hayNoticiasInternacionales()">
+
+    <div class="contenedor-titulo">
+      <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en el Mundo</h3>
+      <img src="https://w1.pngwing.com/pngs/329/181/png-transparent-earth-cartoon-drawing-arts-globe-sphere-planet-world-sky.png" class="bandera" alt="bandera-pais">
+    </div>
+
+    <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_internacionales">
+      <div class="noticia">
+        <img class="foto-noticia" [src]="noticia.urlToimage" alt="">
+        <h5 class="titulo-noticia">{{noticia.title}}</h5>
+      </div>
+    </div>
+
+  </section>
+</div>
+
+
+<!-- A BORRAR
 <section class="seccion-noticias">
   <div class="contenedor-titulo">
     <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en {{nombre_pais_castellano}}</h3>
     <img [src]="url_bandera_pais" class="bandera" alt="bandera-pais">
-    </div>
+  </div>
   {{aviso_sin_noticias}}
+
   <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_relacionadas">
     <div class="noticia">
       <img class="foto-noticia" [src]="noticia.urlToimage" alt="">
       <h5 class="titulo-noticia">{{noticia.title}}</h5>
     </div>
-
-
   </div>
-
-
 </section>-->
-
-
-<!--nueva seccion de noticias divididas por pais y por el mundo-->
-<section class="seccion-noticias-locales" *ngIf="hayNoticiasLocales()">
-  <div class="contenedor-titulo">
-    <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en {{nombre_pais_castellano}}</h3>
-    <img [src]="url_bandera_pais" class="bandera" alt="bandera-pais">
-    </div>
-  <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_locales">
-    <div class="noticia">
-      <img class="foto-noticia" [src]="noticia.urlToimage" alt="">
-      <h5 class="titulo-noticia">{{noticia.title}}</h5>
-    </div>
-  </div>
-</section>
-
-
-<section class="seccion-noticias-internacionales" *ngIf="hayNoticiasInternacionales()">
-  <div class="contenedor-titulo">
-    <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en el Mundo</h3>
-    <img src="https://w1.pngwing.com/pngs/329/181/png-transparent-earth-cartoon-drawing-arts-globe-sphere-planet-world-sky.png" class="bandera" alt="bandera-pais">
-    </div>
-  <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_internacionales">
-    <div class="noticia">
-      <img class="foto-noticia" [src]="noticia.urlToimage" alt="">
-      <h5 class="titulo-noticia">{{noticia.title}}</h5>
-    </div>
-  </div>
-</section>

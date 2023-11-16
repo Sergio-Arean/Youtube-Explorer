@@ -1,23 +1,30 @@
 <div class="container">
 
     <form [formGroup]="formulario">
+
         <div class="mb-3">
             <h2 class="titulo mb-5">Iniciar Sesion</h2>
           <label for="exampleInputEmail1" class="form-label">Email</label>
-          <span class="error-email-campo-requerido" *ngIf="EmailAusente()">Campo requerido</span>
+          <span class="error-campo-requerido" *ngIf="EmailAusente()">Campo requerido</span>
           <span class="error-email-invalido" *ngIf="EmailErroneo()">Debe ingresar un Email</span>
           <input type="email" placeholder="Ingrese su email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="email" >
-          
         </div>
+
         <div class="mb-4">
           <label for="exampleInputPassword1" class="form-label">Password</label>
-          <span class="error-password-campo-requerido" *ngIf="PasswordAusente()">Campo requerido</span>
+          <span class="error-campo-requerido" *ngIf="PasswordAusente()">Campo requerido</span>
           <input type="password" placeholder="Ingrese su password" class="form-control" id="exampleInputPassword1" formControlName="password" >
         </div>
+
         <button type="submit" class="btn btn-primary mb-4" (click)="Ingresar()">Iniciar sesion</button>
-        <div>Aun no tienes cuenta?  <strong><span routerLink='/registrarse' class="btn-registrarse">Registrarse</span></strong></div>
+        
+        <div>Aun no tienes cuenta? 
+          <strong><span routerLink='/registrarse' class="btn-registrarse">Registrarse</span></strong>
+        </div>
+
       </form>
-    </div>
+
+</div>
 
     
     

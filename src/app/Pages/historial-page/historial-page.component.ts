@@ -21,7 +21,11 @@ export class HistorialPageComponent {
   resultados_cargados:boolean = false;
   //json:any[] = [];
 
-  constructor(private autentificacionService: AutentificacionService,private historialBusquedaService: HistorialBusquedaService, private datosEspecificosPais:DatosEspecificosPaisesService, private router:Router){}
+  constructor(
+    private autentificacionService: AutentificacionService,
+    private historialBusquedaService: HistorialBusquedaService, 
+    private datosEspecificosPais:DatosEspecificosPaisesService, 
+    private router:Router){}
 
   ngOnInit(){
 
@@ -39,7 +43,6 @@ export class HistorialPageComponent {
       this.autentificacionService.setUsuario(false,'');
       this.router.navigate(['/login']);
     }
-
   }
 
 

@@ -5,14 +5,13 @@ import { SharedDataMapaFiltrosService } from 'src/app/Services/shared-data-mapa-
 import { FiltroComLikVisService } from 'src/app/Services/filtro-com-lik-vis.service';
 
 
-
 @Component({
   selector: 'app-llamada-pantalla-filtros',
   templateUrl: './llamada-pantalla-filtros.component.html',
   styleUrls: ['./llamada-pantalla-filtros.component.css']
 })
-export class LlamadaPantallaFiltrosComponent {
 
+export class LlamadaPantallaFiltrosComponent {
   nombrePais!:string;
   idPais!:string;
 
@@ -22,16 +21,15 @@ export class LlamadaPantallaFiltrosComponent {
   filtroActivo: string = '';
 
   
-  
-  constructor(private router: Router, private sharedData: SharedDataMapaFiltrosService,
-              private redireccionUrlPantallaFiltrosService: RedireccionUrlPantallaFiltrosService, private filtroService: FiltroComLikVisService,)
+  constructor(
+    private router: Router, 
+    private sharedData: SharedDataMapaFiltrosService,
+    private redireccionUrlPantallaFiltrosService: RedireccionUrlPantallaFiltrosService, 
+    private filtroService: FiltroComLikVisService,)
   {
     this.idPais = this.sharedData.getIdPais();
     this.nombrePais = this.sharedData.getNombrePais();
   }
-
-
-
 
   redirectToHome() { //para cerrar la ventana de los filtros
     this.router.navigate(['/home']);
@@ -82,7 +80,4 @@ export class LlamadaPantallaFiltrosComponent {
   esFiltroActivo(filtro: string): boolean {
     return this.filtroActivo === filtro;
   }
-  
-
-  
 }
