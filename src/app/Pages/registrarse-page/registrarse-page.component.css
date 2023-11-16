@@ -1,37 +1,35 @@
 .container{
     margin-top: 10rem;
     width: 60vh;
+    background-color:  rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .titulo{
     text-align: center;
     margin-bottom: 1rem;
+    
 }
 
-
-
-.error-email-campo-requerido{
+/*ERRORES Y +*/
+.error-campo-requerido{
     color: rgb(238, 70, 47);
     text-align: end;
-    margin-left: 16rem;
+    margin-left: 9rem;
 }
 
-.error-password-campo-requerido{
+.error-email{
     color: rgb(238, 70, 47);
     text-align: end;
-    margin-left: 14rem;
+    margin-left: 8rem;
 }
 
-.error-email-invalido{
+.error-password{
     color: rgb(238, 70, 47);
     text-align: end;
-    margin-left: 13.5rem;
-}
-
-.error-password-corto{
-    color: rgb(238, 70, 47);
-    text-align: end;
-    margin-left: 10.5rem;
-      
+    margin-left: 8rem;
 }
 
 .icono-check{
@@ -39,8 +37,21 @@
     margin-left: 20.5rem;
 }
 
-.error-email-ya-registrado{
-    color: rgb(238, 70, 47);
-    text-align: end;
-    margin-left: 15.5rem;
-}
+/*BOTON*/
+button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 0 5px white;
+  }
+  
+button:hover {
+    background-color: #ffffff;
+    color: black;
+  }

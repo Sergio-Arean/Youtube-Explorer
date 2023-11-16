@@ -18,21 +18,25 @@ export class HistorialPageComponent {
   lista_resultados:Resultado[] = [];
   //json:any[] = [];
 
-  constructor(private autentificacionService: AutentificacionService,private historialBusquedaService: HistorialBusquedaService, private datosEspecificosPais:DatosEspecificosPaisesService, private router:Router){}
+  constructor(
+    private autentificacionService: AutentificacionService,
+    private historialBusquedaService: HistorialBusquedaService, 
+    private datosEspecificosPais:DatosEspecificosPaisesService, 
+    private router:Router){}
 
   ngOnInit(){
-/*
-    this.autentificacionService.user.subscribe(user => {
-      if (user) {
-        this.mail_usuario_logueado = user.email;
-      } else {
-        this.mail_usuario_logueado = null;
-      }
-    });*/ //esto es transitoriamente comentado, EQ es donde recibe el mail de quien esta logueado
-  // this.cargarListaResultados(); //comentado porque esto es lo que estaba antes
- // this.mail_usuario_logueado = this.autentificacionService.getEmailUsuarioLogueado();
- this.mail_usuario_logueado = this.autentificacionService.emailUsuario() ;
- this.ConsologuearHistorialSegunUsuario();
+    /*
+        this.autentificacionService.user.subscribe(user => {
+          if (user) {
+            this.mail_usuario_logueado = user.email;
+          } else {
+            this.mail_usuario_logueado = null;
+          }
+        });*/ //esto es transitoriamente comentado, EQ es donde recibe el mail de quien esta logueado
+      // this.cargarListaResultados(); //comentado porque esto es lo que estaba antes
+    // this.mail_usuario_logueado = this.autentificacionService.getEmailUsuarioLogueado();
+  this.mail_usuario_logueado = this.autentificacionService.emailUsuario() ;
+  this.ConsologuearHistorialSegunUsuario();
   this.cargarListaResultadosII();
   }
 
@@ -43,10 +47,58 @@ export class HistorialPageComponent {
       this.autentificacionService.setUsuario(false,'');
       this.router.navigate(['/login']);
     }
-
   }
 
-  /*async cargarListaResultados(){
+  /* sabado 11-11 */
+  async ConsologuearHistorialSegunUsuario(){
+    let historial:Historial = {
+      id: '',
+      resultados: []
+    };
+
+    const json:any = await this.historialBusquedaService.getBusquedasSegunUsuario(this.mail_usuario_logueado); //envaimos a sergio
+    console.log(`Este es el json que recibe la page: `, json);
+    if(json!=null){
+      historial.id = json.id,
+      historial.resultados = json.resultados;
+    }
+    console.log(historial);
+  }
+
+
+  //ok, si los podemos consologuear, los vamos a listar.
+  /**ngFor="let video of lista_videos */
+ async cargarListaResultadosII(){
+  let historial:Historial = {
+    id: '',
+    resultados: []
+  };  
+  
+  const json:any = await this.historialBusquedaService.getBusquedasSegunUsuario(this.mail_usuario_logueado); //envaimos a sergio
+  console.log(`Este es el json que recibe la page: `, json);
+   if(json!=null){
+      historial.id = json.id,
+      historial.resultados = json.resultados;
+      this.lista_resultados = historial.resultados;
+    }
+  }
+
+  
+  //funcion intermediaria para cargar resultados
+  async getNombreEnCastellano(idPais:string){
+    return await this.datosEspecificosPais.getNombreCastellanoByCode(idPais);
+  }
+
+  async getUrlImagenBandera(idPais:string){
+    return await this.datosEspecificosPais.getBanderaByCode(idPais);
+  }
+
+}
+
+
+  /* A BORRAR
+  
+  async cargarListaResultados(){
     let json =  await this.historialBusquedaService.getHistorial();
     json.forEach((item:any)=>{
       const resultado:Resultado = {
@@ -69,49 +121,3 @@ export class HistorialPageComponent {
   console.log(this.lista_resultados);
 
   }*/
-
-  /* sabado 11-11 */
-  async ConsologuearHistorialSegunUsuario(){
-    let historial:Historial = {
-      id: '',
-      resultados: []
-    };
-
-
-
-    const json:any = await this.historialBusquedaService.getBusquedasSegunUsuario(this.mail_usuario_logueado); //envaimos a sergio
-    console.log(`Este es el json que recibe la page: `, json);
-    if(json!=null){
-      historial.id = json.id,
-      historial.resultados = json.resultados;
-    }
-    console.log(historial);
-  }
-  //ok, si los podemos consologuear, los vamos a listar.
-  /**ngFor="let video of lista_videos */
- async cargarListaResultadosII(){
-  let historial:Historial = {
-    id: '',
-    resultados: []
-  };  
-  
-  const json:any = await this.historialBusquedaService.getBusquedasSegunUsuario(this.mail_usuario_logueado); //envaimos a sergio
-  console.log(`Este es el json que recibe la page: `, json);
-  if(json!=null){
-    historial.id = json.id,
-    historial.resultados = json.resultados;
-    this.lista_resultados = historial.resultados;
-  }
-  
-  }
-
-  //funcion intermediaria para cargar resultados
-  async getNombreEnCastellano(idPais:string){
-    return await this.datosEspecificosPais.getNombreCastellanoByCode(idPais);
-  }
-
-  async getUrlImagenBandera(idPais:string){
-    return await this.datosEspecificosPais.getBanderaByCode(idPais);
-  }
-
-}

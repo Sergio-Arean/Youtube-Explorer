@@ -10,7 +10,9 @@ import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.se
   templateUrl: './registrarse-page.component.html',
   styleUrls: ['./registrarse-page.component.css']
 })
-export class RegistrarsePageComponent {
+
+export class RegistrarsePageComponent
+{
   usuario = {
     email:'',
     password: ''
@@ -18,7 +20,11 @@ export class RegistrarsePageComponent {
   lista_usuarios:string[] = [];
   email_invalido:boolean = true;
 
-  constructor(private formBuilder: FormBuilder,private autentificacion:AutentificacionService,private router: Router, private historialBusqueda:HistorialBusquedaService){}
+  constructor(
+    private formBuilder: FormBuilder,
+    private autentificacion:AutentificacionService,
+    private router: Router, 
+    private historialBusqueda:HistorialBusquedaService){}
 
   ngOnInit(){
     this.cargarListaUsuarios();
@@ -59,8 +65,6 @@ export class RegistrarsePageComponent {
     }catch(error){
       console.log(`Error al registrarse: ${error}`);
     }
-    
-    
   }
 
   /*metodos asociados a validaciones de formulario*/
@@ -70,6 +74,7 @@ export class RegistrarsePageComponent {
     }
     return false;
   }
+
   EmailAusente(){
     //metodo que valida email required 
     if(this.formulario.controls['email'].getError('required') && this.formulario.touched){
@@ -86,11 +91,10 @@ export class RegistrarsePageComponent {
     return false;
   }  
   
-   EmailEnUso(){
-    //metodo que valida email  en uso x otro usuario
-    //let usuarios:string[] = [];
-   // await this.historialBusqueda.usuariosRegistrados(usuarios);
-
+  EmailEnUso(){
+      //metodo que valida email  en uso x otro usuario
+      //let usuarios:string[] = [];
+      //await this.historialBusqueda.usuariosRegistrados(usuarios);
     if (this.formulario.controls['email'].touched && !this.EmailErroneo()){
       let email_ingresado = this.formulario.controls['email'].value;
       let usuario_encontrado:boolean = false;
@@ -110,9 +114,7 @@ export class RegistrarsePageComponent {
       verificar la lista de usuarios`);
       return false;
     }    
-
   }
-  //
   
   PasswordAusente(){
     //metodo que valida que el password este presente en el formulario
@@ -124,17 +126,14 @@ export class RegistrarsePageComponent {
   
  // y a su vez el registrarse tendria adicionales:
   PasswordMuyCorto(){
-
     if(this.formulario.controls['password'].touched && this.EmailValido()){
       if(this.formulario.controls['password'].getError('minlength')){
         return true;
       } else{
         return false;
       }
-
     }
       return false;
-   
   }
 
   PasswordAceptable(){
@@ -143,7 +142,5 @@ export class RegistrarsePageComponent {
     }
     return false;
   }
-  
-
   
 }

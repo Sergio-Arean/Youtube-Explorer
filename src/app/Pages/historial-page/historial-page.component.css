@@ -1,35 +1,22 @@
-
-
 .contenedor{
     margin-top: 3rem;
     display: flex;
-    
-    
-    
 }
 
 .titulo{
     display: inline-block;
-   
 }
 
-
-
-.seccion-datos-usuario {
-    
+.seccion-datos-usuario { 
     display: flex;
     text-align: end;
    /* justify-content: end;*/
    /* align-items: end;*/
     margin-left: auto;
-    
-
 }
 
 .email{
     margin-right: 2rem;
-    
-    
 }
 
 .btn-cerrar-sesion{
@@ -48,15 +35,15 @@
 .resultado{
     display: flex;
     margin-left: 4rem;
-    margin-top: 2rem;
-    
-    
+    margin-top: 2rem; 
 }
 
 .resultado p{
     margin-left: 2rem;
     margin-top: 1rem;
 }
+
+
 .bandera{
     width: 4rem;
     height: 4rem;

@@ -2,6 +2,7 @@
     <header>
         <h1 class="logo">Youtube Explorer</h1>
     </header>
+
     <nav class="barra-navegacion">
         <ul>
             <li class="opcion-menu">
@@ -17,14 +18,6 @@
                     <label class="texto-opcion-menu">Mapa</label>
                 </button>
             </li>
-              
-            <!--
-            <li class="opcion-menu">
-                <button class="btn-opcion-menu" routerLink="historial">
-                    <i class="bi bi-clock-history"></i>
-                    <label class="texto-opcion-menu">Historial</label>
-                </button>
-            </li>-->
 
             <li class="opcion-menu">
                 <button class="btn-opcion-menu" (click)="showSearch = !showSearch">
@@ -34,7 +27,18 @@
                 <div class="search-container" *ngIf="showSearch">
                     <app-barra-busqueda (hideSearch)="hideSearchBar()"></app-barra-busqueda> <!--necesario para la barra-->
                   </div>
-              </li>
+              </li> 
         </ul>
     </nav>
+
 </aside>
+
+
+<!-- A BORRAR
+     <li class="opcion-menu">
+        <button class="btn-opcion-menu" routerLink="historial">
+            <i class="bi bi-clock-history"></i>
+            <label class="texto-opcion-menu">Historial</label>
+        </button>
+    </li>
+-->

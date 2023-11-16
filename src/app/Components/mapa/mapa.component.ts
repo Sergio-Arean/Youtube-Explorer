@@ -12,40 +12,41 @@ import { SharedDataMapaFiltrosService } from 'src/app/Services/shared-data-mapa-
   templateUrl: './mapa.component.html',
   styleUrls: ['./mapa.component.css']
 })
-export class MapaComponent {
-
+export class MapaComponent 
+{
   /*seccion hover pais*/
   nombre_pais_hover:string='';
   pais_disponible:boolean = true;
   url_bandera_pais_hover:string='';
    
-    pais_hovereado:Pais = {
+  pais_hovereado:Pais = {
       nombre_castellano : 'NOMBRE DEFINIDO EN OBJETO LITERAL',
       url_bandera: ''
-    };
+  };
   
-
-
-
-
 
 
   isComponentOpen: boolean = false;
 
-  constructor(private router: Router,    private redireccionUrlPantallaFiltrosService: RedireccionUrlPantallaFiltrosService,
-    private sharedDataService: SharedDataMapaFiltrosService, private datosEspecificos: DatosEspecificosPaisesService, private popularVideos:PopularVideosService){
-
-          // Verifica si la ruta actual es la raíz '/'
+  constructor(
+    private router: Router,    
+    private redireccionUrlPantallaFiltrosService: RedireccionUrlPantallaFiltrosService,
+    private sharedDataService: SharedDataMapaFiltrosService, 
+    private datosEspecificos: DatosEspecificosPaisesService, 
+    private popularVideos:PopularVideosService)
+    //lógica en el constructor, incluyendo otros servicios inyectados
+  {
+      // Verifica si la ruta actual es la raíz '/'
     if (this.router.url === '/') {
       // Redirige a la página de inicio si se accede a la ruta raíz
       this.router.navigate(['/home']);
     }
-
-    // Resto de la lógica en el constructor, incluyendo otros servicios inyectados
-    }
+  }
 
 
-    /*METODOS HOVER PAIS*/
+
+/*METODOS HOVER PAIS*/
+
     async hoverEnPais(event: any){ //metodo que gestiona la relacion entre el evento hover y el pais seleccionado
       let id_pais:string = '';
       id_pais = event.target.id; 
@@ -58,65 +59,57 @@ export class MapaComponent {
       this.url_bandera_pais_hover = this.pais_hovereado.url_bandera;
   
       this.pais_disponible = this.popularVideos.isDisponible(id_pais); //cambia color de mapa
-      
     }
-  
 
-    /*FIN SECCION METODOS HOVER PAIS*/
-
+/*FIN SECCION METODOS HOVER PAIS*/
 
 
 
-
-    onMapClick(event: MouseEvent) {
+  onMapClick(event: MouseEvent) 
+  {
       // Obtén las coordenadas del clic
-      const x = event.clientX;
-      const y = event.clientY;
+    const x = event.clientX;
+    const y = event.clientY;
     
       // Obtén el elemento SVG en las coordenadas del clic
-      const clickedElement = document.elementFromPoint(x, y);
+    const clickedElement = document.elementFromPoint(x, y);
     
       // Comprueba si el elemento es un <path> (área del país)
-      if (clickedElement instanceof SVGPathElement) {
-        // Obtén el ID del país desde el atributo "id"
-        const country = clickedElement.getAttribute('title');
-  
-        console.log("PAIS CLICKEADO = " + country);
-  
-        const countryId = clickedElement.getAttribute('id');
-  
-  
-        if (countryId !== null && country != null) { // se verifica que el id del pais no es null
+    if (clickedElement instanceof SVGPathElement) 
+    {
+      // Obtén el ID del país desde el atributo "id"
+      const country = clickedElement.getAttribute('title');
+      console.log("PAIS CLICKEADO = " + country);
+      const countryId = clickedElement.getAttribute('id');
+
+      if (countryId !== null && country != null) 
+      { // se verifica que el id del pais no es null
           //this.redireccionUrlPantallaFiltrosService.navegarAlUrlFiltros(countryId)
+
+        this.sharedDataService.setNombrePais(country) //le pasamos la variable country a un servicio que tambie usa la pantalla de filtros
+        this.sharedDataService.setNIdPais(countryId)
   
-          this.sharedDataService.setNombrePais(country) //le pasamos la variable country a un servicio que tambie usa la pantalla de filtros
-          this.sharedDataService.setNIdPais(countryId)
-  
-          
           /*inicio adaptacion para validar pais disponible*/ 
-          if(!this.popularVideos.isDisponible(countryId)){
+        if(!this.popularVideos.isDisponible(countryId)){
             //console.log(`id enviado a is disponible: ${idPais}`);
-            alert(`La informacion sobre el pais seleccionado no esta disponible`);
-          }else{
+          alert(`La informacion sobre el pais seleccionado no esta disponible`);
+        }else{
             this.router.navigate(['/home/pais', country]);
             this.isComponentOpen = false; //con true se pone borroso el mapa
-          }
-          /*fin adaptacion para validar pais disponible*/ 
-
-          /*
-          this.router.navigate(['/home/pais', country]);
-          this.isComponentOpen = false; //con true se pone borroso el mapa*/
-  
         }
-  
+        /*fin adaptacion para validar pais disponible
+        this.router.navigate(['/home/pais', country]);
+        this.isComponentOpen = false; //con true se pone borroso el mapa*/
       }
     }
+  }
   
-    onClose() { //para sacar lo borroso, aca tambien verificamos que la ventana de filtros se cerro
+  onClose() { //para sacar lo borroso, aca tambien verificamos que la ventana de filtros se cerro
       this.isComponentOpen = false; // Cambiar el valor cuando se cierre la pantalla de filtros
-    }
+  }
 
-    /*fin tomy functions*/
+  /*fin tomy functions*/
+
 
   hacerClick(event: MouseEvent) {
     const idPais = (event.target as HTMLDivElement).id;
@@ -129,14 +122,12 @@ export class MapaComponent {
     }else{
       this.router.navigate(['paises', idPais]);
     }
-    
   }
 
 
   /*SABADO 04-11: Adaptando metodo OnmAPcCLIK para pasar a la pantalla de busqueda por pais
   clickeado usando pantalla tomy filtros*/
   onMapClickII(event: MouseEvent) {
-    // Obtén las coordenadas del clic
     const x = event.clientX;
     const y = event.clientY;
   
@@ -147,33 +138,22 @@ export class MapaComponent {
     if (clickedElement instanceof SVGPathElement) {
       // Obtén el ID del país desde el atributo "id"
       const country = clickedElement.getAttribute('title');
-
       console.log("PAIS CLICKEADO = " + country);
-
       const countryId = clickedElement.getAttribute('id');
-
 
       if (countryId !== null && country != null) { // se verifica que el id del pais no es null
         //this.redireccionUrlPantallaFiltrosService.navegarAlUrlFiltros(countryId)
-
         this.sharedDataService.setNombrePais(country) //le pasamos la variable country a un servicio que tambie usa la pantalla de filtros
         this.sharedDataService.setNIdPais(countryId)
 
-
         /*adaptacion para redireccion a busqueda-por-pais:*/
-       const idPais = (event.target as HTMLDivElement).id;
+        const idPais = (event.target as HTMLDivElement).id;
         this.router.navigate(['paises', idPais]);
         /* fin adaptacion para redireccion a busqueda-por-pais:*/
         this.isComponentOpen = false; //con true se pone borroso el mapa
-
       }
-
     }
   }
-
-
-
-
 
 }
 

@@ -1,5 +1,4 @@
 .filtro-container {
- /* position: fixed;*/ 
   top: 2%;
   left: 20%;
   right: 0;
@@ -8,7 +7,7 @@
   padding: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  /*width: 80%;*/ width:100%;
+  width:100%;
   height: auto;
   font-family: "Tilt Neon", sans-serif;
 }
@@ -33,12 +32,10 @@
   flex: 1;
 }
 
-
 .filtro-box label {
   font-size: 95%;
   display: block;
 }
-
 
 .filtro-box input[type="checkbox"] {
   width: 100%;
@@ -53,7 +50,6 @@
   background-color: #000000; 
   border: 1px solid #fffcfc; 
 }
-
 
 .filtro-box select,
 .filtro-box input[type="text"] {
@@ -70,7 +66,7 @@
   font-size: 90%;
 }
 
-
+/*BOTONES e INPUTs*/
 .buscar-button {
   margin-top: 10px;
   background-color: black;

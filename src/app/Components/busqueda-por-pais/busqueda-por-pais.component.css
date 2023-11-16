@@ -2,72 +2,64 @@
 .mensaje-error {
   background-color: #ff0000b9; 
   color: #ffffffce; 
-  padding: 10px; /* Espacio interno */
-  margin-top: 10px; /* Margen superior */
-  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; 
+  margin-top: 10px; 
+  border-radius: 5px; 
 }
 
-
- 
- /*Seccion Resultados en General*/
 .seccion-resultados{
   background-color: black; 
   color: white;
 }
 
 
-  /*Codificando c/ resultado*/
 .resultado{
-      display: flex;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1rem;
-      padding: 1rem;
-      background-color: black;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra exterior con color blanco "neón" */
-      transition: box-shadow 0.3s;
-      /*width: calc(100% - 250px);*/
-      width: 100%;
-      margin-block: 3rem;/*agregado el 3-11*/
-  }
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  transition: box-shadow 0.3s;
+  width: 100%;
+  margin-block: 3rem;
+}
 
 
-  .resultado:hover {
-    box-shadow: 0 0 20px rgb(247, 58, 58); /* Aumenta el brillo de la sombra al pasar el cursor */
-    transition: box-shadorgb(246, 10, 10)
-  }
+.resultado:hover {
+  box-shadow: 0 0 20px rgb(247, 58, 58);
+  transition: box-shadorgb(246, 10, 10)
+}
   
 
-  .numero-resultado{
-    display:none;
-  }
+.numero-resultado{
+  display:none;
+}
 
-  .img-resultado{
-    /*border-radius: 50%;*/
-    width: 100%;
-    max-width: 8rem;
-    height: auto;
-    border-radius:25% ;
-  }
+.img-resultado{
+  width: 100%;
+  max-width: 8rem;
+  height: auto;
+  border-radius:25% ;
+}
 
 
-  .datos-video{
-    margin-left: 2rem;
-    font-size: 0.85rem;
+.datos-video{
+  margin-left: 2rem;
+  font-size: 0.85rem;
 
-  }
+}
 
-  .datos-video p {
-    /*margin-bottom: 0; /* Elimina el margen para restablecer cualquier margen predeterminado */
-    padding: 0; /* Elimina el relleno para restablecer cualquier relleno predeterminado */
-    line-height: 0.8; /* Ajusta la altura de línea según tus preferencias (puedes cambiar este valor) */
-    font-size: 0.9rem;
+.datos-video p {
+  padding: 0; 
+  line-height: 0.8;
+  font-size: 0.9rem;
 }
 
 .titulo-video{
   font-weight: 600; /*el titulo con una especie de negrita*/
- /* line-height: 10000px;*/ /*pendiente resolver interlineado en titulos largos*/
- cursor: pointer;
+  cursor: pointer;
 }
 
 
