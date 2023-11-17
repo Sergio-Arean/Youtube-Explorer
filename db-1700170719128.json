@@ -1,0 +1,209 @@
+{
+  "historiales": [
+    {
+      "id": "gonzalobenoffi@gmail.com",
+      "resultados": []
+    },
+    {
+      "id": "sdfsd@gmail.com",
+      "resultados": []
+    },
+    {
+      "id": "davidluiz@gmail.com",
+      "resultados": [
+        {
+          "id": "0",
+          "fecha": "16-11-2023",
+          "hora": "09:56",
+          "pais": "Brasil",
+          "url_bandera": "https://flagcdn.com/w320/br.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "uZuq3iejxlQ",
+              "imagen": "https://i.ytimg.com/vi/uZuq3iejxlQ/default.jpg",
+              "titulo": "GRAVE: tudo sobre o caso de agressão sofrido por Ana Hickmann l Hora da Fofoca l TV Gazeta",
+              "canal": "TV Gazeta",
+              "visualizaciones": "660177",
+              "likes": "19698",
+              "cant_comentarios": "1870",
+              "tag": "Hora da Fofoca"
+            },
+            {
+              "id": "fXsRrYmE--I",
+              "imagen": "https://i.ytimg.com/vi/fXsRrYmE--I/default.jpg",
+              "titulo": "Como assim uma PÉSSIMA NOTÍCIA? 😰 #coffee_dfn",
+              "canal": "Coffee DFN",
+              "visualizaciones": "450531",
+              "likes": "33642",
+              "cant_comentarios": "202",
+              "tag": "React"
+            },
+            {
+              "id": "PKVJdmpseJw",
+              "imagen": "https://i.ytimg.com/vi/PKVJdmpseJw/default.jpg",
+              "titulo": "\"Sobre o Scarpa, a INFORMAÇÃO que EU TIVE é que o Flamengo...\" Mauro Cezar APURA e FALA A REAL!",
+              "canal": "Jovem Pan Esportes",
+              "visualizaciones": "382689",
+              "likes": "13837",
+              "cant_comentarios": "621",
+              "tag": "mcp_pilula"
+            },
+            {
+              "id": "QYNAMARqgk4",
+              "imagen": "https://i.ytimg.com/vi/QYNAMARqgk4/default.jpg",
+              "titulo": "Ladrão passa mal e morre após participar de roubo de moto | Primeiro Impacto (08/11/23)",
+              "canal": "SBT News",
+              "visualizaciones": "1577676",
+              "likes": "32471",
+              "cant_comentarios": "9868",
+              "tag": "jornalismo sbt"
+            },
+            {
+              "id": "NhED3MyxVpw",
+              "imagen": "https://i.ytimg.com/vi/NhED3MyxVpw/default.jpg",
+              "titulo": "Caso Sophia: polícia cerca cemitério após princípio de confusão no enterro de Tiago Fontes",
+              "canal": "CidadeAlertaRecord",
+              "visualizaciones": "409029",
+              "likes": "14043",
+              "tag": "menina sophia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robertocarlos@gmail.com",
+      "resultados": [
+        {
+          "id": "0",
+          "fecha": "16-11-2023",
+          "hora": "09:57",
+          "pais": "Paraguay",
+          "url_bandera": "https://flagcdn.com/w320/py.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "URexPq3CA4U",
+              "imagen": "https://i.ytimg.com/vi/URexPq3CA4U/default.jpg",
+              "titulo": "Cae sospechoso del atraco de transportador de caudales",
+              "canal": "SNT Paraguay",
+              "visualizaciones": "21037",
+              "likes": "192",
+              "cant_comentarios": "22",
+              "tag": "Noticias"
+            },
+            {
+              "id": "2kMOogJDVmk",
+              "imagen": "https://i.ytimg.com/vi/2kMOogJDVmk/default.jpg",
+              "titulo": "Apresan a una mujer por crimen de su marido",
+              "canal": "ABC TV Paraguay",
+              "visualizaciones": "19098",
+              "likes": "172",
+              "cant_comentarios": "35",
+              "tag": "PARAGUAY"
+            },
+            {
+              "id": "Yf1YjISy-os",
+              "imagen": "https://i.ytimg.com/vi/Yf1YjISy-os/default.jpg",
+              "titulo": "Estados Unidos bombardea instalaciones en Siria vinculadas a Irán",
+              "canal": "Canal 26",
+              "visualizaciones": "72761",
+              "likes": "1307",
+              "cant_comentarios": "459",
+              "tag": "estados unidos"
+            },
+            {
+              "id": "S8xyhrk2dUk",
+              "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
+              "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
+              "canal": "Latina Noticias",
+              "visualizaciones": "438227",
+              "likes": "4995",
+              "cant_comentarios": "222",
+              "tag": "Latina noticias en vivo"
+            },
+            {
+              "id": "aLwHhF__tlg",
+              "imagen": "https://i.ytimg.com/vi/aLwHhF__tlg/default.jpg",
+              "titulo": "Match point. El editorial de Jonatan Viale.",
+              "canal": "LA NACION",
+              "visualizaciones": "264341",
+              "likes": "9061",
+              "cant_comentarios": "2053",
+              "tag": "lazaro baez"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sergio.arean@gmail.com",
+      "resultados": [
+        {
+          "id": "CgFzRuGM",
+          "fecha": "16-11-2023",
+          "hora": "17:42",
+          "pais": "Chile",
+          "url_bandera": "https://flagcdn.com/w320/cl.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "8UsCBduXvH8",
+              "imagen": "https://i.ytimg.com/vi/8UsCBduXvH8/default.jpg",
+              "titulo": "EN VIVO | Meganoticias Alerta - Jueves 16 de noviembre",
+              "canal": "Meganoticias",
+              "visualizaciones": "57057",
+              "likes": "287",
+              "cant_comentarios": "11",
+              "tag": "mega"
+            },
+            {
+              "id": "Ye2aG20Ppxw",
+              "imagen": "https://i.ytimg.com/vi/Ye2aG20Ppxw/default.jpg",
+              "titulo": "EXCLUSIVO | Las escuchas telefónicas de la “narco reina” con la líder de los Marchant - CHV Noticias",
+              "canal": "CHV Noticias",
+              "visualizaciones": "280869",
+              "likes": "1786",
+              "cant_comentarios": "727",
+              "tag": "noviembre 2023"
+            },
+            {
+              "id": "2B9R-INesrE",
+              "imagen": "https://i.ytimg.com/vi/2B9R-INesrE/default.jpg",
+              "titulo": "NUEVO ESCÁNDALO: Audios revelan coimas a funcionarios públicos - Contigo en la Mañana",
+              "canal": "Chilevisión",
+              "visualizaciones": "75865",
+              "likes": "729",
+              "cant_comentarios": "533",
+              "tag": "gobierno"
+            },
+            {
+              "id": "GQMuKW3A2f0",
+              "imagen": "https://i.ytimg.com/vi/GQMuKW3A2f0/default.jpg",
+              "titulo": "Deportistas cubanas fugadas rompen su silencio: solicitaron refugio en Chile #ReportajesT13",
+              "canal": "T13",
+              "visualizaciones": "680377",
+              "likes": "11122",
+              "cant_comentarios": "3859",
+              "tag": "noticias"
+            },
+            {
+              "id": "9JSSk_TeBUY",
+              "imagen": "https://i.ytimg.com/vi/9JSSk_TeBUY/default.jpg",
+              "titulo": "Tu Día | jueves 16 Noviembre | Canal 13",
+              "canal": "Canal 13",
+              "visualizaciones": "30438",
+              "likes": "219",
+              "cant_comentarios": "0",
+              "tag": "Programa Servicio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
