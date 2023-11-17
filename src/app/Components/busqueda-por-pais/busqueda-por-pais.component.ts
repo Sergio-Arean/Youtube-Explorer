@@ -174,7 +174,8 @@ guardarEnHistorial(){
     //this.historialBusquedaService.guardarEnHistorial(this.lista_videos,fecha_y_hora,this.idPais,this.cantidad,this.popularVideosService.devuelveCategoriaSegunID(this.categoria));
     console.log(`CONSOLOGUEO PREVIO A LINEA DE CODIGO QUE POSTEA EN HISTORIAL, DESDE 
     BUSQUEDA POR PAIS COMPONENT`);
-    this.historialBusquedaService.PostearBusquedaEnUsuario(this.mail_usuario_logueado,this.lista_videos,fecha_y_hora,this.idPais,this.cantidad,this.popularVideosService.devuelveCategoriaSegunID(this.categoria))
+   // this.historialBusquedaService.PostearBusquedaEnUsuario(this.mail_usuario_logueado,this.lista_videos,fecha_y_hora,this.idPais,this.cantidad,this.popularVideosService.devuelveCategoriaSegunID(this.categoria))
+    this.historialBusquedaService.PostearBusquedaEnUsuario(this.mail_usuario_logueado,this.lista_videos,fecha_y_hora,this.idPais,this.lista_videos.length.toString(),this.popularVideosService.devuelveCategoriaSegunID(this.categoria));
     console.log(`CONSOLOGUEO POSTERIOR A LINEA DE CODIGO QUE POSTEA EN HISTORIAL, DESDE 
     BUSQUEDA POR PAIS COMPONENT`);
 }
