@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Noticia } from 'src/app/Interfaces/Noticia';
 import { DatosEspecificosPaisesService } from 'src/app/Services/datos-especificos-paises.service';
 import { NoticiasService } from 'src/app/Services/noticias.service';
@@ -25,6 +25,7 @@ export class DetallesVideoComponent {
   noticias_internacionales:Noticia[] = [];
 
   constructor(
+    private router: Router,
     private route: ActivatedRoute,
     private sanitizer: DomSanitizer, 
     private noticiasService:NoticiasService, 
@@ -39,15 +40,13 @@ export class DetallesVideoComponent {
      this.lenguaje = params['lenguaje'];
      this.idPais = params['idPais'];
     });
-    //con esto especifico que hago con el parametro
+    
 
     this.urlVideo = this.sanitizer.bypassSecurityTrustResourceUrl(`https://www.youtube.com/embed/${this.idVideo}`);
-    //este componente recibe el ide del video, puede recibir el pais y tambien el tag
-
-   // this.getNoticiasRelacionadas(); //LISTAR NOTICIAS RELACIONADAS AL VIDEO CLICKEADO! //comentado lunes 13-11
+ 
 
     this.consologueoInformativo();
-    /*Lunes 13-11*/
+    
     this.cargarVista();
   }
 
@@ -92,24 +91,12 @@ export class DetallesVideoComponent {
     }
     return false;
   }
+  AbrirNoticiaNuevaVentana(url:string){
+    window.open(url, '_blank');
+    
+  }
 
 }
 
 
-/* A BORRAR
 
-async getNoticiasRelacionadas(){
-    //this.noticiasService.getNoticiasRelacionadasByTag()
-    // NECESITAMOS : TAG - LENGUAJE - ID PAIS
-    console.log(`Esta es la prueba de que el servicio de listar noticias puede llegar a funcionar.
-    Vas a pedir noticias de un pais con Id${this.idPais},con el tag ${this.tag},en donde se habla en ${this.lenguaje}`);
-    const data = await this.noticiasService.getNoticiasRelacionadasByTag(this.tag,this.lenguaje,this.idPais);
-    if(data){
-      this.noticias_relacionadas = data;
-    }
-    if(this.noticias_relacionadas.length==0){
-      this.aviso_sin_noticias = 'No se han encontrado noticias relacionadas';
-    }
-  }
-  
-*/

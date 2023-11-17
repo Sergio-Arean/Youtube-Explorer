@@ -140,6 +140,10 @@ export class HistorialPageComponent {
 
 
  async LimpiarHistorial(){
+  if(this.lista_resultados.length==0){
+    Swal.fire("El historial ya está vacío!");
+    return;
+  }
   Swal.fire({
     title: "Estás seguro?",
     text: "Se eliminará el historial de todas tus búsquedas",
@@ -148,7 +152,7 @@ export class HistorialPageComponent {
     confirmButtonColor: "#3085d6",
     cancelButtonColor: "#d33",
     cancelButtonText:"Cancelar",
-    confirmButtonText: "Si, borrar historial"
+    confirmButtonText: "Sí, borrar historial"
   }).then((result) => {
     if (result.isConfirmed) {
       this.historialBusquedaService.eliminarTodasLasBusquedas(this.mail_usuario_logueado)

@@ -202,70 +202,12 @@
       "resultados": []
     },
     {
+      "id": "prueba@gmail.com",
+      "resultados": []
+    },
+    {
       "id": "sergio.arean@gmail.com",
-      "resultados": [
-        {
-          "id": "FCQIZgzO",
-          "fecha": "16-11-2023",
-          "hora": "23:33",
-          "pais": "Argentina",
-          "url_bandera": "https://flagcdn.com/w320/ar.png",
-          "cantidad": "5",
-          "categoria": "Noticias y Política",
-          "videos": [
-            {
-              "id": "n3hiGKs0CGw",
-              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
-              "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
-              "canal": "Todo Noticias",
-              "visualizaciones": "1706843",
-              "likes": "21911",
-              "cant_comentarios": "14911",
-              "tag": "balotaje"
-            },
-            {
-              "id": "S8xyhrk2dUk",
-              "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
-              "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
-              "canal": "Latina Noticias",
-              "visualizaciones": "438388",
-              "likes": "4997",
-              "cant_comentarios": "224",
-              "tag": "Latina noticias en vivo"
-            },
-            {
-              "id": "_av85d5fvfY",
-              "imagen": "https://i.ytimg.com/vi/_av85d5fvfY/default.jpg",
-              "titulo": "Psicosis; el editorial de Jonatan Viale",
-              "canal": "LA NACION",
-              "visualizaciones": "197479",
-              "likes": "8044",
-              "cant_comentarios": "1621",
-              "tag": "lazaro baez"
-            },
-            {
-              "id": "s4cWKAdTX-s",
-              "imagen": "https://i.ytimg.com/vi/s4cWKAdTX-s/default.jpg",
-              "titulo": "El EDITORIAL de Alejandro Bercovich en BROTES VERDES",
-              "canal": "C5N",
-              "visualizaciones": "96379",
-              "likes": "2507",
-              "cant_comentarios": "975",
-              "tag": "c5ndigital"
-            },
-            {
-              "id": "jBjFMrGffIc",
-              "imagen": "https://i.ytimg.com/vi/jBjFMrGffIc/default.jpg",
-              "titulo": "Allanaron una cueva ilegal y no vas a poder creer que empresario vinculado al Macri estaba adentro",
-              "canal": "Revolución Popular Noticias",
-              "visualizaciones": "131866",
-              "likes": "2897",
-              "cant_comentarios": "860",
-              "tag": "leonardo fariña"
-            }
-          ]
-        }
-      ]
+      "resultados": []
     }
   ]
 }

@@ -15,8 +15,8 @@
       <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en {{nombre_pais_castellano}}</h3>
     </div>
 
-    <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_locales">
-      <div class="noticia">
+    <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_locales" >
+      <div class="noticia" (click)="AbrirNoticiaNuevaVentana(noticia.url)">
         <img class="foto-noticia" [src]="noticia.urlToimage" alt="">
         <h5 class="titulo-noticia">{{noticia.title}}</h5>
       </div>
@@ -34,7 +34,7 @@
     </div>
 
     <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_internacionales">
-      <div class="noticia">
+      <div class="noticia" (click)="AbrirNoticiaNuevaVentana(noticia.url)">
         <img class="foto-noticia" [src]="noticia.urlToimage" alt="">
         <h5 class="titulo-noticia">{{noticia.title}}</h5>
       </div>

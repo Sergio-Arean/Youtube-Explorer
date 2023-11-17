@@ -113,6 +113,7 @@ h1{
   flex-direction: row;
   margin-bottom: 20px; /* Agregué un margen inferior para separar las noticias */
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .noticia:hover {
