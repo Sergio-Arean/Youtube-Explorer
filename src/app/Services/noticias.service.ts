@@ -11,7 +11,7 @@ url1:string='https://newsapi.org/v2/everything?q=';
 //parametro:string=''; //milei : TAG!
 url2:string='&sortBy=publishedAt&language=';
 //lenguaje:string='';//es
-api_key:string = '&apiKey=b5242720ec894d72bffde634c2638cfb';
+api_key:string = '&apiKey=cc3a9909dec54e719d2d24e6144f34b0';
 //url1 + PARAMETRO + url2 + LENGUAJE + API KEY
 
 

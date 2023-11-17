@@ -19,7 +19,7 @@ const routes: Routes = [
 
   {path: 'paises/:idPais/:cantidad/:categoria', component: BusquedaPorPaisComponent},
 
-  {path: 'historial/:email/:idResultado', component: VerBusquedaAnteriorPageComponent},
+  {path: 'historial/:email/:idResultado/:idPais', component: VerBusquedaAnteriorPageComponent},
 
   {path: 'videos/:idVideo/:tag/:lenguaje/:idPais', component: DetallesVideoComponent}, //path reproduccion video
   {path: 'home/busqueda', component: BarraBusquedaComponent },

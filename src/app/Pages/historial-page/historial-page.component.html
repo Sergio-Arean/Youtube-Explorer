@@ -35,7 +35,7 @@
         <img [src]="resultado.url_bandera" class="bandera"alt="">
         </div>
         
-            <div class="seccion-datos-por-busqueda" (click)="VerBusquedasAnteriores(resultado.id)">
+            <div class="seccion-datos-por-busqueda" (click)="VerBusquedasAnteriores(resultado.id,resultado.idPais)">
                 <p >{{resultado.pais}}</p>
                 <p>{{resultado.categoria}}</p>
                 <p>{{resultado.cantidad}} videos</p>

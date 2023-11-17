@@ -20,7 +20,7 @@ export class VerBusquedaAnteriorPageComponent {
   ngOnInit(){
     
     this.route.params.subscribe(params => {
-     // this.idPais = params['idPais'];
+      this.idPais = params['idPais'];
       this.email_usuario_logueado = params['email'];
       this.idResultado = params['idResultado'];
       

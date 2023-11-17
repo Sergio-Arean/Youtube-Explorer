@@ -178,8 +178,8 @@ export class HistorialPageComponent {
 
 
 
-  VerBusquedasAnteriores(idResultado:string){
-    this.router.navigate(['historial',this.mail_usuario_logueado,idResultado]);
+  VerBusquedasAnteriores(idResultado:string,idPais:string){
+    this.router.navigate(['historial',this.mail_usuario_logueado,idResultado,idPais]);
   }
 
 }

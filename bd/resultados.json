@@ -456,10 +456,11 @@
       "id": "sergio.arean@gmail.com",
       "resultados": [
         {
-          "id": "sLixBTZv",
+          "id": "hNxSHreg",
           "fecha": "17-11-2023",
-          "hora": "01:03",
+          "hora": "01:34",
           "pais": "Argentina",
+          "idPais": "AR",
           "url_bandera": "https://flagcdn.com/w320/ar.png",
           "cantidad": "5",
           "categoria": "Noticias y Política",
@@ -469,9 +470,9 @@
               "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
               "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
               "canal": "Todo Noticias",
-              "visualizaciones": "1708460",
-              "likes": "21924",
-              "cant_comentarios": "14919",
+              "visualizaciones": "1709229",
+              "likes": "21935",
+              "cant_comentarios": "14917",
               "tag": "balotaje"
             },
             {
@@ -479,7 +480,7 @@
               "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
               "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
               "canal": "Latina Noticias",
-              "visualizaciones": "438415",
+              "visualizaciones": "438426",
               "likes": "4997",
               "cant_comentarios": "224",
               "tag": "Latina noticias en vivo"
@@ -489,159 +490,39 @@
               "imagen": "https://i.ytimg.com/vi/_av85d5fvfY/default.jpg",
               "titulo": "Psicosis; el editorial de Jonatan Viale",
               "canal": "LA NACION",
-              "visualizaciones": "199316",
-              "likes": "8103",
-              "cant_comentarios": "1655",
+              "visualizaciones": "200957",
+              "likes": "8127",
+              "cant_comentarios": "1664",
               "tag": "lazaro baez"
-            },
-            {
-              "id": "jBjFMrGffIc",
-              "imagen": "https://i.ytimg.com/vi/jBjFMrGffIc/default.jpg",
-              "titulo": "Allanaron una cueva ilegal y no vas a poder creer que empresario vinculado al Macri estaba adentro",
-              "canal": "Revolución Popular Noticias",
-              "visualizaciones": "132437",
-              "likes": "2904",
-              "cant_comentarios": "857",
-              "tag": "leonardo fariña"
             },
             {
               "id": "s4cWKAdTX-s",
               "imagen": "https://i.ytimg.com/vi/s4cWKAdTX-s/default.jpg",
               "titulo": "El EDITORIAL de Alejandro Bercovich en BROTES VERDES",
               "canal": "C5N",
-              "visualizaciones": "96573",
+              "visualizaciones": "96692",
               "likes": "2513",
               "cant_comentarios": "971",
               "tag": "c5ndigital"
+            },
+            {
+              "id": "jBjFMrGffIc",
+              "imagen": "https://i.ytimg.com/vi/jBjFMrGffIc/default.jpg",
+              "titulo": "Allanaron una cueva ilegal y no vas a poder creer que empresario vinculado al Macri estaba adentro",
+              "canal": "Revolución Popular Noticias",
+              "visualizaciones": "132716",
+              "likes": "2906",
+              "cant_comentarios": "857",
+              "tag": "leonardo fariña"
             }
           ]
         },
         {
-          "id": "PyfLSYHq",
+          "id": "AiEMPyzP",
           "fecha": "17-11-2023",
-          "hora": "01:03",
-          "pais": "Brasil",
-          "url_bandera": "https://flagcdn.com/w320/br.png",
-          "cantidad": "5",
-          "categoria": "Noticias y Política",
-          "videos": [
-            {
-              "id": "KirFzgmETzY",
-              "imagen": "https://i.ytimg.com/vi/KirFzgmETzY/default.jpg",
-              "titulo": "JOGO ABERTO - 16/11/2023 - PROGRAMA COMPLETO",
-              "canal": "Jogo Aberto",
-              "visualizaciones": "956212",
-              "likes": "19474",
-              "cant_comentarios": "66",
-              "tag": "últimas notícias do são paulo"
-            },
-            {
-              "id": "uZuq3iejxlQ",
-              "imagen": "https://i.ytimg.com/vi/uZuq3iejxlQ/default.jpg",
-              "titulo": "GRAVE: tudo sobre o caso de agressão sofrido por Ana Hickmann l Hora da Fofoca l TV Gazeta",
-              "canal": "TV Gazeta",
-              "visualizaciones": "752924",
-              "likes": "21604",
-              "cant_comentarios": "1998",
-              "tag": "Hora da Fofoca"
-            },
-            {
-              "id": "fXsRrYmE--I",
-              "imagen": "https://i.ytimg.com/vi/fXsRrYmE--I/default.jpg",
-              "titulo": "Como assim uma PÉSSIMA NOTÍCIA? 😰 #coffee_dfn",
-              "canal": "Coffee DFN",
-              "visualizaciones": "565279",
-              "likes": "41258",
-              "cant_comentarios": "259",
-              "tag": "React"
-            },
-            {
-              "id": "NhED3MyxVpw",
-              "imagen": "https://i.ytimg.com/vi/NhED3MyxVpw/default.jpg",
-              "titulo": "Caso Sophia: polícia cerca cemitério após princípio de confusão no enterro de Tiago Fontes",
-              "canal": "CidadeAlertaRecord",
-              "visualizaciones": "475036",
-              "likes": "16079",
-              "tag": "menina sophia"
-            },
-            {
-              "id": "PKVJdmpseJw",
-              "imagen": "https://i.ytimg.com/vi/PKVJdmpseJw/default.jpg",
-              "titulo": "\"Sobre o Scarpa, a INFORMAÇÃO que EU TIVE é que o Flamengo...\" Mauro Cezar APURA e FALA A REAL!",
-              "canal": "Jovem Pan Esportes",
-              "visualizaciones": "459611",
-              "likes": "15281",
-              "cant_comentarios": "680",
-              "tag": "mcp_pilula"
-            }
-          ]
-        },
-        {
-          "id": "oXevkWii",
-          "fecha": "17-11-2023",
-          "hora": "01:03",
-          "pais": "Bolivia",
-          "url_bandera": "https://flagcdn.com/w320/bo.png",
-          "cantidad": "5",
-          "categoria": "Noticias y Política",
-          "videos": [
-            {
-              "id": "LQtziwKtvTg",
-              "imagen": "https://i.ytimg.com/vi/LQtziwKtvTg/default.jpg",
-              "titulo": "Resumen en video de la guerra Israel - Hamas: noticias del 14 de noviembre de 2023",
-              "canal": "CNN en Español",
-              "visualizaciones": "508777",
-              "likes": "5198",
-              "cant_comentarios": "822",
-              "tag": "Hospital"
-            },
-            {
-              "id": "S8xyhrk2dUk",
-              "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
-              "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
-              "canal": "Latina Noticias",
-              "visualizaciones": "438415",
-              "likes": "4997",
-              "cant_comentarios": "224",
-              "tag": "Latina noticias en vivo"
-            },
-            {
-              "id": "_av85d5fvfY",
-              "imagen": "https://i.ytimg.com/vi/_av85d5fvfY/default.jpg",
-              "titulo": "Psicosis; el editorial de Jonatan Viale",
-              "canal": "LA NACION",
-              "visualizaciones": "199450",
-              "likes": "8103",
-              "cant_comentarios": "1655",
-              "tag": "lazaro baez"
-            },
-            {
-              "id": "ZVtY7ZhZmyg",
-              "imagen": "https://i.ytimg.com/vi/ZVtY7ZhZmyg/default.jpg",
-              "titulo": "ÚLTIMA HORA | Irán se desmarca de Hamás: \"No nos avisasteis del ataque y no entraremos en la guerra\"",
-              "canal": "Negocios TV",
-              "visualizaciones": "174177",
-              "likes": "2245",
-              "cant_comentarios": "841",
-              "tag": "gaza ultima hora"
-            },
-            {
-              "id": "Yf1YjISy-os",
-              "imagen": "https://i.ytimg.com/vi/Yf1YjISy-os/default.jpg",
-              "titulo": "Estados Unidos bombardea instalaciones en Siria vinculadas a Irán",
-              "canal": "Canal 26",
-              "visualizaciones": "81291",
-              "likes": "1410",
-              "cant_comentarios": "507",
-              "tag": "estados unidos"
-            }
-          ]
-        },
-        {
-          "id": "SkcUEDlA",
-          "fecha": "17-11-2023",
-          "hora": "01:04",
+          "hora": "01:35",
           "pais": "Argentina",
+          "idPais": "AR",
           "url_bandera": "https://flagcdn.com/w320/ar.png",
           "cantidad": "5",
           "categoria": "Noticias y Política",
@@ -651,9 +532,9 @@
               "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
               "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
               "canal": "Todo Noticias",
-              "visualizaciones": "1708460",
-              "likes": "21924",
-              "cant_comentarios": "14919",
+              "visualizaciones": "1709229",
+              "likes": "21936",
+              "cant_comentarios": "14917",
               "tag": "balotaje"
             },
             {
@@ -661,7 +542,7 @@
               "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
               "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
               "canal": "Latina Noticias",
-              "visualizaciones": "438415",
+              "visualizaciones": "438426",
               "likes": "4997",
               "cant_comentarios": "224",
               "tag": "Latina noticias en vivo"
@@ -671,38 +552,101 @@
               "imagen": "https://i.ytimg.com/vi/_av85d5fvfY/default.jpg",
               "titulo": "Psicosis; el editorial de Jonatan Viale",
               "canal": "LA NACION",
-              "visualizaciones": "199450",
-              "likes": "8104",
-              "cant_comentarios": "1655",
+              "visualizaciones": "200957",
+              "likes": "8127",
+              "cant_comentarios": "1664",
               "tag": "lazaro baez"
-            },
-            {
-              "id": "jBjFMrGffIc",
-              "imagen": "https://i.ytimg.com/vi/jBjFMrGffIc/default.jpg",
-              "titulo": "Allanaron una cueva ilegal y no vas a poder creer que empresario vinculado al Macri estaba adentro",
-              "canal": "Revolución Popular Noticias",
-              "visualizaciones": "132471",
-              "likes": "2904",
-              "cant_comentarios": "857",
-              "tag": "leonardo fariña"
             },
             {
               "id": "s4cWKAdTX-s",
               "imagen": "https://i.ytimg.com/vi/s4cWKAdTX-s/default.jpg",
               "titulo": "El EDITORIAL de Alejandro Bercovich en BROTES VERDES",
               "canal": "C5N",
-              "visualizaciones": "96573",
+              "visualizaciones": "96692",
               "likes": "2513",
               "cant_comentarios": "971",
               "tag": "c5ndigital"
+            },
+            {
+              "id": "jBjFMrGffIc",
+              "imagen": "https://i.ytimg.com/vi/jBjFMrGffIc/default.jpg",
+              "titulo": "Allanaron una cueva ilegal y no vas a poder creer que empresario vinculado al Macri estaba adentro",
+              "canal": "Revolución Popular Noticias",
+              "visualizaciones": "132716",
+              "likes": "2906",
+              "cant_comentarios": "857",
+              "tag": "leonardo fariña"
             }
           ]
         },
         {
-          "id": "pjaUfqdS",
+          "id": "JuwjmgOM",
           "fecha": "17-11-2023",
-          "hora": "01:04",
+          "hora": "01:43",
+          "pais": "Argentina",
+          "idPais": "AR",
+          "url_bandera": "https://flagcdn.com/w320/ar.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "n3hiGKs0CGw",
+              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+              "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+              "canal": "Todo Noticias",
+              "visualizaciones": "1709579",
+              "likes": "21937",
+              "cant_comentarios": "14920",
+              "tag": "balotaje"
+            },
+            {
+              "id": "S8xyhrk2dUk",
+              "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
+              "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
+              "canal": "Latina Noticias",
+              "visualizaciones": "438427",
+              "likes": "4997",
+              "cant_comentarios": "224",
+              "tag": "Latina noticias en vivo"
+            },
+            {
+              "id": "_av85d5fvfY",
+              "imagen": "https://i.ytimg.com/vi/_av85d5fvfY/default.jpg",
+              "titulo": "Psicosis; el editorial de Jonatan Viale",
+              "canal": "LA NACION",
+              "visualizaciones": "201299",
+              "likes": "8128",
+              "cant_comentarios": "1664",
+              "tag": "lazaro baez"
+            },
+            {
+              "id": "s4cWKAdTX-s",
+              "imagen": "https://i.ytimg.com/vi/s4cWKAdTX-s/default.jpg",
+              "titulo": "El EDITORIAL de Alejandro Bercovich en BROTES VERDES",
+              "canal": "C5N",
+              "visualizaciones": "96706",
+              "likes": "2513",
+              "cant_comentarios": "971",
+              "tag": "c5ndigital"
+            },
+            {
+              "id": "jBjFMrGffIc",
+              "imagen": "https://i.ytimg.com/vi/jBjFMrGffIc/default.jpg",
+              "titulo": "Allanaron una cueva ilegal y no vas a poder creer que empresario vinculado al Macri estaba adentro",
+              "canal": "Revolución Popular Noticias",
+              "visualizaciones": "132775",
+              "likes": "2906",
+              "cant_comentarios": "857",
+              "tag": "leonardo fariña"
+            }
+          ]
+        },
+        {
+          "id": "wSKKARfM",
+          "fecha": "17-11-2023",
+          "hora": "01:43",
           "pais": "Brasil",
+          "idPais": "BR",
           "url_bandera": "https://flagcdn.com/w320/br.png",
           "cantidad": "5",
           "categoria": "Noticias y Política",
@@ -712,8 +656,8 @@
               "imagen": "https://i.ytimg.com/vi/KirFzgmETzY/default.jpg",
               "titulo": "JOGO ABERTO - 16/11/2023 - PROGRAMA COMPLETO",
               "canal": "Jogo Aberto",
-              "visualizaciones": "956212",
-              "likes": "19476",
+              "visualizaciones": "957111",
+              "likes": "19483",
               "cant_comentarios": "66",
               "tag": "últimas notícias do são paulo"
             },
@@ -722,9 +666,9 @@
               "imagen": "https://i.ytimg.com/vi/uZuq3iejxlQ/default.jpg",
               "titulo": "GRAVE: tudo sobre o caso de agressão sofrido por Ana Hickmann l Hora da Fofoca l TV Gazeta",
               "canal": "TV Gazeta",
-              "visualizaciones": "752924",
-              "likes": "21604",
-              "cant_comentarios": "1998",
+              "visualizaciones": "757240",
+              "likes": "21648",
+              "cant_comentarios": "2007",
               "tag": "Hora da Fofoca"
             },
             {
@@ -732,29 +676,29 @@
               "imagen": "https://i.ytimg.com/vi/fXsRrYmE--I/default.jpg",
               "titulo": "Como assim uma PÉSSIMA NOTÍCIA? 😰 #coffee_dfn",
               "canal": "Coffee DFN",
-              "visualizaciones": "565279",
-              "likes": "41259",
-              "cant_comentarios": "259",
+              "visualizaciones": "567597",
+              "likes": "41290",
+              "cant_comentarios": "260",
               "tag": "React"
-            },
-            {
-              "id": "NhED3MyxVpw",
-              "imagen": "https://i.ytimg.com/vi/NhED3MyxVpw/default.jpg",
-              "titulo": "Caso Sophia: polícia cerca cemitério após princípio de confusão no enterro de Tiago Fontes",
-              "canal": "CidadeAlertaRecord",
-              "visualizaciones": "475036",
-              "likes": "16079",
-              "tag": "menina sophia"
             },
             {
               "id": "PKVJdmpseJw",
               "imagen": "https://i.ytimg.com/vi/PKVJdmpseJw/default.jpg",
               "titulo": "\"Sobre o Scarpa, a INFORMAÇÃO que EU TIVE é que o Flamengo...\" Mauro Cezar APURA e FALA A REAL!",
               "canal": "Jovem Pan Esportes",
-              "visualizaciones": "459611",
-              "likes": "15281",
+              "visualizaciones": "460659",
+              "likes": "15286",
               "cant_comentarios": "680",
               "tag": "mcp_pilula"
+            },
+            {
+              "id": "NhED3MyxVpw",
+              "imagen": "https://i.ytimg.com/vi/NhED3MyxVpw/default.jpg",
+              "titulo": "Caso Sophia: polícia cerca cemitério após princípio de confusão no enterro de Tiago Fontes",
+              "canal": "CidadeAlertaRecord",
+              "visualizaciones": "476742",
+              "likes": "16094",
+              "tag": "menina sophia"
             }
           ]
         }

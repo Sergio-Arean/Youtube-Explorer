@@ -118,7 +118,8 @@ async PostearBusquedaEnUsuario(email_usuario:string|null,lista_videos:Video[], d
      id: "", //XLQV, Json server genera un id, capo
      fecha: formatter.fecha,
      hora: formatter.hora,
-     pais: getPais.nombre_castellano, //pais: id_pais,
+     pais: getPais.nombre_castellano,
+     idPais: id_pais,
      url_bandera: getPais.url_bandera,
      cantidad: cant,
      categoria: categoria_video,
@@ -435,6 +436,7 @@ CargarListaVideos(r:Resultado,lista_videos:Video[]){
     fecha: r.fecha,
     hora: r.hora,
     pais: r.pais,
+    idPais: r.idPais,
     url_bandera: r.url_bandera,
     cantidad: r.cantidad,
     categoria: r.categoria,
