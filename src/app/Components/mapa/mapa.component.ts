@@ -6,6 +6,7 @@ import { DatosEspecificosPaisesService } from 'src/app/Services/datos-especifico
 import { PopularVideosService } from 'src/app/Services/popular-videos.service';
 import { RedireccionUrlPantallaFiltrosService } from 'src/app/Services/redireccion-url-pantalla-filtros.service';
 import { SharedDataMapaFiltrosService } from 'src/app/Services/shared-data-mapa-filtros.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-mapa',
@@ -94,7 +95,13 @@ export class MapaComponent
           /*inicio adaptacion para validar pais disponible*/ 
         if(!this.popularVideos.isDisponible(countryId)){
             //console.log(`id enviado a is disponible: ${idPais}`);
-          alert(`La informacion sobre el pais seleccionado no esta disponible`);
+          //alert(`La informacion sobre el pais seleccionado no esta disponible`);
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Información no disponible",
+            footer: 'Por favor seleccione otro país'
+          });
         }else{
             this.router.navigate(['/home/pais', country]);
             this.isComponentOpen = false; //con true se pone borroso el mapa

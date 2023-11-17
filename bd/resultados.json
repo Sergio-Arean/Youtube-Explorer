@@ -825,6 +825,68 @@
               "tag": "nuñez"
             }
           ]
+        },
+        {
+          "id": "cfXckcIg",
+          "fecha": "17-11-2023",
+          "hora": "02:15",
+          "pais": "Canadá",
+          "idPais": "CA",
+          "url_bandera": "https://flagcdn.com/w320/ca.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "NP6raWKH7DA",
+              "imagen": "https://i.ytimg.com/vi/NP6raWKH7DA/default.jpg",
+              "titulo": "See what CNN reporter saw inside hospital basement in Gaza",
+              "canal": "CNN",
+              "visualizaciones": "2721923",
+              "likes": "28151",
+              "cant_comentarios": "24561",
+              "tag": ""
+            },
+            {
+              "id": "W5ezP2VhoRo",
+              "imagen": "https://i.ytimg.com/vi/W5ezP2VhoRo/default.jpg",
+              "titulo": "Trudeau surrounded by protesters | FULL POLICE UPDATE",
+              "canal": "CTV News",
+              "visualizaciones": "125960",
+              "likes": "1309",
+              "cant_comentarios": "1361",
+              "tag": "canada politics news"
+            },
+            {
+              "id": "shYi54zFluQ",
+              "imagen": "https://i.ytimg.com/vi/shYi54zFluQ/default.jpg",
+              "titulo": "\"Israel Have A Track Record Of Lying!\" Piers Morgan and Owen Jones Debate Palestine Treatment",
+              "canal": "Piers Morgan Uncensored",
+              "visualizaciones": "875636",
+              "likes": "16568",
+              "cant_comentarios": "18796",
+              "tag": "tv"
+            },
+            {
+              "id": "da4pp1oeHMk",
+              "imagen": "https://i.ytimg.com/vi/da4pp1oeHMk/default.jpg",
+              "titulo": "Secret coup video: See Two trump aides flip on Trump in RICO sessions in GA",
+              "canal": "MSNBC",
+              "visualizaciones": "1507410",
+              "likes": "31201",
+              "cant_comentarios": "6830",
+              "tag": "donald trump"
+            },
+            {
+              "id": "6I_g78SI0eE",
+              "imagen": "https://i.ytimg.com/vi/6I_g78SI0eE/default.jpg",
+              "titulo": "Global National: Nov. 15, 2023 | Israel says it found Hamas weapons inside Al-Shifa hospital",
+              "canal": "Global News",
+              "visualizaciones": "189684",
+              "likes": "1019",
+              "cant_comentarios": "1153",
+              "tag": "Clapton Community FC"
+            }
+          ]
         }
       ]
     }
