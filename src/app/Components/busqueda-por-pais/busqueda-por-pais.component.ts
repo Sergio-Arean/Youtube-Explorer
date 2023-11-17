@@ -7,6 +7,7 @@ import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.se
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
 import { FiltroComLikVisService } from 'src/app/Services/filtro-com-lik-vis.service';
 import { DatosEspecificosPaisesService } from 'src/app/Services/datos-especificos-paises.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-busqueda-por-pais',
@@ -82,7 +83,14 @@ async getVideos(){
       }
     } 
     else {
-      this.errorMensaje = 'PAIS NO DISPONIBLE';
+     // this.errorMensaje = 'PAIS NO DISPONIBLE';
+     Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "No se encontraron videos",
+      footer: 'Intenta otra categoría!'
+    });
+    this.ruti.navigate(['home']);
     }
   } catch (error) {
     console.error(`Error: ${error}`);
