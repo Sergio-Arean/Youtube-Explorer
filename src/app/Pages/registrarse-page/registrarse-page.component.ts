@@ -116,8 +116,8 @@ export class RegistrarsePageComponent
       return false; //si termina el for, es porque el mail ingresado esta disponible
       
     }else{
-      console.log(`soy el metodo validador y retorno false sin
-      verificar la lista de usuarios`);
+      //console.log(`soy el metodo validador y retorno false sin
+      //verificar la lista de usuarios`);
       return false;
     }    
   }
