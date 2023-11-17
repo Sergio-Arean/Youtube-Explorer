@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { Usuario } from 'src/app/Interfaces/Usuario';
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
 import { HistorialBusquedaService } from 'src/app/Services/historial-busqueda.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-registrarse-page',
@@ -57,7 +58,12 @@ export class RegistrarsePageComponent
       const response = await this.autentificacion.registrarse(nuevo_usuario.email,nuevo_usuario.password);
       if(response!=null){
         await this.historialBusqueda.crearEspacioEnBdd(nuevo_usuario.email);
-        alert(`Registro exitoso. Email: ${nuevo_usuario.email} - Pass: ${nuevo_usuario.password} `);
+       // alert(`Registro exitoso. Email: ${nuevo_usuario.email} - Pass: ${nuevo_usuario.password} `);
+       Swal.fire({
+        title: "Bienvenido!",
+        text: "Te has registrado exitosamente!",
+        icon: "success"
+      });
         //Redireccion para que el usuario se pueda loguear
         this.router.navigate(['/login']);
       }

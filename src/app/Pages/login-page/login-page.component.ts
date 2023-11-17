@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Usuario } from 'src/app/Interfaces/Usuario';
 import { AutentificacionService } from 'src/app/Services/autentificacion.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-login-page',
@@ -73,7 +74,12 @@ export class LoginPageComponent
       };
       const response = await this.autentificacion.loguearse(usuario.email,usuario.password);
       if (response) {
-        alert(`Inicio de sesion ok!`);
+        //alert(`Inicio de sesion ok!`);
+        Swal.fire({
+          title: "Hola!",
+          text: "Has iniciado sesión exitosamente!",
+          icon: "success"
+        });
         console.log('Inicio de sesión exitoso', response);
         this.autentificacion.setUsuario(true,usuario.email);
         this.router.navigate(['/historial']);

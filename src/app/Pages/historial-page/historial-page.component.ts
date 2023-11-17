@@ -140,12 +140,40 @@ export class HistorialPageComponent {
 
 
  async LimpiarHistorial(){
-    const data = await this.historialBusquedaService.eliminarTodasLasBusquedas(this.mail_usuario_logueado);
+  Swal.fire({
+    title: "Estás seguro?",
+    text: "Se eliminará el historial de todas tus búsquedas",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    cancelButtonText:"Cancelar",
+    confirmButtonText: "Si, borrar historial"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      this.historialBusquedaService.eliminarTodasLasBusquedas(this.mail_usuario_logueado)
+        .then(()=>{
+          this.borrarTodasLasBusquedasVista();
+          this.historial_vacio = true;
+          Swal.fire({
+            title: "Hecho!",
+            text: "Se ha limpiado el historial de búsqueda",
+            icon: "success"
+          });
+
+        }).catch(e=>{
+            console.log(`Error al intentar limpiar historial`)
+        });
+
+    }
+  });  
+  
+ /* const data = await this.historialBusquedaService.eliminarTodasLasBusquedas(this.mail_usuario_logueado);
     if(data){
       this.borrarTodasLasBusquedasVista();
-      alert(`Las búsquedas han sido eliminadas exitosamente`);
+      //alert(`Las búsquedas han sido eliminadas exitosamente`);
       
-    }
+    }*/
   }
   borrarTodasLasBusquedasVista(){
     this.lista_resultados.splice(0,this.lista_resultados.length);
