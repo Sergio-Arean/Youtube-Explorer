@@ -20,10 +20,9 @@ export class HistorialPageComponent {
 
   lista_resultados:Resultado[] = [];
   lista_resultados_a_mostrar:Resultado[] = [];
-  //resultados_cargados!:boolean;
   mostrar_loading:boolean = true;
   historial_vacio:boolean = false;
-  //json:any[] = [];
+
 
   constructor(
     private autentificacionService: AutentificacionService,
@@ -33,9 +32,7 @@ export class HistorialPageComponent {
 
   ngOnInit(){
 
- this.mail_usuario_logueado = this.autentificacionService.emailUsuario() ; //transitorio 16-11
- //this.mail_usuario_logueado = 'sergio.arean@gmail.com'; //comentarlo luego y poner linea de arriba
- //this.ConsologuearHistorialSegunUsuario();
+ this.mail_usuario_logueado = this.autentificacionService.emailUsuario() ; 
   this.cargarListaResultadosII();
 
   }
@@ -51,7 +48,7 @@ export class HistorialPageComponent {
 
 
 
-  /* sabado 11-11 */
+ 
   async ConsologuearHistorialSegunUsuario(){
     let historial:Historial = {
       id: '',
@@ -68,8 +65,7 @@ export class HistorialPageComponent {
     }
     console.log(historial);
   }
-  //ok, si los podemos consologuear, los vamos a listar.
-  /**ngFor="let video of lista_videos */
+
  async cargarListaResultadosII(){
   let historial:Historial = {
     id: '',
@@ -101,7 +97,7 @@ export class HistorialPageComponent {
 
 
 
-  //funcion intermediaria para cargar resultados
+  
   async getNombreEnCastellano(idPais:string){
     return await this.datosEspecificosPais.getNombreCastellanoByCode(idPais);
   }
@@ -110,10 +106,9 @@ export class HistorialPageComponent {
     return await this.datosEspecificosPais.getBanderaByCode(idPais);
   }
 
-  /*16-11*/ 
+  
    async eliminarBusqueda(idResultado:string){
-    //alert(`Usted quiere eliminar el resultado con id ${idResultado}`);
-    //Swal.fire("SweetAlert2 is working!");
+
 
     const data = await this.historialBusquedaService.eliminarUnaBusqueda(this.mail_usuario_logueado,idResultado); 
     if(data){
@@ -121,11 +116,11 @@ export class HistorialPageComponent {
       if(this.lista_resultados.length==0){
         this.historial_vacio=true;
       }
-    } //comentado transitoriamente
+    } 
     
 
     
-    //this.lista_resultados 
+    
   }
 
   borrarBusquedaVista(idResultado:string){
@@ -172,22 +167,14 @@ export class HistorialPageComponent {
     }
   });  
   
- /* const data = await this.historialBusquedaService.eliminarTodasLasBusquedas(this.mail_usuario_logueado);
-    if(data){
-      this.borrarTodasLasBusquedasVista();
-      //alert(`Las búsquedas han sido eliminadas exitosamente`);
-      
-    }*/
+
   }
   borrarTodasLasBusquedasVista(){
     this.lista_resultados.splice(0,this.lista_resultados.length);
-    //this.resultados_cargados = false;
+    
   }
 
-  /*async HayResultados(){
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    return this.resultados_cargados;
-  }*/
+
 
 
 
