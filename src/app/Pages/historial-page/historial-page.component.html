@@ -18,6 +18,16 @@
 </section>
 
 <button type="button" class="btn btn-warning" (click)="LimpiarHistorial()"><i class="bi bi-clock-history"></i> Limpiar Historial </button>
+<div class="contenedor-loading" *ngIf="mostrar_loading">
+<div class="wrapper">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+</div>
+</div>
 
 <div class="seccion-listar-historial" *ngFor="let resultado of lista_resultados">
     <div class="resultado">
@@ -45,6 +55,9 @@
 
 
 </div>
-<div class="aviso-sin-busquedas" *ngIf="!HayResultados()">
+
+<div class="aviso-sin-busquedas" *ngIf="!mostrar_loading && historial_vacio">
     <p>No se han encontrado búsquedas recientes</p>
 </div>
+
+ 

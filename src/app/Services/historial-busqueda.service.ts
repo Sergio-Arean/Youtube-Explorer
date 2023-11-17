@@ -73,8 +73,10 @@ async postResultadoEnUsuario(url:string,historial_resultados:Resultado[], nuevo_
 /*paso a paso - arrancamos con mostrar Historial segun usuario logueado*/
 async getBusquedasSegunUsuario(mail_usuario_logueado:string|null): Promise<Historial|null>{
   try{
-    const response = await fetch(`http://localhost:1234/historiales/${mail_usuario_logueado}`,{method:'GET'});
+
     await new Promise(resolve => setTimeout(resolve, 1000)); //16-11
+    const response = await fetch(`http://localhost:1234/historiales/${mail_usuario_logueado}`,{method:'GET'});
+    
     const json = await response.json();
     await new Promise(resolve => setTimeout(resolve, 1000)); //16-11
     console.log(`Este es el json que getea el service:`,json);

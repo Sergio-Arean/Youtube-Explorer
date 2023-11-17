@@ -5,6 +5,8 @@ import { AutentificacionService } from 'src/app/Services/autentificacion.service
 import { Historial } from 'src/app/Interfaces/Historial';
 import { DatosEspecificosPaisesService } from 'src/app/Services/datos-especificos-paises.service';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
+
 
 @Component({
   selector: 'app-historial-page',
@@ -18,7 +20,9 @@ export class HistorialPageComponent {
 
   lista_resultados:Resultado[] = [];
   lista_resultados_a_mostrar:Resultado[] = [];
-  resultados_cargados:boolean = false;
+  //resultados_cargados!:boolean;
+  mostrar_loading:boolean = true;
+  historial_vacio:boolean = false;
   //json:any[] = [];
 
   constructor(
@@ -30,8 +34,8 @@ export class HistorialPageComponent {
   ngOnInit(){
 
  this.mail_usuario_logueado = this.autentificacionService.emailUsuario() ; //transitorio 16-11
-// this.mail_usuario_logueado = 'sergio.arean@gmail.com'; //comentarlo luego y poner linea de arriba
- this.ConsologuearHistorialSegunUsuario();
+ //this.mail_usuario_logueado = 'sergio.arean@gmail.com'; //comentarlo luego y poner linea de arriba
+ //this.ConsologuearHistorialSegunUsuario();
   this.cargarListaResultadosII();
 
   }
@@ -72,20 +76,28 @@ export class HistorialPageComponent {
     resultados: []
   };  
   
+  await new Promise(resolve => setTimeout(resolve, 1000));
   const json:any = await this.historialBusquedaService.getBusquedasSegunUsuario(this.mail_usuario_logueado); //envaimos a sergio
   console.log(`Este es el json que recibe la page: `, json);
   if(json){
     
     historial.id = json.id,
     historial.resultados = json.resultados;
-    if(historial.resultados!=undefined && historial.resultados.length>0){
-      this.resultados_cargados = true;
-      this.lista_resultados = historial.resultados.reverse(); //invertir arreglo para la vista
+    if(historial.resultados!=undefined){
+        if(historial.resultados.length>0){
+          this.mostrar_loading = false; //si tengo resultados , no muestro el loading
+          this.lista_resultados = historial.resultados.reverse(); //invertir arreglo para la vista
+        }else if(historial.resultados.length==0){
+          this.mostrar_loading = false;
+          this.historial_vacio = true;
+        }
+    }  
+      
     }
     
   }
   
-  }
+  
 
 
 
@@ -100,12 +112,16 @@ export class HistorialPageComponent {
 
   /*16-11*/ 
    async eliminarBusqueda(idResultado:string){
-    alert(`Usted quiere eliminar el resultado con id ${idResultado}`);
+    //alert(`Usted quiere eliminar el resultado con id ${idResultado}`);
+    //Swal.fire("SweetAlert2 is working!");
 
     const data = await this.historialBusquedaService.eliminarUnaBusqueda(this.mail_usuario_logueado,idResultado); 
     if(data){
       this.borrarBusquedaVista(idResultado); //elimina vista
-    }
+      if(this.lista_resultados.length==0){
+        this.historial_vacio=true;
+      }
+    } //comentado transitoriamente
     
 
     
@@ -133,13 +149,13 @@ export class HistorialPageComponent {
   }
   borrarTodasLasBusquedasVista(){
     this.lista_resultados.splice(0,this.lista_resultados.length);
-    this.resultados_cargados = false;
+    //this.resultados_cargados = false;
   }
 
-  async HayResultados(){
+  /*async HayResultados(){
     await new Promise(resolve => setTimeout(resolve, 2000));
     return this.resultados_cargados;
-  }
+  }*/
 
 
 

@@ -2,33 +2,37 @@
   "historiales": [
     {
       "id": "sergio.arean@gmail.com",
+      "resultados": []
+    },
+    {
+      "id": "jorge.arean@gmail.com",
       "resultados": [
         {
-          "id": "PCeViSeU",
+          "id": "HCBNjFMc",
           "fecha": "16-11-2023",
-          "hora": "19:40",
-          "pais": "Bolivia",
-          "url_bandera": "https://flagcdn.com/w320/bo.png",
+          "hora": "22:38",
+          "pais": "Argentina",
+          "url_bandera": "https://flagcdn.com/w320/ar.png",
           "cantidad": "5",
           "categoria": "Noticias y Política",
           "videos": [
             {
-              "id": "LQtziwKtvTg",
-              "imagen": "https://i.ytimg.com/vi/LQtziwKtvTg/default.jpg",
-              "titulo": "Resumen en video de la guerra Israel - Hamas: noticias del 14 de noviembre de 2023",
-              "canal": "CNN en Español",
-              "visualizaciones": "486735",
-              "likes": "5121",
-              "cant_comentarios": "816",
-              "tag": "Hospital"
+              "id": "n3hiGKs0CGw",
+              "imagen": "https://i.ytimg.com/vi/n3hiGKs0CGw/default.jpg",
+              "titulo": "EL DEBATE DE AGUSTÍN ROSSI Y VICTORIA VILLARRUEL, CANDIDATOS A VICEPRESIDENTE, EN \"A DOS VOCES\"",
+              "canal": "Todo Noticias",
+              "visualizaciones": "1706254",
+              "likes": "21901",
+              "cant_comentarios": "14901",
+              "tag": "balotaje"
             },
             {
               "id": "S8xyhrk2dUk",
               "imagen": "https://i.ytimg.com/vi/S8xyhrk2dUk/default.jpg",
               "titulo": "Milei y Massa: Análisis del debate presidencial en Argentina por el balotage 2023",
               "canal": "Latina Noticias",
-              "visualizaciones": "438347",
-              "likes": "4996",
+              "visualizaciones": "438377",
+              "likes": "4997",
               "cant_comentarios": "224",
               "tag": "Latina noticias en vivo"
             },
@@ -37,30 +41,91 @@
               "imagen": "https://i.ytimg.com/vi/_av85d5fvfY/default.jpg",
               "titulo": "Psicosis; el editorial de Jonatan Viale",
               "canal": "LA NACION",
-              "visualizaciones": "190527",
-              "likes": "7913",
-              "cant_comentarios": "1594",
+              "visualizaciones": "197086",
+              "likes": "7980",
+              "cant_comentarios": "1606",
               "tag": "lazaro baez"
             },
             {
-              "id": "Yf1YjISy-os",
-              "imagen": "https://i.ytimg.com/vi/Yf1YjISy-os/default.jpg",
-              "titulo": "Estados Unidos bombardea instalaciones en Siria vinculadas a Irán",
-              "canal": "Canal 26",
-              "visualizaciones": "79619",
-              "likes": "1392",
-              "cant_comentarios": "504",
-              "tag": "estados unidos"
+              "id": "s4cWKAdTX-s",
+              "imagen": "https://i.ytimg.com/vi/s4cWKAdTX-s/default.jpg",
+              "titulo": "El EDITORIAL de Alejandro Bercovich en BROTES VERDES",
+              "canal": "C5N",
+              "visualizaciones": "96226",
+              "likes": "2503",
+              "cant_comentarios": "976",
+              "tag": "c5ndigital"
             },
             {
-              "id": "ZVtY7ZhZmyg",
-              "imagen": "https://i.ytimg.com/vi/ZVtY7ZhZmyg/default.jpg",
-              "titulo": "ÚLTIMA HORA | Irán se desmarca de Hamás: \"No nos avisasteis del ataque y no entraremos en la guerra\"",
-              "canal": "Negocios TV",
-              "visualizaciones": "170936",
-              "likes": "2237",
-              "cant_comentarios": "829",
-              "tag": "gaza ultima hora"
+              "id": "jBjFMrGffIc",
+              "imagen": "https://i.ytimg.com/vi/jBjFMrGffIc/default.jpg",
+              "titulo": "Allanaron una cueva ilegal y no vas a poder creer que empresario vinculado al Macri estaba adentro",
+              "canal": "Revolución Popular Noticias",
+              "visualizaciones": "131410",
+              "likes": "2894",
+              "cant_comentarios": "854",
+              "tag": "leonardo fariña"
+            }
+          ]
+        },
+        {
+          "id": "NhNbOvOO",
+          "fecha": "16-11-2023",
+          "hora": "22:38",
+          "pais": "Estados Unidos",
+          "url_bandera": "https://flagcdn.com/w320/us.png",
+          "cantidad": "5",
+          "categoria": "Noticias y Política",
+          "videos": [
+            {
+              "id": "pJ9PKQbkJv8",
+              "imagen": "https://i.ytimg.com/vi/pJ9PKQbkJv8/default.jpg",
+              "titulo": "Israel-Hamas War: Last Week Tonight with John Oliver (HBO)",
+              "canal": "LastWeekTonight",
+              "visualizaciones": "5218288",
+              "likes": "200721",
+              "cant_comentarios": "25105",
+              "tag": ""
+            },
+            {
+              "id": "C1IPShHV85Q",
+              "imagen": "https://i.ytimg.com/vi/C1IPShHV85Q/default.jpg",
+              "titulo": "Republican Debate Cold Open - SNL",
+              "canal": "Saturday Night Live",
+              "visualizaciones": "2687294",
+              "likes": "45192",
+              "cant_comentarios": "3477",
+              "tag": "dune"
+            },
+            {
+              "id": "WCGt76nbbM4",
+              "imagen": "https://i.ytimg.com/vi/WCGt76nbbM4/default.jpg",
+              "titulo": "Trump Plots \"Revenge\" if He Wins Second Term, Calls Opponents \"Vermin\": A Closer Look",
+              "canal": "Late Night with Seth Meyers",
+              "visualizaciones": "1504251",
+              "likes": "41788",
+              "cant_comentarios": "4451",
+              "tag": "politicians"
+            },
+            {
+              "id": "23UyHNRaox0",
+              "imagen": "https://i.ytimg.com/vi/23UyHNRaox0/default.jpg",
+              "titulo": "Secretly-recorded video shows former sheriff order handcuffed man into restraint chair",
+              "canal": "11Alive",
+              "visualizaciones": "2626991",
+              "likes": "88666",
+              "cant_comentarios": "9745",
+              "tag": "news today"
+            },
+            {
+              "id": "da4pp1oeHMk",
+              "imagen": "https://i.ytimg.com/vi/da4pp1oeHMk/default.jpg",
+              "titulo": "Secret coup video: See Two trump aides flip on Trump in RICO sessions in GA",
+              "canal": "MSNBC",
+              "visualizaciones": "1504613",
+              "likes": "31173",
+              "cant_comentarios": "6813",
+              "tag": "donald trump"
             }
           ]
         }

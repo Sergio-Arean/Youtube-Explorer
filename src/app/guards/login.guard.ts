@@ -15,7 +15,7 @@ export const loginGuard = ()=>{
         router.navigate(['login']);
         return false;
     }
-   // return true; //transitorio 16-11
+    //return true; //transitorio 16-11
    
 }
 
