@@ -11,8 +11,8 @@
   <section class="seccion-noticias-locales" *ngIf="hayNoticiasLocales()">
 
     <div class="contenedor-titulo">
-      <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en {{nombre_pais_castellano}}</h3>
       <img [src]="url_bandera_pais" class="bandera" alt="bandera-pais">
+      <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en {{nombre_pais_castellano}}</h3>
     </div>
 
     <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_locales">
@@ -29,8 +29,8 @@
   <section class="seccion-noticias-internacionales" *ngIf="hayNoticiasInternacionales()">
 
     <div class="contenedor-titulo">
+      <img src="https://bestcoaching.com.mx/cartas/wp-content/uploads/2019/11/mundo-sin-fondo.png" class="bandera" alt="bandera-pais">
       <h3 class="titulo-noticias-relacionadas">Noticias relacionadas en el Mundo</h3>
-      <img src="https://w1.pngwing.com/pngs/329/181/png-transparent-earth-cartoon-drawing-arts-globe-sphere-planet-world-sky.png" class="bandera" alt="bandera-pais">
     </div>
 
     <div class="seccion-listar-noticias" *ngFor="let noticia of noticias_internacionales">
